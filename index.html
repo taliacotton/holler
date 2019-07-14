@@ -1,0 +1,74 @@
+---
+layout: default
+image: /assets/img/intro-bg.png
+underlined-phrases:
+    - glad you stopped by
+    - really cool people
+    - hollering at you
+apps:
+    - Plenty of Fish
+    - Facebook Messenger
+---
+<div class="container">
+<div class="row h-100 text-center">
+   <div class="col-sm-12 my-auto">
+    <h1>Hi. We're <span id="typed" class="underlined purple" style="white-space:pre;">Holler</span></h1>
+    <a href="#" class="btn btn-primary-outlined mt-4">Watch Video</a>
+   </div>
+</div>
+<div class="row">
+    <div class="col-8 mb-3">
+        <p><span class="editable">Find Holler in your favorite apps:</span>
+            <span id="slideshow">
+                {% for app in page.apps %}
+                <span class="underlined">
+                    {{ app }}
+                </span>
+                {% endfor %}
+            </span>
+
+        </p>
+    </div>
+    <!-- <div id="slideshow">
+        {% for app in page.apps %}
+            <span class="underlined">
+                {{ app }}
+            </span>
+        {% endfor %}
+    </div> -->
+    <div class="col-4 text-right">
+        <a class="social-link" href="{{ site.data.globals.instagram }}" target="_blank">
+            <img src="assets/img/instagram.png">
+        </a>
+        <a class="social-link" href="{{ site.data.globals.facebook }}" target="_blank">
+            <img src="assets/img/facebook.png">
+        </a>
+        <a class="social-link" href="{{ site.data.globals.twitter }}" target="_blank">
+            <img src="assets/img/twitter.png">
+        </a>
+        <a class="social-link" href="{{ site.data.globals.linkedIn }}" target="_blank">
+            <img src="assets/img/linkedin.png">
+        </a>
+    </div>
+</div>
+
+
+</div>
+
+<div id="typed-strings">
+    <p>Holler</p>
+    {% for phrase in page.underlined-phrases %}
+        <p>{{ phrase }}</p>
+    {% endfor %}
+</div>
+
+<script type="text/javascript">
+        var typed = new Typed("#typed", {
+            stringsElement: '#typed-strings',
+            typeSpeed: 60,
+            backSpeed: 30,
+            backDelay: 1000,
+            startDelay: 1000,
+            loop: true
+        });
+    </script>

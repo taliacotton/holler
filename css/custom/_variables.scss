@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: Maax;
+    src: url('/assets/fonts/Maax_Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: Maax;
+    src: url('/assets/fonts/Maax_Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight:bold;
+}
+
+$container-max-widths: (
+  sm: 1920px,
+  md: 1920px,
+  lg: 1920px,
+  xl: 1920px
+);
+
+
+$brown: #B77658;
+$dark: #424648;
+$light: #ececec;
+$light-brown: $brown;
+$grey: #D8D8D8;
+$purple: #7381BF;
+$orange: #F4AB6B;
+$teal: #72C9BB;
+$pink: #F495B2;
+
+$primary: $light-brown; // burgundy
+$grid-gutter-width: 21px;
+
+$font-family-sans-serif: "Maax", sans-serif;

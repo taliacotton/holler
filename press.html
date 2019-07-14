@@ -1,0 +1,60 @@
+---
+layout: default
+permalink: /press/
+---
+
+{% assign featured = site.data.press | where: "featured", "true" %}
+{% assign articles = site.data.press | where: "featured", "false" %}
+
+
+<div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide mt-3" data-ride="carousel">
+        <ol class="carousel-indicators">
+            {% for article in featured %}
+                {% if forloop.index0 == 0 %}
+                <li data-target="#carouselExampleIndicators" data-slide-to="{{forloop.index0}}" class="active"></li>
+                {% else %}
+                <li data-target="#carouselExampleIndicators" data-slide-to="{{forloop.index0}}"></li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+        <div class="carousel-inner mb-4">
+            {% for article in featured %}
+                {% if forloop.index0 == 0 %}
+                <div class="carousel-item active">
+                {% else %}
+                <div class="carousel-item">
+                {% endif %}
+                    <div class="row">
+                        <div class="col-lg-6 order-lg-2 offset-lg-1 featured-image" style="background-image: url({{ article.image }})"></div>
+
+                        <div class="col-10 col-md-8 col-lg-4 order-lg-1 offset-1 carousel-content">
+                            <img class="mb-3 mb-lg-5" src="{{ article.logo }}">
+                            <h2 class="bold">{{article.title}}</h2>
+                            <p>{{article.date}}</p>
+                            <p>{{article.blurb}}</p>
+                            <a href="{{article.url}}" class="underlined" target="_blank">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="row articles pb-5">
+
+        {% for article in articles %}
+        <div class="col-lg-6 article p-2">
+            <div class="article-inner p-3 p-md-5">
+                <img src="{{ article.logo }}" class="mb-3">
+                <h2 class="bold">{{article.title}}</h2>
+                <p class="mb-3">{{article.date}}</p>
+                <p>{{article.blurb}}</p>
+                <a href="{{article.url}}" class="underlined" target="_blank">Read more</a>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+
+</div>

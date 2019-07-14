@@ -1,0 +1,41 @@
+<div class="col-3 col-xl-2">
+    <img class="img-fluid mb-3 d-none d-md-block" src="{{ personality.image }}">
+    <a href="#" class="tooltip-personality position-absolute d-none d-md-block" data-toggle="modal" data-target="#modal-{{personality.id}}">
+        <img src="/assets/img/tooltip.svg">
+    </a>
+    <p class="md d-none d-md-block">{{ personality.name }}<br>{{ personality.title }}</p>
+
+    <div class="modal fade" id="modal-{{personality.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="container">
+                <div class="modal-content bg-grey my-5">
+                    <div class="row py-3 py-md-5">
+                        <div class="col-10 col-md-4 offset-1 d-none d-md-block">
+                            <img src="{{ personality.image }}" class="img-fluid">
+                        </div>
+                        <div class="col-10 col-md-5 offset-1">
+                            <div class="row">
+                                <div class="col-10 col-md-6 personality-header">
+                                        <h1 class="brown">{{ personality.name }}</h1>
+                                        <h1 class="dark">{{ personality.title }}</h1>
+                                        <img src="{{ personality.image }}" class="img-fluid d-md-none mt-3">
+                                    </div>
+                                <div class="col-2 col-md-6 text-right">
+                                    <a class="close" data-dismiss="modal" aria-label="Close">
+                                        <img src="/assets/img/close.svg" />
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="lg dark">{{ personality.description }}</p>
+                            <p class="lg dark"><b>Harlem Tip: </b>{{ personality.tip }}</p>
+                            <p class="lg brown">{{ personality.last-line }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-3 col-xl-2 d-none d-md-block">
+    <p class="blurb">{{ personality.blurb }}</p>
+</div>

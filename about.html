@@ -1,0 +1,64 @@
+---
+layout: default
+permalink: /about/
+title: About Us
+---
+
+<div class="container pt-intro">
+    <div class="row">
+        <div class="col-md-6 editable">
+            <p>Holler is a content engine for communication services that helps people have better conversations whether they’re texting on a chat app, commenting on a post, or sending a video to friends. By understanding the connection between content, words, people, places, and time,</p>
+        </div>
+        <div class="col-md-6 editable">
+            <p>Holler serves up relevant and expressive content at the perfect moment – resulting in deeper emotional expression for users. Partnering with leading messaging platforms, Holler’s technology redefines messaging as a new hub for brands and content creation.</p>
+        </div>
+        <div class="col my-3">
+            <h2 class="editable">We like to surprise and make people smile – our consumers and each other. We don’t take ourselves too seriously, because what we do has fun at its heart. Meet the Team!</h2>
+        </div>
+    </div>
+
+<div id="team" class="clearfix mb-5 position-relative">
+{% for member in site.data.team %}
+<!-- Button trigger modal -->
+        <a href="#" class="d-inline float-left text-center text-decoration-none" data-toggle="modal" data-target="#team-{{forloop.index}}">
+            <img src="{{ member.image }}" class="team-image d-inline img-fluid"><br>
+            <div class="team-image-caption d-inline">
+                <p class="text-decoration-none"><strong>{{member.name}}</strong><br>{{member.title}}</p>
+            </div>
+        </a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="team-{{forloop.index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                <svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                        <g id="1920x1080_TeamBio" transform="translate(-1808.000000, -563.000000)" stroke="#424648" stroke-width="4">
+                            <g id="Group" transform="translate(1810.000000, 565.000000)">
+                                <path d="M0.307692308,0 L23.4591346,23.7606908" id="Line-4"></path>
+                                <path d="M0,1 L24,24" id="Line-4" transform="translate(12.000000, 12.500000) rotate(-90.000000) translate(-12.000000, -12.500000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                </span>
+                </button>
+                <div class="row position-relative">
+                    <div class="col-10 col-lg-5 offset-1 py-5">
+                        <h2 class="modal-title" id="exampleModalLabel"><b>{{ member.name }}</b><br>{{ member.title }}</h2>
+                        <p class="mt-4">{{member.bio}}</p>
+                    </div>
+                    <div class="col-10 col-lg-5 offset-1">
+                        <img src="{{ member.modal-image}}" class="img-fluid">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+{% endfor %}
+</div>
+</div>

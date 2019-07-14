@@ -1,0 +1,54 @@
+---
+layout: default
+permalink: /careers2/
+title: Careers
+---
+
+<div class="container">
+    <!-- <div class="type-wrap"> -->
+        
+        <!-- <span id="typed" style="white-space:pre;"></span> -->
+  <!-- </div> -->
+
+    <div id="typed-strings">
+            {% for listing in site.listings %}
+                <p>{{ listing.shorthand-for-animation }}</p>
+            {% endfor %}
+    </div>
+
+
+    <div class="row">
+        <div class="col-10 offset-1">
+            <h2 class="text-center pt-intro">We are growing rapidly and are actively looking for passionate people that want to help define the future of online conversations. <br>If you are a <span id="typed" class="underlined purple" style="white-space:pre;"></span>, Holler.</h2>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2 class="bold mb-4">Career Opportunities</h2>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <p>If you don’t see a position related to your experience and would like to keep in touch for future opportunities, please email <a href="mailto:careers@holler.io">careers@holler.io</a> with your resume, LinkedIn, and a note about what you could do for us!</p>
+        </div>
+        <div class="col-md-6 col-lg-8 offset-lg-1 mb-5">
+            <p class="twoColumns">
+            {% for listing in site.listings %}
+            <a href="{{ listing.url }}" class="listing-link">
+                <b>{{ listing.position }}</b><br>
+                {{ listing.time }}
+            </a>
+            {% endfor %}  
+            </p>          
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+        var typed = new Typed("#typed", {
+            stringsElement: '#typed-strings',
+            typeSpeed: 5,
+            backSpeed: 5,
+            backDelay: 1000,
+            startDelay: 1000,
+            loop: true
+        });
+    </script>
