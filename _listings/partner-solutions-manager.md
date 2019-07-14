@@ -1,10 +1,13 @@
 ---
-layout: listing
 position: Partner Solutions Manager, Mandarin Speaking
+layout: listing
+image:
+description:
 shorthand-for-animation: Partner Solutions Manager
 location: New York, New York
 time: Full Time
 apply-link: https://www.typeform.com/
+
 ---
 Holler’s mission is to enrich conversations everywhere with useful content in the place where people share the most, messaging.
 
