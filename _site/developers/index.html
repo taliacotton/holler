@@ -67,82 +67,12 @@
         <div class="row py-3">
             <div class="col-md-6 col-xl-4 mb-3">
                 <a class="appStore-button" href="https://apps.apple.com/us/app/emoji/id506460513" target="_blank"><img src="/assets/img/AppStore_Button.png"></a>
-                <a class="appStore-button" href="https://apps.apple.com/us/app/emoji/id506460513" target="_blank"><img src="/assets/img/Googleplay_Button.png"></a>
+                <!-- <a class="appStore-button" href="https://apps.apple.com/us/app/emoji/id506460513" target="_blank"><img src="/assets/img/Googleplay_Button.png"></a> -->
             </div>
             <div class="col-md-6 col-lg-4">
                 <h4>Contact Us</h4>
 
                 <div>
-    <!-- ngIf: contact_form.sf.show -->
-    <form name="contact_form.sf.emojiForm" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" novalidate="" autocomplete="off" class="ng-pristine ng-invalid ng-invalid-required ng-valid-email ng-valid-pattern ng-invalid-recaptcha" style="">
-        <input type="hidden" name="oid" ng-value="contact_form.sf.form.oid" autocomplete="off" value="00D36000000HlSJ">
-        <input type="hidden" name="retURL" ng-value="contact_form.sf.form.retURL" autocomplete="off" value="https://emogi.com/?submitted">
-        <div class="row no-gutters">
-            <div class="col col-sm-6">
-                <div class="form-group">
-                    <label class="sr-only">First Name</label>
-                    <div class="relative">
-                        <input class="form-control emogi-form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" placeholder="First name" name="first_name" ng-model="contact_form.sf.form.first_name" required=""> <span class="focus-border"></span></div>
-                    <!-- ngIf: !contact_form.sf.emojiForm.first_name.$pristine || (contact_form.sf.emojiForm.$submitted && contact_form.sf.emojiForm.$invalid) -->
-                </div>
-            </div>
-            <div class="col col-sm-6">
-                <div class="form-group">
-                    <label class="sr-only">Last Name</label>
-                    <div class="relative">
-                        <input class="form-control emogi-form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched" placeholder="Last name" name="last_name" ng-model="contact_form.sf.form.last_name" required="" style=""> <span class="focus-border"></span></div>
-                    <!-- ngIf: !contact_form.sf.emojiForm.last_name.$pristine || (contact_form.sf.emojiForm.$submitted && contact_form.sf.emojiForm.$invalid) -->
-                </div>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="sr-only">Email</label>
-            <div class="relative">
-                <input type="email" class="form-control emogi-form-control ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required ng-valid-pattern" placeholder="Email" name="email" ng-model="contact_form.sf.form.email" ng-model-options="{debounce:500}" pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$" required=""> <span class="focus-border"></span></div>
-            <!-- ngIf: !contact_form.sf.emojiForm.email.$pristine || (contact_form.sf.emojiForm.$submitted && contact_form.sf.emojiForm.$invalid) -->
-        </div>
-        <div class="form-group">
-            <label class="sr-only">Source</label>
-            <div class="relative">
-                <select class="form-control emogi-form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required placeholder" name="lead_source" ng-model="contact_form.sf.form.lead_source" ng-class="{'placeholder': contact_form.sf.form.lead_source === ''}" required="">
-                    <option value="" selected="selected">I'm a ...</option>
-                    <option value="web_brand">Advertiser/Brand</option>
-                    <option value="web_publisher">Publisher/App Developer</option>
-                    <option value="web_creative">Creative</option>
-                    <option value="web">Other</option>
-                </select><span class="focus-border"></span></div>
-            
-            <!-- ngIf: !contact_form.sf.emojiForm.lead_source.$pristine || (contact_form.sf.emojiForm.$submitted && contact_form.sf.emojiForm.$invalid) -->
-            </div>
-                <div class="form-group">
-                    <label class="sr-only">Company</label>
-                    <div class="relative">
-                        <input class="form-control emogi-form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" placeholder="Company" name="company" ng-model="contact_form.sf.form.company" required=""> <span class="focus-border"></span></div>
-                    <!-- ngIf: !contact_form.sf.emojiForm.company.$pristine || (contact_form.sf.emojiForm.$submitted && contact_form.sf.emojiForm.$invalid) -->
-                </div>
-                <div class="form-group">
-                    <label class="sr-only">Message</label>
-                    <div class="relative">
-                        <textarea type="text" class="form-control emogi-form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" placeholder="Message" name="00N3600000R5HS6" rows="1" ng-model="contact_form.sf.form.message" required=""></textarea><span class="focus-border"></span></div>
-                    <!-- ngIf: !contact_form.sf.emojiForm['00N3600000R5HS6'].$pristine || (contact_form.sf.emojiForm.$submitted && contact_form.sf.emojiForm.$invalid) -->
-                </div>
-                <div ng-show="(contact_form.sf.form.first_name || contact_form.sf.form.last_name || contact_form.sf.form.email || contact_form.sf.form.company || contact_form.sf.form.lead_source || contact_form.sf.form.message)" class="ng-hide">
-                    <div class="d-flex justify-content-center">
-                        <div vc-recaptcha="" theme="'light'" key="contact_form.sf.recaptcha.key" on-create="contact_form.sf.actions.setWidgetId(widgetId)" on-success="contact_form.sf.actions.setResponse(response)" on-expire="contact_form.sf.actions.refreshRecaptcha()" class="ng-isolate-scope">
-                            <div style="width: 304px; height: 78px;">
-                                <div>
-                                    <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lea1V4UAAAAAHnYPGaEbp35rO8NYfBWIfpcYlkr&amp;co=aHR0cHM6Ly9lbW9naS5jb206NDQz&amp;hl=en&amp;v=v1562567553145&amp;theme=light&amp;size=normal&amp;cb=jhy0tsfarcr1" width="304" height="78" role="presentation" name="a-7hz40032mubd" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-                                </div>
-                                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ngIf: (contact_form.sf.emojiForm.$submitted && contact_form.sf.recaptcha.submitted_error) -->
-                </div>
-                <div class="text-center contact-form-btn">
-                    <button type="submit" class="btn">Send Message</button>
-                </div>
-            </form>
         </div>
 
                 <form class="mb-3">
@@ -186,7 +116,7 @@
                 </h4>
                 
                         <a href="#">Privacy Policy</a><br>
-                        <a href="#">Cookie Policy</a><br>
+                        <a href="#">Terms of Service</a><br>
                     
             </div>
             

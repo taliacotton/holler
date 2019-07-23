@@ -6830,8 +6830,8 @@ h1.underlined {
   border-bottom-width: 8px; }
 
 p, a, .nav-link {
-  font-size: 26px;
-  line-height: 34px;
+  font-size: 22px;
+  line-height: 32px;
   color: #424648; }
 
 .modal-dialog {
@@ -6846,7 +6846,8 @@ h1 {
 
 h2 {
   font-size: 48px;
-  line-height: 56px; }
+  line-height: 56px;
+  color: #424648; }
 
 h2.bold {
   font-weight: bold; }
@@ -6951,6 +6952,9 @@ a.purple:hover {
   width: 12.5%; }
   #team > a .team-image-caption {
     visibility: hidden; }
+    #team > a .team-image-caption * {
+      font-size: 16px;
+      line-height: 22px; }
   #team > a img {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
@@ -7024,6 +7028,11 @@ input[type=text]::placeholder {
 #footer a:not(.appStore-button):hover {
   border-bottom: 2px dotted #424648 !important;
   border-bottom-width: 2px; }
+
+#pointer-sm-none {
+  pointer-events: none; }
+  #pointer-sm-none *:hover {
+    border-bottom: 0px; }
 
 .appStore-button img {
   height: 40px;
@@ -7145,4 +7154,7 @@ input[type=text]::placeholder {
 
   .container, .container-fluid-padding {
     padding-right: 24px;
-    padding-left: 24px; } }
+    padding-left: 24px; }
+
+  .pt-intro {
+    padding-top: 50px; } }

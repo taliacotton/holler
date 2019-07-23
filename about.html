@@ -25,7 +25,7 @@ description:
         <a href="#" class="d-inline float-left text-center text-decoration-none" data-toggle="modal" data-target="#team-{{forloop.index}}">
             <img src="{{ member.image }}" class="team-image d-inline img-fluid"><br>
             <div class="team-image-caption d-inline">
-                <p class="text-decoration-none"><strong>{{member.name}}</strong><br>{{member.title}}</p>
+                <p class="text-decoration-none mt-3"><strong>{{member.name}}</strong><br>{{member.title}}</p>
             </div>
         </a>
 
@@ -53,7 +53,7 @@ description:
                         <h2 class="modal-title" id="exampleModalLabel"><b>{{ member.name }}</b><br>{{ member.title }}</h2>
                         <p class="mt-4">{{member.bio}}</p>
                     </div>
-                    <div class="col-10 col-lg-5 offset-1">
+                    <div class="col-10 col-lg-5">
                         <img src="{{ member.modal-image}}" class="img-fluid">
                     </div>
                 </div>
