@@ -15,11 +15,7 @@ description: >-
   New York, NY offices.
 ---
 
-# Head of Product
-
-New York
-
-Emogi is a content platform for messaging. Our mission is to help people have better conversations.
+Holler is a content platform for messaging. Our mission is to help people have better conversations.
 
 We work with leading chat, dating, gaming and productivity applications to provide rich content experiences for users, whenever and wherever they message. By understanding the connection between content, words, people, places, and time, we surface relevant content for people when communicating with friends and family.
 
@@ -35,7 +31,7 @@ As the Head of Product, you’ll be tasked with developing the vision for this f
 * Lead the product team with a focus on understanding and satisfying our various stakeholder needs
 * Build, manage, and mentor the product team
 * Help define and develop a rigorous data culture using quantitative and qualitative measures that tie to company objectives
-* Understand the competitive landscape for Emogi and use it to shape our product strategy
+* Understand the competitive landscape for Holler and use it to shape our product strategy
 * Oversee multiple projects and align them with business priorities & deadlines
 * Product lifecycle management from concept to phasing out of the product(s) across all products/product lines.
 * Lead, define, represent and communicate product strategy and vision in line with the businesses long-term goals.
