@@ -23,22 +23,38 @@ With an increasing number of partners joining the ecosystem from Asia the focus 
 
 The Partner Solutions team utilizes its technical acumen to drive high-quality integrations while accelerating time-to-live. Using first-hand customer knowledge, Partner Solutions also impacts product strategy, working with all parts of Holler to ensure its offerings continue to satisfy its partner’s needs.
 
-### Responsibilities
+&nbsp;
+
+### **Responsibilities**
 
 * Interface directly with our largest partners technical teams, serving as their primary technical point of contact during integration
+
 * Understand user requirements and communicate how Holler can solve their business and technical challenges, from high-level architecture implementation
+
 * Partner with Holler's Engineering, Product and Program Management team in helping customers understand what is technically possible with Holler
+
 * Help improve Holler's products, working with product teams to address customer feedback, to driver deep more enriching integrations
 
-### Minimum Qualifications
+&nbsp;
+
+### **Minimum Qualifications**
 
 * Fluency in Mandarin required
+
 * A strong technical generalist background
+
 * An empathetic, collaborative, communicative, and consultative work style
+
 * Confidence and comfort with customers
+
 * Exceptional verbal and written communication abilities
+
 * Intellectual curiosity, and great problem solving skills
+
 * Experience working independently and delivering measurable results in a timely manner
+
 * Experience working cross-functionally on different projects, with varying constituents and deliverables
+
 * Experience with solving problems in a collaborative environment
+
 * Analytics experience and experience turning data into a narrative
