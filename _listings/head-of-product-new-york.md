@@ -25,29 +25,48 @@ Our solution services hundreds of millions of users across billions of messages 
 
 As the Head of Product, you’ll be tasked with developing the vision for this function and building a team to execute on it.&nbsp; The role reports to the CEO and will be located at HQ in our New York, NY offices.
 
-### Responsibilities
+&nbsp;
+
+### **Responsibilities**
 
 * Work with cross-functional leaders of research, content, engineering and business teams to effectively align roadmaps based on company priorities, set clear and measurable objectives, and deploy team resources appropriately to achieve business goals
-* Lead the product team with a focus on understanding and satisfying our various stakeholder needs
-* Build, manage, and mentor the product team
-* Help define and develop a rigorous data culture using quantitative and qualitative measures that tie to company objectives
-* Understand the competitive landscape for Holler and use it to shape our product strategy
-* Oversee multiple projects and align them with business priorities & deadlines
-* Product lifecycle management from concept to phasing out of the product(s) across all products/product lines.
-* Lead, define, represent and communicate product strategy and vision in line with the businesses long-term goals.
-* Own the product roadmap.
 
-### Minimum Qualifications
+* Lead the product team with a focus on understanding and satisfying our various stakeholder needs
+
+* Build, manage, and mentor the product team
+
+* Help define and develop a rigorous data culture using quantitative and qualitative measures that tie to company objectives
+
+* Understand the competitive landscape for Holler and use it to shape our product strategy
+
+* Oversee multiple projects and align them with business priorities & deadlines
+
+* Product lifecycle management from concept to phasing out of the product(s) across all products/product lines.
+
+* Lead, define, represent and communicate product strategy and vision in line with the businesses long-term goals.
+
+* Own the product roadmap
+
+### **Minimum Qualifications**
 
 * 10+ years of product management experience, preferably with a consumer focus and ad monetization model
+
 * 4+ years of experience hiring and managing a product management team
+
 * Fluency in data analysis, and problem-solving skills
+
 * Excellent written, communication, analytical skills, and attention to detail, with an ability to effectively present to key stakeholders
+
 * Previous experience in working with and coordinating large-scale projects across teams
+
 * Strong passion for creating engaging and high-quality experiences
+
 * Ability to deconstruct industry and competitor trends to inform roadmaps
 
-### Preferred Qualifications
+&nbsp;
+
+### **Preferred Qualifications**
 
 * BA/BS degree. Technical degree is a plus
+
 * MBA is a plus
