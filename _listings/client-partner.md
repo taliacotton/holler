@@ -17,7 +17,9 @@ As a Client Partner on the Global Marketing Solutions team, you’ll be responsi
 
 This is a full-time position based in our New York, NY office.
 
-### Responsibilities
+&nbsp;
+
+### **Responsibilities**
 
 * As a Client Partner for Holler, your primary responsibilities include identifying, qualifying and closing new business opportunities. You will act as a trusted advisor to clients and agencies and have a mix of strategic and tactical sales experience
 
@@ -35,7 +37,9 @@ This is a full-time position based in our New York, NY office.
 
 * Work collaboratively with internal teams (Operations, Product, Account Management, Marketing), while mentoring new team members as our organization grows
 
-### Minimum Qualifications
+&nbsp;
+
+### **Minimum Qualifications**
 
 * Accountability-minded. You accept and thrive in a culture of healthy accountability
 
