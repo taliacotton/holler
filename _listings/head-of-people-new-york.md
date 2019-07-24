@@ -25,28 +25,48 @@ Our solution services hundreds of millions of users across billions of messages 
 
 We are looking for our first true people organization leader – who can inspire and drive our teams and our culture as we continue to scale for our next phase of growth. Our perfect candidate will be the energetic ambassador of all things people to the company at large and is motivated by a love for people and technology. The role reports to the COO and will be located at HQ in our New York, NY offices.
 
-### Responsibilities
+&nbsp;
+
+### **Responsibilities**
 
 * Build, drive and own People initiatives and programs for a 35+ person organization across both current NY and SF offices (e.g. Recruiting, Performance Reviews, Comp Planning, Career Pathing, Training & Development, Retention, Culture, Diversity, etc.)
+
 * Proactively addresses difficult employee related issues and drive to resolution while working with Holler partners
+
 * Understand company goals and align People practices with business objectives
+
 * Serve as a strategic advisor and passionate contributor to company leadership for all things people-related
+
 * Develop and Implement a best in class diversity and inclusion strategy and drive that vision across the leadership team and entire organization
+
 * Solidify, spread and scale our current culture of mission oriented and passionate problem solvers
+
 * Contribute to the People team's mission by providing support at all phases of the employee lifecycle, including on-boarding, off-boarding, benefits administration, and cultural programming
+
 * Work cross-functionally and collaboratively with Sales, Engineering and Product
+
 * Act as an employee resource for all employee questions related to our services by answering questions and solving problems with empathy and efficiency
+
 * Manage end-to-end processes: visas and immigration (working with inside and outside counsel), employment law compliance, onboarding and offboarding processes for all hires, payroll for hourly and salary employees and all contractors, benefits expert for all team, leaves and disabilities
 
-### Minimum Qualifications
+&nbsp;
 
-* 10+ years of successful HR Generalist and HR Business Partner experience with a preference to those with experience in the maker, education, or start-up space
+### **Minimum Qualifications**
+
+10+ years of successful HR Generalist and HR Business Partner experience with a preference to those with experience in the maker, education, or start-up space
+
 * Track record of developing innovative and creative talent and growth strategies and initiatives to scale a growing and vibrant company culture
+
 * Deep knowledge of diversity and inclusion issues globally and a strong partnership with talent and recruiting strategies that speak to and attract under represented groups and minorities
+
 * Tech savvy, demonstrated proficiency building and maintaining HR Systems and Operations
+
 * A commitment to proactive, continuous, improvement
+
 * Demonstrated proficiency managing all employee lifecycle processes
 
-### Preferred Qualifications
+&nbsp;
+
+### **Preferred Qualifications**
 
 * BA/BS is preferred
