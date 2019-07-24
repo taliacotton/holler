@@ -9,18 +9,18 @@ image:
 description:
 ---
 
-Emogi, an innovative technology and content company enriching billions of conversations across messaging and communication services is seeking a Director of Brand Marketing to support our CMO on our brand building efforts with both consumer and B2B audiences. We are creating the future of content in the conversation space, therefore, the ideal candidate should have a passion for technology and creativity while being excited to roll their sleeves up in a fast-paced startup environment.
+Holler, an innovative technology and content company enriching billions of conversations across messaging and communication services is seeking a Director of Brand Marketing to support our CMO on our brand building efforts with both consumer and B2B audiences. We are creating the future of content in the conversation space, therefore, the ideal candidate should have a passion for technology and creativity while being excited to roll their sleeves up in a fast-paced startup environment.
 
 ### Responsibilities
 
-* Leading the development of long and near-term strategies to build brand equity and awareness across both Emogi’s business and consumer audiences
+* Leading the development of long and near-term strategies to build brand equity and awareness across both Holler's business and consumer audiences
 * Driving innovative marketing approaches and lead the briefing and collaboration with creative talent on multimedia brand campaigns
 * Developing the marketing insights engine including creating user-centric insights using quantitative and qualitative research, utilizing ethnographic observations, focus groups, surveys and reviews or other feedback mechanisms and present actionable insights
-* Managing and optimizing all external facing representations of the Emogi brand (website, social, advertising, partnerships, sponsorships, events etc.)
+* Managing and optimizing all external facing representations of the Holler brand (website, social, advertising, partnerships, sponsorships, events etc.)
 * Working cross-functionally with creative, sales, product, engineering, AI teams in everything you do
 * Managing the brand marketing and media budget and ensuring projects you run come in on-time and on-budget
-* Develop buzz around the Emogi brand, with our users, advertisers and the tech community, taking care of earned media and managing a PR agency
-* Come up with & execute long running strategies for elevating the Emogi brand through thought leadership (white papers, executive profile development etc.)
+* Develop buzz around the Holler brand, with our users, advertisers and the tech community, taking care of earned media and managing a PR agency
+* Come up with & execute long running strategies for elevating the Holler brand through thought leadership (white papers, executive profile development etc.)
 
 ### Minimum Qualifications
 
