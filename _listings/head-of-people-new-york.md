@@ -15,7 +15,7 @@ description: >-
   New York, NY offices.
 ---
 
-Emogi is a content platform for messaging. Our mission is to help people have better conversations.
+Holler is a content platform for messaging. Our mission is to help people have better conversations.
 
 We work with leading chat, dating, gaming and productivity applications to provide rich content experiences for users, whenever and wherever they message. By understanding the connection between content, words, people, places, and time, we surface relevant content for people when communicating with friends and family.
 
@@ -28,7 +28,7 @@ We are looking for our first true people organization leader – who can inspire
 ### Responsibilities
 
 * Build, drive and own People initiatives and programs for a 35+ person organization across both current NY and SF offices (e.g. Recruiting, Performance Reviews, Comp Planning, Career Pathing, Training & Development, Retention, Culture, Diversity, etc.)
-* Proactively addresses difficult employee related issues and drive to resolution while working with Emogi partners
+* Proactively addresses difficult employee related issues and drive to resolution while working with Holler partners
 * Understand company goals and align People practices with business objectives
 * Serve as a strategic advisor and passionate contributor to company leadership for all things people-related
 * Develop and Implement a best in class diversity and inclusion strategy and drive that vision across the leadership team and entire organization
@@ -36,7 +36,7 @@ We are looking for our first true people organization leader – who can inspire
 * Contribute to the People team's mission by providing support at all phases of the employee lifecycle, including on-boarding, off-boarding, benefits administration, and cultural programming
 * Work cross-functionally and collaboratively with Sales, Engineering and Product
 * Act as an employee resource for all employee questions related to our services by answering questions and solving problems with empathy and efficiency
-* Manage end-to-end processes: visas and immigration (working with inside and outside counsel), employment law compliance, onboarding and offboarding processes for all hires, payroll for hourly and salary employees and all contractors, benefits expert for allteam, leaves and disabilities
+* Manage end-to-end processes: visas and immigration (working with inside and outside counsel), employment law compliance, onboarding and offboarding processes for all hires, payroll for hourly and salary employees and all contractors, benefits expert for all team, leaves and disabilities
 
 ### Minimum Qualifications
 
