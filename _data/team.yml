@@ -1,6 +1,6 @@
 - name: Travis Montaque
   title: Founder & CEO
-  image: /assets/img/Travis.png
+  image:
   modal-image: /assets/img/modal-img-placeholder.png
   bio: >-
     An entrepreneur at his core, Travis was listed in Entrepreneur Magazine's
