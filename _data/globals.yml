@@ -1,13 +1,11 @@
-#meta content
-description: Holler is a content engine for communication services that helps people have better conversations.
-image: 
+description: >-
+  Holler is a content engine for communication services that helps people have
+  better conversations.
+image:
 author: Holler
-
-#social
-linkedIn: https://www.instagram.com/holler/
-instagram: https://www.instagram.com/holler/
-facebook: https://www.instagram.com/holler/
-twitter: https://www.instagram.com/holler/
-
-app-store-link: https://apps.apple.com/us/app/emoji/id506460513
-google-play-link: https://apps.apple.com/us/app/emoji/id506460513
+linkedIn: 'https://www.instagram.com/holler/'
+instagram: 'https://www.instagram.com/holler/'
+facebook: 'https://www.instagram.com/holler/'
+twitter: 'https://www.instagram.com/holler/'
+app-store-link: 'https://apps.apple.com/us/app/emoji/id506460513'
+google-play-link:
