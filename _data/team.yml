@@ -1,6 +1,6 @@
 - name: Travis Montaque
   title: Founder & CEO
-  image: /assets/img/Travis.png
+  image: /assets/img/Travis2.png
   modal-image: /assets/img/modal-img-placeholder.png
   bio: >-
     An entrepreneur at his core, Travis was listed in Entrepreneur Magazine's
@@ -28,18 +28,6 @@
     leadership at a time of accelerated growth from 180 employees to north of
     800; providing meaningful contribution and leadership to yet another
     successful IPO.
-- name: Sarah Aitken
-  title: CMO
-  image: /assets/img/Sarah.png
-  modal-image: /assets/img/modal-img-placeholder.png
-  bio: >-
-    Before Joining Holler, Sarah spent over 14 years driving growth at global
-    creative agency, Iris Worldwide, across Europe, Latin America and North
-    America. While at Iris, Sarah led and delivered innovative marketing
-    strategies for a wide range of global consumer brands including Sony,
-    Samsung, Yahoo!, Jeep, Diageo and Reckitt Benckiser. Most recently, Sarah
-    founded her own brand marketing consultancy, focusing on high-growth
-    startups in the technology, consumer goods and brand services categories.
 - name: Patrick Perrin
   title: 'Chief Scientist, AI & Research'
   image: /assets/img/Patrick.png
@@ -57,6 +45,18 @@
     automated planning and reasoning, network science, social network analysis,
     concept formation, knowledge extraction, machine learning, language
     engineering and formal methods…just to name a few. No, he doesn’t sleep.
+- name: Sarah Aitken
+  title: CMO
+  image: /assets/img/Sarah.png
+  modal-image: /assets/img/modal-img-placeholder.png
+  bio: >-
+    Before Joining Holler, Sarah spent over 14 years driving growth at global
+    creative agency, Iris Worldwide, across Europe, Latin America and North
+    America. While at Iris, Sarah led and delivered innovative marketing
+    strategies for a wide range of global consumer brands including Sony,
+    Samsung, Yahoo!, Jeep, Diageo and Reckitt Benckiser. Most recently, Sarah
+    founded her own brand marketing consultancy, focusing on high-growth
+    startups in the technology, consumer goods and brand services categories.
 - name: David Brady
   title: Head of Engineering
   image: /assets/img/David.png
@@ -73,7 +73,7 @@
     increased customer satisfaction, all while reducing operations costs.
 - name: Pat Giles
   title: Head of Studio
-  image: /assets/img/Pat_Giles.png
+  image: /assets/img/Pat.png
   modal-image: /assets/img/modal-img-placeholder.png
   bio: >-
     A creative force in the industry for decades, leading the charge on some of
