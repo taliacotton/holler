@@ -17,7 +17,7 @@
 - name: Stephen Zangre
   title: CCO
   image: /assets/img/Stephen.png
-  modal-image:
+  modal-image: /assets/img/Stephen_Module.png
   bio: >-
     With 25 years of experience in hyper-growth environments, Stephen has a
     track record of leadership and high performance, most notably during tenures
@@ -31,7 +31,7 @@
 - name: Patrick Perrin
   title: 'Chief Scientist, AI & Research'
   image: /assets/img/Patrick.png
-  modal-image: /assets/img/modal-img-placeholder.png
+  modal-image: /assets/img/Patrick_Module.png
   bio: >-
     More than 20 years of experience and passion in AI Research & Development,
     successfully leading teams to solve complex problems and build robust
@@ -48,7 +48,7 @@
 - name: Sarah Aitken
   title: CMO
   image: /assets/img/Sarah.png
-  modal-image: /assets/img/modal-img-placeholder.png
+  modal-image: /assets/img/Sarah_Module.png
   bio: >-
     Before Joining Holler, Sarah spent over 14 years driving growth at global
     creative agency, Iris Worldwide, across Europe, Latin America and North
@@ -60,7 +60,7 @@
 - name: David Brady
   title: Head of Engineering
   image: /assets/img/David.png
-  modal-image: /assets/img/modal-img-placeholder.png
+  modal-image: /assets/img/David_Module.png
   bio: >-
     A guru product developer, David’s diverse career has revolved around
     innovations that connect people with content and information. That work
@@ -74,7 +74,7 @@
 - name: Pat Giles
   title: Head of Studio
   image: /assets/img/Pat.png
-  modal-image: /assets/img/modal-img-placeholder.png
+  modal-image: /assets/img/Pat_Module.png
   bio: >-
     A creative force in the industry for decades, leading the charge on some of
     the biggest brand characters on the planet, including Green Giant, Lucky
@@ -89,7 +89,7 @@
 - name: Damian De Rosaire
   title: Head of Customer Success
   image: /assets/img/Damian.png
-  modal-image: /assets/img/modal-img-placeholder.png
+  modal-image: /assets/img/Damian_Module.png
   bio: >-
     With 20 years of operational and account management experience under his
     belt, Damian has worked in popular hyper-growth tech start-ups like Facebook
