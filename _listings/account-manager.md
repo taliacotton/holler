@@ -1,10 +1,11 @@
 ---
-position: 'Account Manager, New York'
+position: Account Manager
 layout: listing
 shorthand-for-animation: Account Manager
 location: 'New York, New York'
 timeframe: Full Time
-apply-link: 'https://www.typeform.com/'
+apply-link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
 image:
 description:
 ---
