@@ -1,10 +1,11 @@
 ---
-position: 'Head of Product, New York'
+position: Head of Product
 layout: listing
 shorthand-for-animation: Head of Product
 location: 'New York, New York'
 timeframe: Full Time
-apply-link: 'https://www.typeform.com/'
+apply-link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
 image:
 description: >-
   We are looking for our first true people organization leader – who can inspire
