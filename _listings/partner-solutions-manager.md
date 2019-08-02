@@ -4,7 +4,8 @@ layout: listing
 shorthand-for-animation: Partner Solutions Manager
 location: 'New York, New York'
 timeframe: Part Time
-apply-link: 'https://www.typeform.com/'
+apply-link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
 image:
 description:
 ---
