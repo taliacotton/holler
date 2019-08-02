@@ -1,10 +1,11 @@
 ---
-position: 'Editorial and Programming Intern, New York'
+position: Editorial and Programming Intern
 layout: listing
 shorthand-for-animation: Editorial and Programming Intern
 location: 'New York, New York'
 timeframe: Part-Time
-apply-link: 'https://www.typeform.com/'
+apply-link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
 image:
 description:
 ---
