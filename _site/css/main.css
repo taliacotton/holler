@@ -6811,6 +6811,41 @@ html {
 .h-100 {
   min-height: calc(100vh - 180px) !important; }
 
+.navbar-toggler {
+  border: 0px; }
+
+a.navbar-toggler:hover {
+  border-bottom: 0px !important;
+  text-decoration: none; }
+
+.navbar-toggler div {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: #424648;
+  display: inline-block;
+  margin-top: 40px; }
+
+.navbar-collapse.show {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #424648;
+  color: white;
+  text-align: center;
+  z-index: 2; }
+  .navbar-collapse.show .nav-link {
+    color: white !important;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: -1.92px;
+    line-height: 80px;
+    margin-bottom: 30px;
+    margin-left: 0px !important; }
+
 a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.navbar-brand):not(.float-left):not(.listing-link):hover, .underlined {
   background-color: none !important;
   border: none !important;
@@ -6892,7 +6927,7 @@ h4 {
   width: 100vw;
   max-width: 100%;
   height: 100px;
-  overflow-x: hidden; }
+  overflow: hidden; }
 
 .track {
   position: absolute;
@@ -7187,8 +7222,7 @@ input[type=text]::placeholder {
 
 .developer-cards {
   min-height: 300px;
-  height: 300%;
-  display: flex; }
+  height: 300%; }
 
 .developer-card {
   width: 20%;
@@ -7310,6 +7344,15 @@ p.sm {
     -moz-column-count: 1;
     column-count: 1; }
 
+  .developer-card {
+    width: 100%;
+    padding: 30px; }
+    .developer-card p.bold {
+      max-width: none; }
+
+  .dev-btn {
+    width: 100%; }
+
   #team {
     left: 3px; }
 
@@ -7324,6 +7367,9 @@ p.sm {
   .carousel-content {
     padding-top: 50px;
     padding-bottom: 50px; }
+
+  .navbar-brand {
+    width: 150px; }
 
   #team {
     height: 500px;
