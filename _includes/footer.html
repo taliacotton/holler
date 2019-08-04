@@ -1,23 +1,23 @@
 <div class="container-fluid bg-light pb-4" id="footer">
     <div class="container">
         <div class="row py-3">
-            <div class="col-md-6 col-xl-4 mb-3">
+            <div class="col-md-6 col-xl-2 mb-3">
                 <a class="appStore-button" href="{{ site.data.globals.app-store-link }}" target="_blank"><img src="/assets/img/AppStore_Button.png"></a>
                 <!-- <a class="appStore-button" href="{{ site.data.globals.google-play-link }}" target="_blank"><img src="/assets/img/Googleplay_Button.png"></a> -->
             </div>
-            <div class="col-md-6 col-lg-4">
-                <h4>Contact Us</h4>
-
+            <div class="col-6 col-md-3 col-xl-2 mb-3">
+                <h4>Contact</h4>
+                <a href="mailto:{{ site.data.globals.email }}" target="_blank">{{ site.data.globals.email }}</a><br>
                 <div>
-        </div>
+            </div>
 
-                <form class="mb-3">
+                <!-- <form class="mb-3">
                     <input type="text" placeholder="Name" class="w-100"/>
                     <input type="text" placeholder="Email" class="w-100" />
                     <input type="text" placeholder="Comment" class="w-100" />
-                </form>
+                </form> -->
             </div>
-            <div class="col-6 col-md-3 col-xl-1 mb-3">
+            <div class="col-6 col-md-3 col-xl-2 mb-3">
                 <h4>
                     Social
                 </h4>
@@ -28,7 +28,7 @@
                         <a href="{{ site.data.globals.twitter }}" target="_blank">Twitter</a><br>
                     
             </div>
-            <div class="col-6 col-md-3 col-xl-1 mb-3">
+            <div class="col-6 col-md-3 col-xl-2 mb-3">
                 <h4>
                     Company
                 </h4>
@@ -37,7 +37,7 @@
                         <a href="{{ site.url}}/press">Press</a><br>
                     
             </div>
-            <div class="col-6 col-md-3 col-xl-1 mb-3">
+            <div class="col-6 col-md-3 col-xl-2 mb-3">
                 <h4>
                     Community
                 </h4>
@@ -46,20 +46,20 @@
                         <a href="{{ site.url}}/press">Advertisers</a><br>
                     
             </div>
-            <div class="col-6 col-md-3 col-xl-1 mb-3">
+            <div class="col-6 col-md-3 col-xl-2 mb-3">
                 <h4>
                     Legal
                 </h4>
                 
-                        <a href="#">Privacy Policy</a><br>
-                        <a href="#">Terms of Service</a><br>
+                        <a href="{{site.url}}/privacy">Privacy Policy</a><br>
+                        <a href="{{site.url}}/terms">Terms of Service</a><br>
                     
             </div>
             
         </div>
         <div class="row">
-            <div class="col-lg-4 offset-xl-8">
-                © 2019 Holler Technologies Inc.
+            <div class="col-lg-4 editable">
+                © 2019 Emogi Technologies Inc.
             </div>
         </div>
     </div>

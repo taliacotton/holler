@@ -1,6 +1,7 @@
 ---
 position: Editorial and Programming Intern
 layout: listing
+permalink: /careers/editorial-and-programming-intern
 shorthand-for-animation: Editorial and Programming Intern
 location: 'New York, New York'
 timeframe: Part-Time

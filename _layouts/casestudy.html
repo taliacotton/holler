@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
+    
+    <div class="container pt-intro h-100">
+        <img class="case-study-hero" src="{{page.hero-animation[0].image}}">
+        <div class="case-study-underline"></div>
+    </div>
+    <div class="container-fluid bg-light py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-3 offset-2">
+                    <h2 class="bold">Objective</h2>
+                </div>
+                <div class="col-5">
+                    <p>{{page.objective}}</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-3 offset-2">
+                    <h2 class="bold">Insights</h2>
+                </div>
+                <div class="col-5">
+                    {% for insight in page.insights %}
+                        <p class="insight py-2">{{insight}}</p>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-3 offset-2">
+                    <h2 class="bold">Content</h2>
+                </div>
+                {% for gif in page.gifs %}
+                {% assign remainder = forloop.index0 | modulo: 5 %}
+                {% if forloop.first %}
+                    <div class="col-1 my-1">
+                {% else %}
+                    <div class="col-1 my-1 {% if remainder == 0%}offset-5{%endif%}">
+                {%endif%}
+                        <div class="case-study-gif">
+                            <img src="{{gif}}" class="img-fluid position-absolute">
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark py-5 text-center">
+        <p class="bold"><a class="back-link" href="{{site.baseurl}}/advertisers/#case-studies">Back to Case Studies</a></p>
+    </div>
+        
+        
+    {% include footer.html %}
+  </body>
+</html>

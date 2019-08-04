@@ -1,6 +1,7 @@
 ---
 position: Head of Product
 layout: listing
+permalink: /careers/head-of-product
 shorthand-for-animation: Head of Product
 location: 'New York, New York'
 timeframe: Full Time

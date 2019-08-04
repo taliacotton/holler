@@ -2,6 +2,25 @@ AOS.init({
 	duration: 600,
   })
   
+let number = 0;
+let target = 4.1;
+
+
+$('#increasingNumber span').text('0');
+// var interval = setInterval(function() {
+//         $('#increasingNumber span').text(number.toString().substring(0, 3));
+//         if (number >= target) clearInterval(interval);
+//         number+=0.1;
+//     }, 30);
+
+function increaseNum() {
+	setInterval(function() {
+	$('#increasingNumber span').text(number.toString().substring(0, 3));
+		if (target >= number){
+			number+=0.1;
+		};
+	}, 100);
+}
 
 $(window).scroll(function() {
 	var $height = $(window).scrollTop();
@@ -10,7 +29,22 @@ $(window).scroll(function() {
 	} else {
 		$('.fixed-nav').removeClass('showing');
 	}
+	
+	if (isScrolledIntoView($('#increasingNumber')) == true){
+		increaseNum();
+	}
 });
+
+function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
 
 $(document).ready(function(e) {
 

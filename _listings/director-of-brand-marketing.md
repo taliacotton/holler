@@ -1,6 +1,7 @@
 ---
 position: Director of Brand Marketing
 layout: listing
+permalink: /careers/director-of-brand-marketing
 shorthand-for-animation: Director of Brand Marketing
 location: 'New York, New York'
 timeframe: Full Time

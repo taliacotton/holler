@@ -1,6 +1,7 @@
 ---
 position: Client Partner
 layout: listing
+permalink: /careers/client-partner
 shorthand-for-animation: Client Partner
 location: 'New York, New York'
 timeframe: Full Time

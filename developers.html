@@ -2,4 +2,188 @@
 layout: default
 permalink: /developers/
 title: Developers
+meta-content:
+    image:
+    description:
 ---
+
+<div class="container-fluid h-100">
+    <div class="container">
+        <div class="row h-100">
+            <div class="col-5 offset-1 my-auto">
+                <div >
+                <h2 class="mb-4">Give your users a richer chat experience with the Holler Sapphire Kit:</h2>
+                <p>With Holler, you can equip your users with the tools they need to enrich their online conversations. From intuitive smart suggestions to a robust search feature, users can find content that fits their specific needs, at the moment when they need it most. Holler lets users express themselves when words just aren’t enough.</p>
+                <a href="{{site.data.globals.app-store-link}}" class="btn btn-primary-outlined mt-4" target="_blank">Get the Kit</a>
+                </div>
+            </div>
+            <div class="col-5 my-auto">
+                <video class="developers-vid" autoplay loop muted playsinline>
+                    <source src="/assets/vid/DevPage_Animation_V02.webm" type="video/webm">
+                    <source src="/assets/vid/DevPage_Animation_V02.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-1">
+                <h2>Content for everyone, everywhere.</h2>
+            </div>
+            <div class="col-5 offset-1">
+                <p>People all around the world use stickers to express themselves. That’s why our platform has the largest catalogue of stickers built for global audiences. Give your users access -- free of charge.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="developer-cards">
+        <div class="d-inline-block bg-dark developer-card">
+            <p class="bold">Exclusive Original Content </p>
+            <p>Get access to our catalogue of thousands of stickers developed by our in house studio.</p>
+        </div><div class="d-inline-block bg-purple developer-card">
+            <p class="bold">Access 3rd Party Rights</p>
+            <p>Gain access to content from sports teams, influencers, and more.</p>
+        </div><div class="d-inline-block bg-teal developer-card">
+            <p class="bold">Holler Premier Partner Program</p>
+            <p>Your audience is unique and so should your content be. Partner with us to develop bespoke sticker programs for your app. Access granted on a case by case basis.</p>
+        </div><div class="d-inline-block bg-pink developer-card">
+            <p class="bold">Localization</p>
+            <p>Our network of global localizers ensure accurate delivery of content to your users across languages.</p>
+        </div><div class="d-inline-block bg-orange developer-card">
+            <p class="bold">Editorial</p>
+            <p>Our in house editorial team programs content to capture holidays,  tentpoles,  memes, and more.</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+        
+            <h3 class="bold text-center mb-4">Enrich Your Conversation</h3><br>
+            <div class="row emogis">
+
+                {% for emogi in site.data.emogis %}
+                <div class="col-2 mb-3">
+                    <a href="#">
+                        <div class="emogi" style="background-image:url({{emogi.image}})"></div>  
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+            <!-- <div class="emogis d-block">
+                <a>
+                    <div class="emogi" style="background-image:url(/assets/emogis/emogi1.png)"></div>  
+                </a>
+                <a>
+                    <div class="emogi" style="background-image:url(/assets/emogis/emogi1.png)"></div>  
+                </a>
+                <a>
+                    <div class="emogi" style="background-image:url(/assets/emogis/emogi1.png)"></div>  
+                </a>
+                <a>
+                    <div class="emogi" style="background-image:url(/assets/emogis/emogi1.png)"></div>  
+                </a>
+                <a>
+                    <div class="emogi" style="background-image:url(/assets/emogis/emogi1.png)"></div>  
+                </a>
+                <a>
+                    <div class="emogi" style="background-image:url(/assets/emogis/emogi1.png)"></div>  
+                </a>
+                <a>
+                    <div class="emogi" style="background-image:url(/assets/emogis/emogi1.png)"></div>  
+                </a>
+                <a>
+                    <div class="emogi" style="background-image:url(/assets/emogis/emogi1.png)"></div>  
+                </a>
+            </div> -->
+        
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-10 offset-1 text-center py-5">
+            <h2>On Demand and Easy. Our platform enables easy access to sticker content. We’re at your user’s fingertips when they need us. </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 text-center pt-5 bg-dark">
+            <div class="row">
+                <div class="col-6 offset-3">
+                    <p class="bold">Smart Suggestions </p>
+                    <p>Real time content recommendations based on context of conversation</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 text-center pt-5 bg-purple">
+            <div class="row">
+                <div class="col-6 offset-3">
+                    <p class="bold">Search </p>
+                    <p>Powerful text and emotion based search helps users find the perfect sticker</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 text-center pt-5 bg-teal">
+            <div class="row">
+                <div class="col-6 offset-3">
+                    <p class="bold">Catalogue </p>
+                    <p>Browse our library of thousands of stickers and curate your own sets</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 bg-dark pt-4 pb-5">
+            <div class="smartphone m-auto">
+                <img class="active" src="/assets/img/SmartSuggestionsFlow.gif">
+                <img class="static" src="/assets/img/SmartSuggestionsFlow.png">
+            </div>
+        </div>
+        <div class="col-4 bg-purple pt-4 pb-5">
+            <div class="smartphone m-auto">
+                <img class="active" src="/assets/img/SearchFlow.gif">
+                <img class="static" src="/assets/img/SearchFlow.png">
+            </div>
+        </div>
+        <div class="col-4 bg-teal pt-4 pb-5">
+            <div class="smartphone m-auto">
+                <img class="active" src="/assets/img/CatalogFlow.gif">
+                <img class="static" src="/assets/img/CatalogFlow.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-light mt-5">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-3">
+                <h2 class="bold mb-4">
+                    Private by Design
+                </h2>
+                <p>We believe your user’s conversations are theirs not ours, we just want to make it better! That’s why Holler Kit was designed to send as minimal data from your app as possible while allowing users to get access to all our great features.</p>
+            </div>
+            <div class="col-3">
+                <h2 class="bold mb-4">
+                    Seamless Integration
+                </h2>
+                <p>We believe your user’s conversations are theirs not ours, we just want to make it better! That’s why Holler Kit was designed to send as minimal data from your app as possible while allowing users to get access to all our great features.</p>
+            </div>
+            <div class="col-3">
+                <h2 class="bold mb-4">
+                    Monetize Messaging
+                </h2>
+                <p>We believe your user’s conversations are theirs not ours, we just want to make it better! That’s why Holler Kit was designed to send as minimal data from your app as possible while allowing users to get access to all our great features.</p>
+            </div>
+            <div class="col-3">
+                <h2 class="bold mb-4">
+                    Partnerships Built on Trust
+                </h2>
+                <p>We believe your user’s conversations are theirs not ours, we just want to make it better! That’s why Holler Kit was designed to send as minimal data from your app as possible while allowing users to get access to all our great features.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid h-100">
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/235215203" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>

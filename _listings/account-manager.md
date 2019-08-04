@@ -1,6 +1,7 @@
 ---
 position: Account Manager
 layout: listing
+permalink: /careers/account-manager
 shorthand-for-animation: Account Manager
 location: 'New York, New York'
 timeframe: Full Time

@@ -1,6 +1,7 @@
 ---
 position: 'Partner Solutions Manager, Mandarin Speaking'
 layout: listing
+permalink: /careers/partner-solutions-manager-mandarin-speaking
 shorthand-for-animation: Partner Solutions Manager
 location: 'New York, New York'
 timeframe: Part Time

@@ -1,6 +1,7 @@
 ---
 position: Head of People
 layout: listing
+permalink: /careers/head-of-people
 shorthand-for-animation: Head of People
 location: 'New York, New York'
 timeframe: Full Time
