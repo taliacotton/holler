@@ -153,6 +153,17 @@ h4{
     background-repeat:no-repeat;
 }
 
+.hero-sm{
+    width:100vw;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    height:50vh;
+    background-position:80% 0px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
 .marquee {
   position: relative;
   width: 100vw;
@@ -611,6 +622,7 @@ p.sm{
 
 .insight{
     border-bottom:1px solid $dark;
+    margin-bottom:0px;
 }
 
 .insight:last-child{
@@ -654,7 +666,7 @@ p.sm{
         line-height:42px;
     }
 
-    a:not(.btn):not(.navbar-brand):not(.float-left):not(.listing-link):hover, a.underlined{
+    a:not(.btn):not(.navbar-brand):not(.navbar-toggler):not(.float-left):not(.listing-link):hover, a.underlined{
 
         border-bottom: 4px dotted $dark !important;
         border-bottom-width:4px;
@@ -671,6 +683,15 @@ p.sm{
         -webkit-column-count: 1;
         -moz-column-count: 1;
                 column-count: 1;
+    }
+
+    #increasingNumber{
+        font-size: 70px;	
+        line-height: 80px;
+    }
+
+    .number-block{
+        padding:80px 0px;
     }
 
     .developer-card{
@@ -703,11 +724,7 @@ p.sm{
         position:static;
     }
 
-    .background-image-landing{
-        background-size:contain;
-        background-position:90vh center;
-
-    }
+   
 
     .carousel-content{
         padding-top:50px;
@@ -732,6 +749,15 @@ p.sm{
     .navbar-brand{
         width:	150px;
     }
+
+    .case-study-thumb{
+    width:330px;
+    height:330px;
+    margin:0px;
+    margin-bottom:20px;
+    margin-top:30px;
+}
+
 
 
     #team{
@@ -759,8 +785,22 @@ p.sm{
 
 }
 
+@media (max-width: 767.98px) {   
+    .background-image-landing{
+        background-size:0px;
+    }
+
+    .btn-full{
+        width:100%;
+    }
+ }
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
+
+    .marquee {
+        height: 90px;
+    }
 
     p, a, .nav-link{
         font-size: 16px;	

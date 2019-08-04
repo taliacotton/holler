@@ -6922,6 +6922,16 @@ h4 {
   background-size: auto 100vh;
   background-repeat: no-repeat; }
 
+.hero-sm {
+  width: 100vw;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 50vh;
+  background-position: 80% 0px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .marquee {
   position: relative;
   width: 100vw;
@@ -7303,7 +7313,8 @@ p.sm {
   z-index: -1; }
 
 .insight {
-  border-bottom: 1px solid #424648; }
+  border-bottom: 1px solid #424648;
+  margin-bottom: 0px; }
 
 .insight:last-child {
   border-bottom: 0px; }
@@ -7335,7 +7346,7 @@ p.sm {
     font-size: 36px;
     line-height: 42px; }
 
-  a:not(.btn):not(.navbar-brand):not(.float-left):not(.listing-link):hover, a.underlined {
+  a:not(.btn):not(.navbar-brand):not(.navbar-toggler):not(.float-left):not(.listing-link):hover, a.underlined {
     border-bottom: 4px dotted #424648 !important;
     border-bottom-width: 4px; } }
 @media (max-width: 991.98px) {
@@ -7343,6 +7354,13 @@ p.sm {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1; }
+
+  #increasingNumber {
+    font-size: 70px;
+    line-height: 80px; }
+
+  .number-block {
+    padding: 80px 0px; }
 
   .developer-card {
     width: 100%;
@@ -7367,16 +7385,19 @@ p.sm {
   .modal img {
     position: static; }
 
-  .background-image-landing {
-    background-size: contain;
-    background-position: 90vh center; }
-
   .carousel-content {
     padding-top: 50px;
     padding-bottom: 50px; }
 
   .navbar-brand {
     width: 150px; }
+
+  .case-study-thumb {
+    width: 330px;
+    height: 330px;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 30px; }
 
   #team {
     height: 500px;
@@ -7396,7 +7417,16 @@ p.sm {
       flex: 0 0 auto; }
       #team > a img {
         height: 450px; } }
+@media (max-width: 767.98px) {
+  .background-image-landing {
+    background-size: 0px; }
+
+  .btn-full {
+    width: 100%; } }
 @media (max-width: 575.98px) {
+  .marquee {
+    height: 90px; }
+
   p, a, .nav-link {
     font-size: 16px;
     line-height: 20px; }
