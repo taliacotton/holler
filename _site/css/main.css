@@ -7348,7 +7348,16 @@ p.sm {
 
   a:not(.btn):not(.navbar-brand):not(.navbar-toggler):not(.float-left):not(.listing-link):hover, a.underlined {
     border-bottom: 4px dotted #424648 !important;
-    border-bottom-width: 4px; } }
+    border-bottom-width: 4px; }
+
+  .smartphone img {
+    top: -25px;
+    left: -30px;
+    width: 130%; }
+
+  .smartphone {
+    height: 383px;
+    width: 200px; } }
 @media (max-width: 991.98px) {
   .twoColumns {
     -webkit-column-count: 1;

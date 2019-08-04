@@ -672,12 +672,24 @@ p.sm{
         border-bottom-width:4px;
     }
 
+    .smartphone img {
+        top: -25px;
+        left: -30px;
+        width: 130%;
+    }
+
+    .smartphone {
+        height: 383px;
+        width: 200px;
+    }
    
 
 }
 
 
 @media (max-width: 991.98px) { 
+
+
 
     .twoColumns{
         -webkit-column-count: 1;
