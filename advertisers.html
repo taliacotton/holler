@@ -1,93 +1,97 @@
 ---
-layout: default
+layout: bg-image
 permalink: /advertisers
 title: Advertisers
 image: /assets/img/advertisers-img.jpg
 apps:
-    -   image: /assets/img/icon-placeholder.png
-        title: LinkedIn
-    -   image: /assets/img/icon-placeholder.png
-        title: Plenty Of Fish
-    -   image: /assets/img/icon-placeholder.png
-        title: Uber Social
-    -   image: /assets/img/icon-placeholder.png
-        title: iMessage
-    -   image: /assets/img/icon-placeholder.png
-        title: LinkedIn
-    -   image: /assets/img/icon-placeholder.png
-        title: Plenty Of Fish
-    -   image: /assets/img/icon-placeholder.png
-        title: Uber Social
-    -   image: /assets/img/icon-placeholder.png
-        title: iMessage
-    -   image: /assets/img/icon-placeholder.png
-        title: LinkedIn
-    -   image: /assets/img/icon-placeholder.png
-        title: Plenty Of Fish
-    -   image: /assets/img/icon-placeholder.png
-        title: Uber Social
-    -   image: /assets/img/icon-placeholder.png
-        title: iMessage
-    -   image: /assets/img/icon-placeholder.png
-        title: LinkedIn
-    -   image: /assets/img/icon-placeholder.png
-        title: Plenty Of Fish
-    -   image: /assets/img/icon-placeholder.png
-        title: Uber Social
-    -   image: /assets/img/icon-placeholder.png
-        title: iMessage
-    -   image: /assets/img/icon-placeholder.png
-        title: LinkedIn
-    -   image: /assets/img/icon-placeholder.png
-        title: Plenty Of Fish
-    -   image: /assets/img/icon-placeholder.png
-        title: Uber Social
-    -   image: /assets/img/icon-placeholder.png
-        title: iMessage
-    -   image: /assets/img/icon-placeholder.png
-        title: LinkedIn
-    -   image: /assets/img/icon-placeholder.png
-        title: Plenty Of Fish
-    -   image: /assets/img/icon-placeholder.png
-        title: Uber Social
-    -   image: /assets/img/icon-placeholder.png
-        title: iMessage
-    -   image: /assets/img/icon-placeholder.png
-        title: LinkedIn
-    -   image: /assets/img/icon-placeholder.png
-        title: Plenty Of Fish
-    -   image: /assets/img/icon-placeholder.png
-        title: Uber Social
-    -   image: /assets/img/icon-placeholder.png
-        title: iMessage
+  - image: /assets/img/icon-placeholder.png
+    title: LinkedIn
+  - image: /assets/img/icon-placeholder.png
+    title: Plenty Of Fish
+  - image: /assets/img/icon-placeholder.png
+    title: Uber Social
+  - image: /assets/img/icon-placeholder.png
+    title: iMessage
+  - image: /assets/img/icon-placeholder.png
+    title: LinkedIn
+  - image: /assets/img/icon-placeholder.png
+    title: Plenty Of Fish
+  - image: /assets/img/icon-placeholder.png
+    title: Uber Social
+  - image: /assets/img/icon-placeholder.png
+    title: iMessage
+  - image: /assets/img/icon-placeholder.png
+    title: LinkedIn
+  - image: /assets/img/icon-placeholder.png
+    title: Plenty Of Fish
+  - image: /assets/img/icon-placeholder.png
+    title: Uber Social
+  - image: /assets/img/icon-placeholder.png
+    title: iMessage
+  - image: /assets/img/icon-placeholder.png
+    title: LinkedIn
+  - image: /assets/img/icon-placeholder.png
+    title: Plenty Of Fish
+  - image: /assets/img/icon-placeholder.png
+    title: Uber Social
+  - image: /assets/img/icon-placeholder.png
+    title: iMessage
+  - image: /assets/img/icon-placeholder.png
+    title: LinkedIn
+  - image: /assets/img/icon-placeholder.png
+    title: Plenty Of Fish
+  - image: /assets/img/icon-placeholder.png
+    title: Uber Social
+  - image: /assets/img/icon-placeholder.png
+    title: iMessage
+  - image: /assets/img/icon-placeholder.png
+    title: LinkedIn
+  - image: /assets/img/icon-placeholder.png
+    title: Plenty Of Fish
+  - image: /assets/img/icon-placeholder.png
+    title: Uber Social
+  - image: /assets/img/icon-placeholder.png
+    title: iMessage
+  - image: /assets/img/icon-placeholder.png
+    title: LinkedIn
+  - image: /assets/img/icon-placeholder.png
+    title: Plenty Of Fish
+  - image: /assets/img/icon-placeholder.png
+    title: Uber Social
+  - image: /assets/img/icon-placeholder.png
+    title: iMessage
 measurement-partners:
-    - image: /assets/img/nielsen.png
-    - image: /assets/img/nielsen.png
-    - image: /assets/img/nielsen.png
-    - image: /assets/img/nielsen.png
-    - image: /assets/img/nielsen.png
+  - image: /assets/img/nielsen.png
+  - image: /assets/img/nielsen.png
+  - image: /assets/img/nielsen.png
+  - image: /assets/img/nielsen.png
+  - image: /assets/img/nielsen.png
 meta-content:
-    image:
-    description:
+  image:
+  description:
 ---
 
 <div class="container-fluid">
     <div class="container">
         <div class="row h-100">
             <div class="col-md-6 col-xl-4 mt-5 my-md-auto text-center text-md-left">
-                <h2 class="mb-4 editable">Connect with people who are having billions of conversations each day related to your business.</h2>
+                <h2 class="mb-4 editable">
+                  Connect with people who are having billions of conversations each day related to your business.
+                </h2>
             </div>
         </div>
         <div class="hero-sm d-md-none" style="background-image:url({{page.image}})"></div>
     </div>
 </div>
 <div class="container-fluid text-center pb-3 pb-md-5 pt-5">
-    <h2 class="mt-5 mb-3 mb-md-5 editable px-3">With Holler reach people while they message on their favorite apps</h2>
+    <h2 class="mt-5 mb-3 mb-md-5 editable px-3">
+      With Holler reach people while they message on their favorite apps
+    </h2>
     <div class="marquee">
         <div class="track">
             {% for app in page.apps %}
             <div class="d-inline-block marquee-item">
-                <img src="{{ app.image }}">
+                <img src="{{ app.image }}" />
                 <p class="sm">{{ app.title }}</p>
             </div>
             {% endfor %}
@@ -97,52 +101,70 @@ meta-content:
 <div class="container-fluid bg-teal">
     <div class="container text-center number-block">
         <h1 id="increasingNumber"><span>4.1</span> billion</h1>
-        <h2 class="editable">content recommendations per month</h2>
+        <h2 class="editable">
+          content recommendations per month
+        </h2>
     </div>
 </div>
 <div class="container-fluid bg-light pb-5">
     <div class="container">
         <div class="row py-4 py-md-5">
             <div class="col-md-6 mb-2">
-                <h2 class="editable">Join your customer’s conversations naturally and authentically</h2>
+                <h2 class="editable">
+                  Join your customer&rsquo;s conversations naturally and authentically
+                </h2>
             </div>
             <div class="col-md-6">
-                <p class="editable">With the Holler platform you can deliver branded sticker content seamlessly in billions of conversations each day --- when they need it most.</p>
+                <p class="editable">
+                  With the Holler platform you can deliver branded sticker content seamlessly in billions of conversations each day --- when they need it most.
+                </p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 text-center py-5 bg-dark">
                 <div class="row mb-5">
                     <div class="col-6 offset-3">
-                        <p class="bold editable">Smart Suggestions </p>
-                        <p class="editable">Real time content recommendations based on context of conversation</p>
+                        <p class="bold editable">
+                          Smart Suggestions
+                        </p>
+                        <p class="editable">
+                          Real time content recommendations based on context of conversation
+                        </p>
                     </div>
                 </div>
                 <div class="smartphone m-auto">
-                <img class="active" src="/assets/img/SmartSuggestionsFlow.gif">
-                <img class="static d-none d-md-block" src="/assets/img/SmartSuggestionsFlow.png">
+                <img class="active" src="/assets/img/SmartSuggestionsFlow.gif" />
+                <img class="static d-none d-md-block" src="/assets/img/SmartSuggestionsFlow.png" />
             </div>
             </div>
             <div class="col-md-6 text-center py-5 bg-purple">
                 <div class="row mb-5">
                     <div class="col-6 offset-3">
-                        <p class="bold editable">Search </p>
-                        <p class="editable">Powerful text and emotion based search helps users find the perfect sticker</p>
+                        <p class="bold editable">
+                          Search
+                        </p>
+                        <p class="editable">
+                          Powerful text and emotion based search helps users find the perfect sticker
+                        </p>
                     </div>
                 </div>
                 <div class="smartphone m-auto">
-                <img class="active" src="/assets/img/SearchFlow.gif">
-                <img class="static d-none d-md-block" src="/assets/img/SearchFlow.png">
+                <img class="active" src="/assets/img/SearchFlow.gif" />
+                <img class="static d-none d-md-block" src="/assets/img/SearchFlow.png" />
             </div>
             </div>
         </div>
     </div>
 </div>
 <div class="container text-center py-5" id="case-studies">
-    <h2 class="editable">Build your brand</h2>
+    <h2 class="editable">
+      Build your brand
+    </h2>
     <div class="row">
         <div class="col-8 offset-2 col-md-6 offset-md-3">
-            <p class="editable">Deliver branded content to your customers at key emotions or need states to build your brand’s association in relevant conversations.</p>
+            <p class="editable">
+              Deliver branded content to your customers at key emotions or need states to build your brand&rsquo;s association in relevant conversations.
+            </p>
         </div>
     </div>
     <div class="case-study-thumbs">
@@ -150,7 +172,7 @@ meta-content:
         <div class="d-inline-block">
             <a href="{{case.url}}">
                 <div class="case-study-thumb position-relative">
-                    <img src="{{case.hero-animation[0].image}}">
+                    <img src="{{case.hero-animation[0].image}}" />
                 </div>
                 <p>{{case.title}}</p>
             </a>
@@ -166,18 +188,36 @@ meta-content:
                 </div>
             </div>
             <div class="col-md-5 offset-md-1">
-                <h2 class="mt-4 mt-md-0 mb-4 editable text-center text-md-left">Tools to help you measure success</h2>
-                <p class="bold mb-1 editable">Insights</p>
-                <p class="editable">Plan your campaign based on conversations relevant to your business</p>
-                <p class="bold mb-1 editable">Targeting</p>
-                <p class="editable">Contextual targeting by conversation topic</p>
-                <p class="bold mb-1 editable">Reporting</p>
-                <p class="editable">Get reports on engaged users of your campaign</p>
-                <p class="bold mb-1 editable">Measurement</p>
-                <p class="editable">Measure success of your initiatives with our network of measurement partners</p>
+                <h2 class="mt-4 mt-md-0 mb-4 editable text-center text-md-left">
+                  Tools to help you measure success
+                </h2>
+                <p class="bold mb-1 editable">
+                  Insights
+                </p>
+                <p class="editable">
+                  Plan your campaign based on conversations relevant to your business
+                </p>
+                <p class="bold mb-1 editable">
+                  Targeting
+                </p>
+                <p class="editable">
+                  Contextual targeting by conversation topic
+                </p>
+                <p class="bold mb-1 editable">
+                  Reporting
+                </p>
+                <p class="editable">
+                  Get reports on engaged users of your campaign
+                </p>
+                <p class="bold mb-1 editable">
+                  Measurement
+                </p>
+                <p class="editable">
+                  Measure success of your initiatives with our network of measurement partners
+                </p>
                 <div class="measurement-partners">
                     {% for logo in page.measurement-partners %}
-                    <img src="{{logo.image}}">
+                    <img src="{{logo.image}}" />
                     {% endfor %}
                 </div>
             </div>
