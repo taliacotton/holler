@@ -28,10 +28,15 @@ We use technologies such as Software Development Kits (SDKs) or Application Prog
 We may collect and store the following information with respect to your use of our Services:
 
 * Technical Data: In environments where applicable, this includes information, such as URL information, cookie and web beacon data, your IP address, network connection type (e.g., WiFi, 3G, LTE), browser type, language, operating system, and Emogi Application version.
+
 * Mobile Device Information: When you access the Application via mobile device, we may collect information about the type of device you are using to access the Application, your provider, network and device performance, the unique device identifier assigned to that device by phone makers, carriers, or makers of the operating system (to the extent allowed by such phone makers, carriers, or makers of the operating system) (“**Device ID**”), identifiers for advertising (e.g., Google Advertising ID or IDFA) (“**Advertising ID**”) and geographic or geolocation information.
+
 * Application Usage Statistics: We may collect information about how you use and interact with the Applications. This includes, but is not limited to: how you use the different Application functions, the amount of time you spend in the Application, and commercial transactions you conduct, including in-app purchases.
+
 * Conversational Metadata and Location Information: To help us identify relevant products, we may collect anonymized metadata about your conversations, including, but not limited to, chat identifiers, keywords related to what you talk about and location information, including your GPS location at the time of the conversation. Our systems automatically process content and communications you and others provide to analyze context and what’s in them for the purposes described in this Privacy Statement.
+
 * Your Usage: We collect information about how you use our Services, such as the types of content you view or engage with; the features you use; the actions you take; the people you interact with; and the time, frequency and duration of your activities.
+
 * Organic Content and Branded Content Interaction: We may collect data about how you interact with our content and branded content inside the Application. Branded content is content that an advertiser or marketer pays to promote to you. This includes viewing, sharing and post-tap actions.
 
 We may combine your Device ID or your Advertising ID with non-personally-identifiable information in order to allow us to uniquely identify your device for purposes of storing specific and aggregate usage preferences and data.
@@ -41,14 +46,23 @@ We may combine your Device ID or your Advertising ID with non-personally-identif
 We may use the information we collect in the following ways:
 
 * To provide, maintain and improve our Services and our users’ experience with them;
+
 * to improve the relevancy of the content we show you (e.g., to provide personalized advertisements, content or features that match your interests or location);
+
 * to monitor and analyze trends, usage and activities in connection with our Services;
+
 * to optimize and to target the delivery of organic content and branded content;
+
 * to personalize our Services to you;
+
 * to ensure that the Services function well and to develop new products and services;
+
 * to detect, investigate and prevent fraud and other illegal activities;
+
 * to enforce this Privacy Statement, including to protect the rights, property, or safety of Emogi, its users, or any other person, or the copyright-protected content of the Services or others;
+
 * to provide recommendations for development of new Applications; and
+
 * as otherwise stated in this Privacy Statement.
 
 **How the Information Collected is Shared:**
@@ -66,14 +80,23 @@ We may share the information we collect with service providers to perform functi
 In addition to the uses described above, we may also share your information with third parties for the following purposes:
 
 * when you explicitly consent to the disclosure of such information to a third party when connecting to a third-party service that asks you if you consent to such sharing;
+
 * to a parent company, affiliates, subsidiaries, joint ventures, or other companies under common control with Emogi;
+
 * in connection with, or during negotiations of, a merger, acquisition, consolidation, change of control or sale of all or a portion of our assets or if we undergo bankruptcy or liquidation;
+
 * to respond to legal process or request for information (e.g., a court order or subpoena), if we believe in good faith that it is necessary to do so;
+
 * where we are legally required to do so, such as in response to court orders or legal process, or to establish, protect, or exercise our legal rights or to defend against legal claims or demands, or to comply with the requirements of mandatory applicable law;
+
 * if we believe it is necessary in order to investigate, prevent, or take action regarding illegal activities, fraud, or situations involving potential threats to the rights, property, or personal safety of any person;
+
 * in an emergency or to protect the safety of any person;
+
 * if we believe it is necessary to investigate, prevent, or take action regarding situations that involve abuse of the Services infrastructure or the Internet in general (such as voluminous spamming, denial of service attacks, or attempts to compromise the security of the website infrastructure or the Services generally);
+
 * to address technical issues;
+
 * to enforce this Privacy Statement and any other terms that you have agreed to, including to protect the rights, property, or safety of Emogi, its users, or any other person, or the copyright-protected content of the Services.
 
 We may also share aggregated information that does not identify any specific user, device, or partner publicly or with third parties including developers, advertisers, potential partners, or researchers. For example, we may disclose statistics that a certain percentage of users of a certain genre of an Application spend a certain number of hours in such Application compared to other applications or statistics regarding engagement with an advertiser’s branded content.
@@ -113,6 +136,7 @@ We are based in the United States and we process and store information in the U.
 If you are a resident of the European Economic Area (“**EEA**”), when we process your personal data we will only do so in the following situations:
 
 * We have a legitimate interest in processing your personal data. For example, we may process your personal data to provide, secure, and improve our Services and provide personalized recommendations and advertisements.
+
 * You have expressly consented to the processing of your personal data.
 
 **2\. Data Subject Requests**
