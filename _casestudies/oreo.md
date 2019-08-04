@@ -4,6 +4,9 @@ layout: casestudy
 permalink: /casestudies/oreo
 hero-animation:
   - image: /assets/emogis/oreo/Oreo_SmilingCookie-Lockup.gif
+file_download_path: /assets/pdf/placeholder.pdf
+show_video: true
+vimeo_embed_code: <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/235215203" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 objective: ​Increase penetration by strengthening position in Afternoon. Leverage the power of community to drive participation and context for brand love. Stay playful and bring people together.
 insights:
   - Oreo Content has more than 61M Views and more than 92,000 consumers became Brand Advocates
@@ -24,7 +27,8 @@ gifs:
   - /assets/emogis/oreo/Oreo_YOLO.gif
   - /assets/emogis/oreo/Oreo-BiteBite.gif
   - /assets/emogis/oreo/Oreo-OMW-2.gif
-image:
-description:
+meta_content:
+  image:
+  description:
 ---
 
