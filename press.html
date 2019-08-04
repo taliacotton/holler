@@ -32,9 +32,9 @@ meta-content:
                 {% else %}
                 <div class="carousel-item">
                 {% endif %}
-                    <a href="{{article.url}}" class="pointer-sm-none no-underline article-link" target="_blank">
-                        <div class="row">
-                            <div class="col-lg-6 order-lg-2 offset-lg-1 featured-image" style="background-image: url({{ article.image }})"></div>
+                    <a href="{{article.url}}" class="pointer-sm-none no-underline article-link h-100" target="_blank">
+                        <div class="row h-100">
+                            <div class="col-lg-6 order-lg-2 offset-lg-1 featured-image h-100" style="background-image: url({{ article.image }})"></div>
 
                             <div class="col-10 col-md-8 col-lg-4 order-lg-1 offset-1 carousel-content py-4">
                                 <p class="publisher">{{article.publisher}}</p>
