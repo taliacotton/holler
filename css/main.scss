@@ -698,6 +698,16 @@ p.sm{
         max-height:500px;
     }
 
+    .modal img{
+        position:static;
+    }
+
+    .background-image-landing{
+        background-size:contain;
+        background-position:90vh center;
+
+    }
+
     .carousel-content{
         padding-top:50px;
         padding-bottom:50px;
