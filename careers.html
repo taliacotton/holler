@@ -3,7 +3,10 @@ layout: default
 permalink: /careers/
 title: Careers
 image:
-description:
+description: >-
+  Holler is growing rapidly and is always looking for people to join the team.
+  Take a look at the current career options here to see if there’s a position
+  that’s right for you.
 ---
 
 <div class="container">
@@ -17,21 +20,25 @@ description:
 
     <div class="row">
         <div class="col-10 offset-1">
-            <h2 class="text-center pt-intro">We are growing rapidly and are actively looking for passionate people that want to help define the future of online conversations. <br>Holler if you are a <span id="typed" class="underlined purple" style="white-space:pre;"></span>.</h2>
+            <h2 class="text-center pt-intro">We are growing rapidly and are actively looking for passionate people that want to help define the future of online conversations. <br />Holler if you are a <span id="typed" class="underlined purple" style="white-space:pre;"></span>.</h2>
         </div>
     </div>
     <div class="row mt-5">
         <div class="col-12">
-            <p class="mb-4 editable"><b>Career Opportunities</b></p>
+            <p class="mb-4 editable">
+              <b>Career Opportunities</b>
+            </p>
         </div>
         <div class="col-md-6 col-lg-3 mb-5">
-            <p class="editable">If you don’t see a position related to your experience and would like to keep in touch for future opportunities, please email <a href="mailto:careers@holler.io">careers@holler.io</a> with your resume, LinkedIn, and a note about what you could do for us!</p>
+            <p class="editable">
+              If you don&rsquo;t see a position related to your experience and would like to keep in touch for future opportunities, please email <a href="mailto:careers@holler.io">careers@holler.io</a> with your resume, LinkedIn, and a note about what you could do for us!
+            </p>
         </div>
         <div class="col-md-6 col-lg-8 offset-lg-1 mb-5">
             <p class="twoColumns">
             {% for listing in site.listings %}
             <a href="{{ listing.url }}" class="listing-link">
-                <b>{{ listing.position }}</b><br>
+                <b>{{ listing.position }}</b><br />
                 {{ listing.timeframe }}
             </a>
             {% endfor %}  
