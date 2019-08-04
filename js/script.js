@@ -4,6 +4,7 @@ AOS.init({
   
 let number = 0;
 let target = 4.1;
+let increaseNumFired = false;
 
 
 $('#increasingNumber span').text('0');
@@ -14,12 +15,15 @@ $('#increasingNumber span').text('0');
 //     }, 30);
 
 function increaseNum() {
-	setInterval(function() {
-	$('#increasingNumber span').text(number.toString().substring(0, 3));
-		if (target >= number){
-			number+=0.1;
-		};
-	}, 100);
+	
+		setInterval(function() {
+		$('#increasingNumber span').text(number.toString().substring(0, 3));
+			if (target >= number){
+				number+=0.1;
+			};
+		}, 40);
+	
+	increaseNumFired = true;
 }
 
 $(window).scroll(function() {
@@ -31,8 +35,11 @@ $(window).scroll(function() {
 	}
 	
 	if (isScrolledIntoView($('#increasingNumber')) == true){
-		increaseNum();
+		if (increaseNumFired == false){
+			increaseNum();
+		}
 	}
+	
 });
 
 function isScrolledIntoView(elem)
