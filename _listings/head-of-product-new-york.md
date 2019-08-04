@@ -7,14 +7,15 @@ location: 'New York, New York'
 timeframe: Full Time
 apply-link: >-
   https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
-image:
-description: >-
-  We are looking for our first true people organization leader – who can inspire
-  and drive our teams and our culture as we continue to scale for our next phase
-  of growth. Our perfect candidate will be the energetic ambassador of all
-  things people to the company at large and is motivated by a love for people
-  and technology. The role reports to the COO and will be located at HQ in our
-  New York, NY offices.
+meta-content:
+  image:
+  description: >-
+    We are looking for our first true people organization leader – who can inspire
+    and drive our teams and our culture as we continue to scale for our next phase
+    of growth. Our perfect candidate will be the energetic ambassador of all
+    things people to the company at large and is motivated by a love for people
+    and technology. The role reports to the COO and will be located at HQ in our
+    New York, NY offices.
 ---
 
 Holler is a content platform for messaging. Our mission is to help people have better conversations.

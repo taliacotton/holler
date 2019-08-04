@@ -7,8 +7,9 @@ location: 'New York, New York'
 timeframe: Part Time
 apply-link: >-
   https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
-image:
-description:
+meta-content:
+    image:
+    description:
 ---
 
 Holler’s mission is to enrich conversations everywhere with useful content in the place where people share the most, messaging.

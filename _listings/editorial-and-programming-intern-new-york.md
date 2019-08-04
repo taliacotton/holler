@@ -7,8 +7,9 @@ location: 'New York, New York'
 timeframe: Part-Time
 apply-link: >-
   https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
-image:
-description:
+meta-content:
+    image:
+    description:
 ---
 
 We’re looking for a highly motivated Editorial and Programming Intern to assist the Holler content team with their unique approach to content programing. Be part of an innovative company in an emerging area of content programing to help service Holler's millions of monthly active users with rich, engaging and relevant content.

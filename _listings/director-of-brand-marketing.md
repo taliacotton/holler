@@ -7,8 +7,9 @@ location: 'New York, New York'
 timeframe: Full Time
 apply-link: >-
   https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
-image:
-description:
+meta-content:
+    image:
+    description:
 ---
 
 Holler, an innovative technology and content company enriching billions of conversations across messaging and communication services is seeking a Director of Brand Marketing to support our CMO on our brand building efforts with both consumer and B2B audiences. We are creating the future of content in the conversation space, therefore, the ideal candidate should have a passion for technology and creativity while being excited to roll their sleeves up in a fast-paced startup environment.
