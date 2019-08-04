@@ -2,6 +2,7 @@
 layout: default
 permalink: /developers/
 title: Developers
+show-video: true
 meta-content:
     image:
     description:
@@ -185,6 +186,8 @@ meta-content:
         </div>
     </div>
 </div>
+{% if page.show-video %}
 <div class="container-fluid h-100">
     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/235215203" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
+{% endif %}
