@@ -46,30 +46,51 @@ You may not create, post, store or share any User Content that violates these Te
 You will not violate any applicable law, contract, intellectual property right or other third-party right or commit a tort, and you are solely responsible for your conduct while using our Services. You will not:
 
 * Engage in any harassing, threatening, intimidating, predatory or stalking conduct;
+
 * Use or attempt to use another user’s account without authorization from that user and Emogi;
+
 * Impersonate or post on behalf or any person or entity or otherwise misrepresent your affiliation with a person or entity;
+
 * Sell, resell or commercially use our Services;
+
 * Copy, reproduce, distribute, publicly perform or publicly display all or portions of our Services, except as expressly permitted by us or our licensors;
+
 * Modify our Services, remove any proprietary rights notices or markings, or otherwise make any derivative works based upon our Services;
+
 * Use our Services other than for their intended purpose and in any manner that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying our Services or that could damage, disable, overburden or impair the functioning of our Services in any manner;
+
 * Reverse engineer any aspect of our Services or do anything that might discover source code or bypass or circumvent measures employed to prevent or limit access to any part of our Services;
+
 * Attempt to circumvent any content-filtering techniques we employ or attempt to access any feature or area of our Services that you are not authorized to access;
+
 * Use any data mining, robots or similar data gathering or extraction methods designed to scrape or extract data from our Services;
+
 * Develop or use any applications that interact with our Services without our prior written consent;
+
 * Send, distribute or post spam, unsolicited or bulk commercial electronic communications, chain letters, or pyramid schemes;
+
 * Bypass or ignore instructions contained in our robots.txt file; or
+
 * Use our Services for any illegal or unauthorized purpose, or engage in, encourage or promote any activity that violates these Terms.
 
 You may also post or otherwise share only User Content that is nonconfidential and that you have all necessary rights to disclose. You may not create, post, store or share any User Content that:
 
 * Is unlawful, libelous, defamatory, obscene, pornographic, indecent, lewd, suggestive, harassing, threatening, invasive of privacy or publicity rights, abusive, inflammatory or fraudulent;
+
 * Would constitute, encourage or provide instructions for a criminal offense, violate the rights of any party or otherwise create liability or violate any local, state, national or international law;
+
 * May infringe any patent, trademark, trade secret, copyright or other intellectual or proprietary right of any party;
+
 * Contains or depicts any statements, remarks or claims that do not reflect your honest views and experiences;
+
 * Impersonates, or misrepresents your affiliation with, any person or entity;
+
 * Contains any unsolicited promotions, political campaigning, advertising or solicitations;
+
 * Contains any private or personal information of a third party without such third party’s consent;
+
 * Contains any viruses, corrupted data or other harmful, disruptive or destructive files or content; or
+
 * In our sole judgment, is objectionable, restricts or inhibits any other person from using or enjoying our Services, or may expose Emogi or others to any harm or liability of any type.
 
 Enforcement of this Section 5 is solely at Emogi’s discretion, and failure to enforce this section in some instances does not constitute a waiver of our right to enforce it in other instances.&nbsp; In addition, this Section 5 does not create any private right of action on the part of any third party or any reasonable expectation that the Services will not contain any content that is prohibited by such rules.
