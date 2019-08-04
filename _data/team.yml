@@ -1,6 +1,6 @@
 - name: Travis Montaque
   title: Founder & CEO
-  image: /assets/img/Travis2.png
+  image: /assets/img/Travis.jpg
   modal-image: /assets/img/Travis_Module.png
   bio: >-
     An entrepreneur at his core, Travis was listed in Entrepreneur Magazine's
@@ -16,7 +16,7 @@
     Advisory Board. And has a pretty decent jump shot to boot.
 - name: Stephen Zangre
   title: CCO
-  image: /assets/img/Stephen.png
+  image: /assets/img/Stephen.jpg
   modal-image: /assets/img/Stephen_Module.png
   bio: >-
     With 25 years of experience in hyper-growth environments, Stephen has a
@@ -30,7 +30,7 @@
     successful IPO.
 - name: Patrick Perrin
   title: 'Chief Scientist, AI & Research'
-  image: /assets/img/Patrick.png
+  image: /assets/img/Patrick.jpg
   modal-image: /assets/img/Patrick_Module.png
   bio: >-
     More than 20 years of experience and passion in AI Research & Development,
@@ -47,7 +47,7 @@
     engineering and formal methods…just to name a few. No, he doesn’t sleep.
 - name: Sarah Aitken
   title: CMO
-  image: /assets/img/Sarah.png
+  image: /assets/img/Sarah.jpg
   modal-image: /assets/img/Sarah_Module.png
   bio: >-
     Before Joining Holler, Sarah spent over 14 years driving growth at global
@@ -59,7 +59,7 @@
     startups in the technology, consumer goods and brand services categories.
 - name: David Brady
   title: Head of Engineering
-  image: /assets/img/David.png
+  image: /assets/img/David.jpg
   modal-image: /assets/img/David_Module.png
   bio: >-
     A guru product developer, David’s diverse career has revolved around
@@ -73,7 +73,7 @@
     increased customer satisfaction, all while reducing operations costs.
 - name: Pat Giles
   title: Head of Studio
-  image: /assets/img/Pat.png
+  image: /assets/img/Pat.jpg
   modal-image: /assets/img/Pat_Module.png
   bio: >-
     A creative force in the industry for decades, leading the charge on some of
@@ -88,7 +88,7 @@
     inspired a generation to be “Cuckoo for Cocoa Puffs.”
 - name: Damian De Rosaire
   title: Head of Customer Success
-  image: /assets/img/Damian.png
+  image: /assets/img/Damian.jpg
   modal-image: /assets/img/Damian_Module.png
   bio: >-
     With 20 years of operational and account management experience under his
