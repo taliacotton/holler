@@ -68,7 +68,8 @@
 <div class="row h-100 text-center">
    <div class="col-sm-12 my-auto">
         <!-- <h1>Hi. We're <span id="typed" class="underlined purple" style="white-space:pre;">Holler</span></h1> -->
-        <h1><span id="typed" style="white-space:pre;">Hi. We're Holler</span></h1>
+        <!-- <h1><span id="typed" style="white-space:pre;">Hi. We're Holler</span></h1> -->
+        <h1><span id="typed">Hi. We're Holler</span></h1>
         <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary-outlined mt-4">Watch Video</a>
    </div>
 </div>
@@ -89,7 +90,7 @@
   </div>
 </div>
 <div class="row">
-    <div class="col-8 mb-3">
+    <div class="col-sm-8 mb-3">
         <p><span class="editable">Find Holler in your favorite apps:</span>
         <span id="apps" style="white-space:pre;" class="underlined">iMessage</span>
             <!-- <span id="slideshow">
@@ -229,7 +230,7 @@
             </span>
         
     </div> -->
-    <div class="col-4 text-right">
+    <div class="mb-3 mb-sm-0 col-sm-4 text-sm-right">
         <a class="social-link" href="https://www.instagram.com/emogi_inc/" target="_blank">
             <img src="http://localhost:4000/assets/img/instagram.png" />
         </a>
@@ -249,15 +250,33 @@
 <div id="typed-strings">
     <p>Holler</p>
     
-        <p>Hi. We're<span class="middle-phrase"> glad you stopped by </span></p>
+        
+            <p>Hi. We're<span class="middle-phrase"> glad you stopped by </span></p>
+        
+            <p>Hi. We're<span class="middle-phrase"> here to help </span></p>
+        
+            <p>Hi. We're<span class="middle-phrase"> all about the convo </span></p>
+        
     
-        <p>We make<span class="middle-phrase"> dynamic content </span>for chat</p>
+        
+            <p>We make<span class="middle-phrase"> content </span>for chat</p>
+        
+            <p>We make<span class="middle-phrase"> tools </span>for chat</p>
+        
+            <p>We make<span class="middle-phrase"> cool stuff </span>for chat</p>
+        
     
-        <p>To help you<span class="middle-phrase"> express yourself </span>better</p>
+        
+            <p>To help you<span class="middle-phrase"> express yourself </span>better</p>
+        
+            <p>To help you<span class="middle-phrase"> connect </span>better</p>
+        
+            <p>To help you<span class="middle-phrase"> communicate </span>better</p>
+        
     
 </div>
 
-<div id="contentForAnimation" style="height:0px;overflow:hidden;opacity:0;background-color:red; font-size:50px;">
+<!-- <div id="contentForAnimation" style="height:0px;overflow:hidden;opacity:0;background-color:red; font-size:50px;">
     
         <div id="loop1">
             
@@ -271,7 +290,7 @@
     
         <div id="loop2">
             
-                <span class="spanForAnimation">dynamic content</span>
+                <span class="spanForAnimation">content</span>
             
                 <span class="spanForAnimation">tools</span>
             
@@ -289,10 +308,10 @@
             
         </div>
     
-</div>
+</div> -->
 
 <!-- <section class="rw-wrapper"> -->
-	<h1 class="rw-sentence m-auto">
+	<!-- <h1 class="rw-sentence m-auto">
 		<span>Hi. We're</span>
 		<div class="rw-words">
             <div class="rw-span-container">
@@ -305,7 +324,7 @@
             
             </div>
 		</div>
-	</h1>
+	</h1> -->
 <!-- </section> -->
 
 
@@ -382,9 +401,10 @@
             stringsElement: '#typed-strings',
             typeSpeed: 60,
             backSpeed: 30,
-            backDelay: 3000,
+            backDelay: 1000,
             startDelay: 1000,
-            loop: true
+            loop: true,
+            smartBackspace: true
         });
         var typed = new Typed("#apps", {
             stringsElement: '#app-list',

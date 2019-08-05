@@ -6,56 +6,56 @@ let number = 0;
 let target = 4.1;
 let increaseNumFired = false;
 
-let strArray1 = [];let strArray2 = [];let strArray3 = [];
-let strArray = [];
+// let strArray1 = [];let strArray2 = [];let strArray3 = [];
+// let strArray = [];
 
-let phrase1 = document.getElementById("loop1").getElementsByClassName("spanForAnimation");
-let phrase2 = document.getElementById("loop2").getElementsByClassName("spanForAnimation");
-let phrase3 = document.getElementById("loop3").getElementsByClassName("spanForAnimation");
+// let phrase1 = document.getElementById("loop1").getElementsByClassName("spanForAnimation");
+// let phrase2 = document.getElementById("loop2").getElementsByClassName("spanForAnimation");
+// let phrase3 = document.getElementById("loop3").getElementsByClassName("spanForAnimation");
 
-console.log($('.rw-span-container').text());
+// console.log($('.rw-span-container').text());
 
-for(var i=0;i<phrase1.length;i++){strArray1.push(phrase1[i].innerHTML);}
-for(var i=0;i<phrase2.length;i++){strArray2.push(phrase2[i].innerHTML);}
-for(var i=0;i<phrase3.length;i++){strArray3.push(phrase3[i].innerHTML);}
-strArray.push(strArray1);
-strArray.push(strArray2);
-strArray.push(strArray3);
-console.log(strArray);
+// for(var i=0;i<phrase1.length;i++){strArray1.push(phrase1[i].innerHTML);}
+// for(var i=0;i<phrase2.length;i++){strArray2.push(phrase2[i].innerHTML);}
+// for(var i=0;i<phrase3.length;i++){strArray3.push(phrase3[i].innerHTML);}
+// strArray.push(strArray1);
+// strArray.push(strArray2);
+// strArray.push(strArray3);
+// console.log(strArray);
 
-function longest_string(str_ara) {
-  var max = str_ara[0].length;
-  str_ara.map(v => max = Math.max(max, v.length));
-  result = str_ara.filter(v => v.length == max);
-  return result;
-}
+// function longest_string(str_ara) {
+//   var max = str_ara[0].length;
+//   str_ara.map(v => max = Math.max(max, v.length));
+//   result = str_ara.filter(v => v.length == max);
+//   return result;
+// }
 
-  setTimeout(function(){ 
-	  $('.middle-phrase').css('color','white');
-	  $('.middle-phrase').attr('data-before', " " + strArray1[1] + " ");
-	}, 4000);
-	setTimeout(function(){ 
-	  $('.middle-phrase').attr('data-before', " " + strArray1[2] + " ");
-	}, 5000);
-setTimeout(function(){ 
-		$('.middle-phrase').css('color','white');
-	  $('.middle-phrase').attr('data-before', " " + strArray2[1] + " ");
-	}, 11000);
-	setTimeout(function(){ 
-	  $('.middle-phrase').attr('data-before', " " + strArray2[2] + " ");
-	}, 12000);
-setTimeout(function(){ 
-	$('.middle-phrase').css('color','white');
-	  $('.middle-phrase').html(" " + strArray3[1] + " ");
-	}, 17000);
-	setTimeout(function(){ 
-	  $('.middle-phrase').html(" " + strArray3[2] + " ");
-	}, 18000);
+//   setTimeout(function(){ 
+// 	  $('.middle-phrase').css('color','white');
+// 	  $('.middle-phrase').attr('data-before', " " + strArray1[1] + " ");
+// 	}, 4000);
+// 	setTimeout(function(){ 
+// 	  $('.middle-phrase').attr('data-before', " " + strArray1[2] + " ");
+// 	}, 5000);
+// setTimeout(function(){ 
+// 		$('.middle-phrase').css('color','white');
+// 	  $('.middle-phrase').attr('data-before', " " + strArray2[1] + " ");
+// 	}, 11000);
+// 	setTimeout(function(){ 
+// 	  $('.middle-phrase').attr('data-before', " " + strArray2[2] + " ");
+// 	}, 12000);
+// setTimeout(function(){ 
+// 	$('.middle-phrase').css('color','white');
+// 	  $('.middle-phrase').html(" " + strArray3[1] + " ");
+// 	}, 17000);
+// 	setTimeout(function(){ 
+// 	  $('.middle-phrase').html(" " + strArray3[2] + " ");
+// 	}, 18000);
 
 
-let longestString1 = longest_string(strArray1)[0].length;
+// let longestString1 = longest_string(strArray1)[0].length;
 
-console.log($('.rw-span-container').css("width", longestString1*40 + 'px'));
+// console.log($('.rw-span-container').css("width", longestString1*40 + 'px'));
 
 
 function normalizeSlideHeights() {

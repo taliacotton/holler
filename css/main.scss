@@ -32,19 +32,19 @@ html {
     height:100px;
 }
 
-.middle-phrase{
-    display:none;
-    // color:white;
-}
-.middle-phrase:before{
-    position:absolute;
-    color:$dark;
-    content:attr(data-before);
-    left:0px;
-    top:-10px;
-    width:100%;
-    text-align:center;
-}
+// .middle-phrase{
+//     display:none;
+//     // color:white;
+// }
+// .middle-phrase:before{
+//     position:absolute;
+//     color:$dark;
+//     content:attr(data-before);
+//     left:0px;
+//     top:-10px;
+//     width:100%;
+//     text-align:center;
+// }
 .middle-phrase:first-child{
     display:inherit;
     border-bottom:8px dotted $pink;
@@ -87,15 +87,15 @@ html {
 // .rw-words-2 span{
 // 	animation: rotateWordsSecond 4s linear infinite 0s;
 // }
-.rw-words span:nth-child(2) { 
-	animation-delay: 1.2s; 
-}
-.rw-words span:nth-child(3) { 
-	animation-delay: 2.4s; 
-}
-.rw-words span:nth-child(4) { 
-	animation-delay: 3.6; 
-}
+// .rw-words span:nth-child(2) { 
+// 	animation-delay: 1.2s; 
+// }
+// .rw-words span:nth-child(3) { 
+// 	animation-delay: 2.4s; 
+// }
+// .rw-words span:nth-child(4) { 
+// 	animation-delay: 3.6; 
+// }
 
 @keyframes moveUp {
   0% {
@@ -197,17 +197,20 @@ h1.underlined{
     width:500px;
     border-bottom:12px dotted $orange;
     position: absolute;
-    top: 60%;
+    top:50%;
+    transform: translateY(-50%);
     left: calc(50% - 250px);
+    text-align:center;
+    padding-bottom:20px;
 }
 
 .case-study-hero{
     width:300px;
     margin:auto;
-    position:absolute;
-    top:50%;
-    transform: translateY(-50%);
-    left:calc(50% - 150px);
+    // position:absolute;
+    // top:50%;
+    // transform: translateY(-50%);
+    // left:calc(50% - 150px);
 }
 
 p, a, .nav-link{
@@ -259,10 +262,10 @@ h4{
 }
 
 .hero-sm{
-    width:100vw;
-    position:absolute;
-    bottom:0px;
-    left:0px;
+    width:120vw;
+    position: relative;
+    /* bottom: 0px; */
+    left: -15vw;
     height:50vh;
     background-position:80% 0px;
     background-repeat:no-repeat;
@@ -794,7 +797,14 @@ p.sm{
 
 @media (max-width: 991.98px) { 
 
+    
 
+    h1{
+    	font-size: 60px;	
+        letter-spacing: -4.12px;	
+        line-height: 64px;
+        color: $dark;
+    }
 
     .twoColumns{
         -webkit-column-count: 1;
@@ -871,16 +881,22 @@ p.sm{
     }
 
     .case-study-thumb{
-    width:330px;
-    height:330px;
-    margin:0px;
-    margin-bottom:20px;
-    margin-top:30px;
-}
+        width:330px;
+        height:330px;
+        margin:0px;
+        margin-bottom:20px;
+        margin-top:30px;
+    }
 
 h2.modal-title {
     font-size: 34px;
     line-height: 40px;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
 }
 
 .modal-dialog{
@@ -914,6 +930,11 @@ h2.modal-title {
 }
 
 @media (max-width: 767.98px) {   
+
+    .h-sm-auto{
+         min-height:auto !important;
+    }
+
     .background-image-landing{
         background-size:0px;
     }

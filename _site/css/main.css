@@ -6814,18 +6814,6 @@ html {
 #typed {
   height: 100px; }
 
-.middle-phrase {
-  display: none; }
-
-.middle-phrase:before {
-  position: absolute;
-  color: #424648;
-  content: attr(data-before);
-  left: 0px;
-  top: -10px;
-  width: 100%;
-  text-align: center; }
-
 .middle-phrase:first-child {
   display: inherit;
   border-bottom: 8px dotted #F495B2;
@@ -6859,15 +6847,6 @@ html {
   display: inline-block;
   position: relative;
   animation: underlineColor 6s linear infinite 0s; }
-
-.rw-words span:nth-child(2) {
-  animation-delay: 1.2s; }
-
-.rw-words span:nth-child(3) {
-  animation-delay: 2.4s; }
-
-.rw-words span:nth-child(4) {
-  animation-delay: 3.6; }
 
 @keyframes moveUp {
   0% {
@@ -6965,16 +6944,15 @@ h1.underlined {
   width: 500px;
   border-bottom: 12px dotted #F4AB6B;
   position: absolute;
-  top: 60%;
-  left: calc(50% - 250px); }
+  top: 50%;
+  transform: translateY(-50%);
+  left: calc(50% - 250px);
+  text-align: center;
+  padding-bottom: 20px; }
 
 .case-study-hero {
   width: 300px;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: calc(50% - 150px); }
+  margin: auto; }
 
 p, a, .nav-link {
   font-size: 22px;
@@ -7020,10 +6998,10 @@ h4 {
   background-repeat: no-repeat; }
 
 .hero-sm {
-  width: 100vw;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
+  width: 120vw;
+  position: relative;
+  /* bottom: 0px; */
+  left: -15vw;
   height: 50vh;
   background-position: 80% 0px;
   background-repeat: no-repeat;
@@ -7453,6 +7431,12 @@ p.sm {
     height: 383px;
     width: 200px; } }
 @media (max-width: 991.98px) {
+  h1 {
+    font-size: 60px;
+    letter-spacing: -4.12px;
+    line-height: 64px;
+    color: #424648; }
+
   .twoColumns {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -7509,6 +7493,11 @@ p.sm {
     font-size: 34px;
     line-height: 40px; }
 
+  .collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none; }
+
   .modal-dialog {
     margin: 26px; }
 
@@ -7518,6 +7507,9 @@ p.sm {
   #team > a .team-image-caption {
     visibility: visible; } }
 @media (max-width: 767.98px) {
+  .h-sm-auto {
+    min-height: auto !important; }
+
   .background-image-landing {
     background-size: 0px; }
 

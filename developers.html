@@ -15,14 +15,15 @@ meta-content:
     <div class="container">
         <div class="row h-100">
             <div class="col-md-6 col-xl-5 my-auto order-md-2">
-                <video class="developers-vid" autoplay loop muted playsinline>
+                <video class="d-none d-sm-block developers-vid" autoplay loop muted playsinline>
                     <source src="/assets/vid/DevPage_Animation_V02.webm" type="video/webm" />
                     <source src="/assets/vid/DevPage_Animation_V02.mp4" type="video/mp4" />
                 </video>
+                <img class="d-sm-none img-fluid" src="/assets/img/DevPage_Animation_V02-min.gif">
             </div>
             <div class="col-md-6 col-lg-5 offset-lg-1 my-auto order-md-1">
                 <div>
-                <h2 class="mb-3 mb-md-4 editable">
+                <h2 class="mb-3 mb-md-4 editable mt-md-5">
                   Give your users a richer chat experience with the Holler Sapphire Kit:
                 </h2>
                 <p class="editable">
@@ -210,7 +211,7 @@ meta-content:
     </div>
 </div>
 {% if page.show-video %}
-<div class="container-fluid h-100">
+<div class="container-fluid">
     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/235215203" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 {% endif %}
