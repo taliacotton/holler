@@ -37,7 +37,7 @@ description: >-
         <div class="col-md-6 col-lg-8 offset-lg-1 mb-5">
             <p class="twoColumns">
             {% for listing in site.listings %}
-            <a href="{{ listing.url }}" class="listing-link">
+            <a href="{{ listing.url }}" target="_blank" class="listing-link">
                 <b>{{ listing.position }}</b><br />
                 {{ listing.timeframe }}
             </a>
@@ -50,7 +50,7 @@ description: >-
 <script type="text/javascript">
         var typed = new Typed("#typed", {
             stringsElement: '#typed-strings',
-            typeSpeed: 5,
+            typeSpeed: 20,
             backSpeed: 5,
             backDelay: 1000,
             startDelay: 1000,

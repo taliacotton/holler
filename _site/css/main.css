@@ -6922,7 +6922,7 @@ a.navbar-toggler:hover {
     margin-bottom: 30px;
     margin-left: 0px !important; }
 
-a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.navbar-brand):not(.float-left):not(.listing-link):hover, .underlined {
+a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.navbar-brand):not(.float-left):not(.listing-link):hover, .underlined, .nav-link.active {
   background-color: none !important;
   border: none !important;
   border-bottom: 5px dotted #424648 !important;
@@ -6930,7 +6930,7 @@ a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.na
   border-right-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 0px;
-  color: #424648;
+  color: #424648 !important;
   text-decoration: none; }
 
 .underlined.purple {
@@ -7304,6 +7304,18 @@ input[type=text]::placeholder {
     background-color: transparent;
     opacity: 1;
     border-radius: 17px; }
+
+.carousel-indicators .active {
+  background-color: #72C9BB; }
+
+.carousel-indicators .active:nth-child(4n+2) {
+  background-color: #7381BF; }
+
+.carousel-indicators .active:nth-child(4n+3) {
+  background-color: #F495B2; }
+
+.carousel-indicators .active:nth-child(4n+4) {
+  background-color: #F4AB6B; }
 
 .developer-cards {
   min-height: 300px;

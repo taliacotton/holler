@@ -8,7 +8,11 @@
   <div class="collapse navbar-collapse text-right" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
       {% for item in site.data.navigation %}
-        <li><a class="nav-link" href="{{ item.link }}">{{ item.name }}</a></li>
+        {% if page.url == item.link %}
+          <li><a class="nav-link active" href="{{ item.link }}">{{ item.name }}</a></li>
+        {% else %}
+          <li><a class="nav-link" href="{{ item.link }}">{{ item.name }}</a></li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>

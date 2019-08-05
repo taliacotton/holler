@@ -1,10 +1,10 @@
-- name: Developers
-  link: /developers/
-- name: Advertisers
-  link: /advertisers/
-- name: Careers
-  link: /careers/
 - name: About
   link: /about/
+- name: Advertisers
+  link: /advertisers/
+- name: Developers
+  link: /developers/
+- name: Careers
+  link: /careers/
 - name: Press
   link: /press/

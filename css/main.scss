@@ -172,7 +172,7 @@ a.navbar-toggler:hover{
     }
 }
 
-a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.navbar-brand):not(.float-left):not(.listing-link):hover, .underlined{
+a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.navbar-brand):not(.float-left):not(.listing-link):hover, .underlined, .nav-link.active{
     background-color: none !important;
     border:none !important;
     border-bottom: 5px dotted $dark !important;
@@ -180,7 +180,7 @@ a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.na
     border-right-width:0px;
     border-bottom-width:0px;
     border-left-width:0px;
-    color:$dark;
+    color:$dark !important;
     text-decoration:none;
 }
 
@@ -627,6 +627,19 @@ input[type=text]::placeholder{
     opacity:1;
     border-radius:17px;
     }
+}
+
+.carousel-indicators .active{
+    background-color:$teal;
+}
+.carousel-indicators .active:nth-child(4n+2){
+    background-color:$purple;
+}
+.carousel-indicators .active:nth-child(4n+3){
+    background-color:$pink;
+}
+.carousel-indicators .active:nth-child(4n+4){
+    background-color:$orange;
 }
 
 .developer-cards{
