@@ -5,7 +5,7 @@ title: Terms of Service
 meta-content:
   image:
   description: >-
-    By using Holler Services, you are agreeing to these terms. Read the full
+    By using Holler services, you are agreeing to these terms. Read the full
     Terms of Service here.
 ---
 
