@@ -17,11 +17,11 @@ These Terms of Service (“**Terms**”) apply to your access to and use of the 
 
 We may make changes to these Terms from time to time. If we make changes, we will provide you with notice of such changes, such as by sending an email, providing a notice through our Services or updating the date at the top of these Terms. Unless we say otherwise in our notice, the amended Terms will be effective immediately, and your continued use of our Services after we provide such notice will confirm your acceptance of the changes. If you do not agree to the amended Terms, you must stop using our Services.
 
-If you have any questions about these Terms or our Services, please contact us at privacy@emogi.com.
+If you have any questions about these Terms or our Services, please contact us at privacy@holler.io
 
 **1\. Privacy**
 
-For information about how we collect, use, share or otherwise process information about you, please see our Privacy Statement https://www.holler.io/privacy. We encourage you to review our Privacy Statement because, by using our Services, you agree that Emogi can collect, use, and transfer your information and data consistent with that statement.
+For information about how we collect, use, share or otherwise process information about you, please see our Privacy Statement https://www.emogi.com/privacy. We encourage you to review our Privacy Statement because, by using our Services, you agree that Emogi can collect, use, and transfer your information and data consistent with that statement.
 
 **2\. Eligibility**
 
@@ -149,7 +149,7 @@ To the fullest extent permitted by applicable law, you release Emogi and the oth
 
 **15\. Transfer and Processing Data**
 
-In order for us to provide our Services, you agree that we may process, transfer and store information about you in the United States and other countries, where you may not have the same rights and protections as you do under local law. Please see our Privacy Statement at https://www.holler.io/privacy for additional information.
+In order for us to provide our Services, you agree that we may process, transfer and store information about you in the United States and other countries, where you may not have the same rights and protections as you do under local law. Please see our Privacy Statement at https://www.emogi.com/privacy for additional information.
 
 **16\. Dispute Resolution; Binding Arbitration**
 
