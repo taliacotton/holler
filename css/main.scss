@@ -28,6 +28,111 @@ html {
     min-height:calc(100vh - 180px) !important;
 }
 
+#typed{
+    height:100px;
+}
+
+.middle-phrase{
+    display:none;
+    // color:white;
+}
+.middle-phrase:before{
+    position:absolute;
+    color:$dark;
+    content:attr(data-before);
+    left:0px;
+    top:-10px;
+    width:100%;
+    text-align:center;
+}
+.middle-phrase:first-child{
+    display:inherit;
+    border-bottom:8px dotted $pink;
+    animation: moveUp 5s; 
+    position:relative;
+}
+
+.rw-sentence{
+    overflow-y:hidden;
+    // background-color: yellow;
+    height:100px;
+    position:relative;
+}
+
+.rw-sentence span{
+	white-space: nowrap;
+}
+.rw-words{
+	display: inline;
+	text-indent: 10px; 
+}
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+    // background-color:orange;
+    animation: rotateWordsFirst 6s linear infinite 0s;
+    margin:auto;
+    width:100%;
+    text-align:center;
+}
+.rw-span-container{
+    border-bottom:7px dotted black;  
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    animation: underlineColor 6s linear infinite 0s;
+}
+
+// .rw-words-2 span{
+// 	animation: rotateWordsSecond 4s linear infinite 0s;
+// }
+.rw-words span:nth-child(2) { 
+	animation-delay: 1.2s; 
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 2.4s; 
+}
+.rw-words span:nth-child(4) { 
+	animation-delay: 3.6; 
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+// @keyframes rotateWordsFirst {
+//     0% { opacity: 0; animation-timing-function: ease-in; height: 0px; }
+//     8% { opacity: 1; height: 60px; }
+//     19% { opacity: 1; height: 60px; }
+// 	25% { opacity: 0; height: 60px; }
+//     100% { opacity: 0; }
+// }
+
+@keyframes rotateWordsFirst {
+    0% { opacity:1; top: 100px; }
+    8% { opacity:1; top: -100px; }
+    19% { opacity:1; top: -100px; }
+	25% { opacity:1; top: -200px; }
+    75% { opacity:1; top: -200px; }
+    100% { opacity:1; top: -200px; }
+}
+
+@keyframes underlineColor {
+    0% { border-color: $pink;  }
+    8% { border-color: $pink; }
+    19% { border-color: $pink; }
+	25% { border-color: $orange; }
+    43% { border-color: $orange; }
+    45% { border-color: $teal;}
+    100% { border-color: $teal; }
+}
+
 .navbar-toggler{
     border:0px;
 }
@@ -369,7 +474,7 @@ a.purple:hover{
 }
 
 #team > a{
-    width:12.5%;
+    width:14.2857%;;
     .team-image-caption{
         visibility: hidden;
         *{
@@ -648,9 +753,9 @@ p.sm{
 
 
 @media (min-width: 992px){
-    #team{
-        left:0px !important;
-    }
+    // #team{
+    //     left:0px !important;
+    // }
 }
 
 
@@ -721,6 +826,9 @@ p.sm{
     #team{
         left:3px;
     }
+    #team > a{
+    width:50%;
+    }
 
     .container, .container-fluid-padding{
         padding-right:40px;
@@ -770,28 +878,36 @@ p.sm{
     margin-top:30px;
 }
 
+h2.modal-title {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.modal-dialog{
+    margin:26px;
+}
 
 
     #team{
-            height: 500px;
-            overflow-x: scroll;
-            /* height: 275px; */
-            width: 2000px;
-            overflow: auto;
-            white-space: nowrap;
-            overflow-x: scroll;
-            overflow-y: hidden;
-            white-space: nowrap;
-            display: flex;
-            flex-wrap: nowrap;
-            overflow-x: auto;
+            // height: 500px;
+            // overflow-x: scroll;
+            // /* height: 275px; */
+            // width: 2000px;
+            // overflow: auto;
+            // white-space: nowrap;
+            // overflow-x: scroll;
+            // overflow-y: hidden;
+            // white-space: nowrap;
+            // display: flex;
+            // flex-wrap: nowrap;
+            // overflow-x: auto;
 
             > a{
-                width: auto;
-                img{
-                    height:450px;
-                }
-                flex: 0 0 auto;
+                width: 48%;
+                height: 370px;
+            }
+            > a .team-image-caption{
+                visibility:visible;
             }
     }
 

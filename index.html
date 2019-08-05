@@ -1,10 +1,26 @@
 ---
 layout: default
 title:
-underlined-phrases:
-  - glad you stopped by
-  - really cool people
-  - hollering at you
+animated-phrases:
+    -   starting-text: Hi. We're
+        ending-text:
+        middle-phrases:
+            - glad you stopped by
+            - here to help
+            - all about the convo
+    -   starting-text: We make
+        ending-text: for chat
+        middle-phrases:
+            - dynamic content    
+            - tools
+            - cool stuff
+    -   starting-text: To help you
+        ending-text: better
+        middle-phrases:
+            - express yourself
+            - connect
+            - communicate
+            
 apps:
   - iMessage
   - LinkedIn
@@ -33,7 +49,8 @@ meta-content:
 <div class="container">
 <div class="row h-100 text-center">
    <div class="col-sm-12 my-auto">
-        <h1>Hi. We're <span id="typed" class="underlined purple" style="white-space:pre;">Holler</span></h1>
+        <!-- <h1>Hi. We're <span id="typed" class="underlined purple" style="white-space:pre;">Holler</span></h1> -->
+        <h1><span id="typed" style="white-space:pre;">Hi. We're Holler</span></h1>
         <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary-outlined mt-4">Watch Video</a>
    </div>
 </div>
@@ -56,13 +73,14 @@ meta-content:
 <div class="row">
     <div class="col-8 mb-3">
         <p><span class="editable">Find Holler in your favorite apps:</span>
-            <span id="slideshow">
+        <span id="apps" style="white-space:pre;" class="underlined">{{page.apps[0]}}</span>
+            <!-- <span id="slideshow">
                 {% for app in page.apps %}
                 <span class="underlined">
                     {{ app }}
                 </span>
                 {% endfor %}
-            </span>
+            </span> -->
 
         </p>
     </div>
@@ -90,13 +108,43 @@ meta-content:
 </div>
 
 
-
-
 <div id="typed-strings">
     <p>Holler</p>
-    {% for phrase in page.underlined-phrases %}
-        <p>{{ phrase }}</p>
+    {% for phrase in page.animated-phrases %}
+        <p>{{ phrase.starting-text }}<span class="middle-phrase"> {{phrase.middle-phrases[0]}} </span>{{ phrase.ending-text }}</p>
     {% endfor %}
+</div>
+
+<div id="contentForAnimation" style="height:0px;overflow:hidden;opacity:0;background-color:red; font-size:50px;">
+    {% for phrase in page.animated-phrases %}
+        <div id="loop{{forloop.index}}">
+            {%for mid in phrase.middle-phrases %}
+                <span class="spanForAnimation">{{mid}}</span>
+            {% endfor %}
+        </div>
+    {%endfor %}
+</div>
+
+<!-- <section class="rw-wrapper"> -->
+	<h1 class="rw-sentence m-auto">
+		<span>{{page.animated-phrases[0].starting-text}}</span>
+		<div class="rw-words">
+            <div class="rw-span-container">
+            {%for mid in page.animated-phrases[0].middle-phrases %}
+                <span>{{mid}}</span>
+            {% endfor %}
+            </div>
+		</div>
+	</h1>
+<!-- </section> -->
+
+
+<div id="app-list">
+    {% for app in page.apps %}
+            <p>
+                {{ app }}
+            </p>
+        {% endfor %}
 </div>
 
 <script type="text/javascript">
@@ -104,7 +152,15 @@ meta-content:
             stringsElement: '#typed-strings',
             typeSpeed: 60,
             backSpeed: 30,
-            backDelay: 1000,
+            backDelay: 3000,
+            startDelay: 1000,
+            loop: true
+        });
+        var typed = new Typed("#apps", {
+            stringsElement: '#app-list',
+            typeSpeed: 60,
+            backSpeed: 30,
+            backDelay: 500,
             startDelay: 1000,
             loop: true
         });

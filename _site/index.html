@@ -67,7 +67,8 @@
     <div class="container">
 <div class="row h-100 text-center">
    <div class="col-sm-12 my-auto">
-        <h1>Hi. We're <span id="typed" class="underlined purple" style="white-space:pre;">Holler</span></h1>
+        <!-- <h1>Hi. We're <span id="typed" class="underlined purple" style="white-space:pre;">Holler</span></h1> -->
+        <h1><span id="typed" style="white-space:pre;">Hi. We're Holler</span></h1>
         <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary-outlined mt-4">Watch Video</a>
    </div>
 </div>
@@ -90,7 +91,8 @@
 <div class="row">
     <div class="col-8 mb-3">
         <p><span class="editable">Find Holler in your favorite apps:</span>
-            <span id="slideshow">
+        <span id="apps" style="white-space:pre;" class="underlined">iMessage</span>
+            <!-- <span id="slideshow">
                 
                 <span class="underlined">
                     iMessage
@@ -156,7 +158,7 @@
                     trutext
                 </span>
                 
-            </span>
+            </span> -->
 
         </p>
     </div>
@@ -244,17 +246,135 @@
 </div>
 
 
-
-
 <div id="typed-strings">
     <p>Holler</p>
     
-        <p>glad you stopped by</p>
+        <p>Hi. We're<span class="middle-phrase"> glad you stopped by </span></p>
     
-        <p>really cool people</p>
+        <p>We make<span class="middle-phrase"> dynamic content </span>for chat</p>
     
-        <p>hollering at you</p>
+        <p>To help you<span class="middle-phrase"> express yourself </span>better</p>
     
+</div>
+
+<div id="contentForAnimation" style="height:0px;overflow:hidden;opacity:0;background-color:red; font-size:50px;">
+    
+        <div id="loop1">
+            
+                <span class="spanForAnimation">glad you stopped by</span>
+            
+                <span class="spanForAnimation">here to help</span>
+            
+                <span class="spanForAnimation">all about the convo</span>
+            
+        </div>
+    
+        <div id="loop2">
+            
+                <span class="spanForAnimation">dynamic content</span>
+            
+                <span class="spanForAnimation">tools</span>
+            
+                <span class="spanForAnimation">cool stuff</span>
+            
+        </div>
+    
+        <div id="loop3">
+            
+                <span class="spanForAnimation">express yourself</span>
+            
+                <span class="spanForAnimation">connect</span>
+            
+                <span class="spanForAnimation">communicate</span>
+            
+        </div>
+    
+</div>
+
+<!-- <section class="rw-wrapper"> -->
+	<h1 class="rw-sentence m-auto">
+		<span>Hi. We're</span>
+		<div class="rw-words">
+            <div class="rw-span-container">
+            
+                <span>glad you stopped by</span>
+            
+                <span>here to help</span>
+            
+                <span>all about the convo</span>
+            
+            </div>
+		</div>
+	</h1>
+<!-- </section> -->
+
+
+<div id="app-list">
+    
+            <p>
+                iMessage
+            </p>
+        
+            <p>
+                LinkedIn
+            </p>
+        
+            <p>
+                TextNow
+            </p>
+        
+            <p>
+                Twitch
+            </p>
+        
+            <p>
+                Badoo
+            </p>
+        
+            <p>
+                Hot or Not
+            </p>
+        
+            <p>
+                Viber
+            </p>
+        
+            <p>
+                Fleksy
+            </p>
+        
+            <p>
+                Chrooma Keyboard
+            </p>
+        
+            <p>
+                Mood Messenger
+            </p>
+        
+            <p>
+                ChatAll
+            </p>
+        
+            <p>
+                Bobble
+            </p>
+        
+            <p>
+                ReBoard
+            </p>
+        
+            <p>
+                UberSocial
+            </p>
+        
+            <p>
+                textPlus
+            </p>
+        
+            <p>
+                trutext
+            </p>
+        
 </div>
 
 <script type="text/javascript">
@@ -262,7 +382,15 @@
             stringsElement: '#typed-strings',
             typeSpeed: 60,
             backSpeed: 30,
-            backDelay: 1000,
+            backDelay: 3000,
+            startDelay: 1000,
+            loop: true
+        });
+        var typed = new Typed("#apps", {
+            stringsElement: '#app-list',
+            typeSpeed: 60,
+            backSpeed: 30,
+            backDelay: 500,
             startDelay: 1000,
             loop: true
         });
