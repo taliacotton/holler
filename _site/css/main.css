@@ -6814,6 +6814,10 @@ html {
 #typed {
   height: 100px; }
 
+.modal.show .modal-dialog {
+  top: 50% !important;
+  transform: translateY(-50%) !important; }
+
 .middle-phrase:first-child {
   display: inherit;
   border-bottom: 8px dotted #F495B2;
@@ -6935,6 +6939,9 @@ a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.na
 
 .underlined.purple {
   border-bottom: 5px dotted #7381BF !important; }
+
+.underlined.white {
+  border-bottom: 5px dotted white !important; }
 
 h1.underlined {
   border-bottom: 8px dotted #424648 !important;
@@ -7199,6 +7206,9 @@ a.purple:hover {
   /* Safari 6.0 - 9.0 */
   filter: inherit; }
 
+a.social-link:hover {
+  text-decoration: none; }
+
 .modal-content {
   border: 0px solid black;
   border-radius: 0px; }
@@ -7219,7 +7229,8 @@ h2.modal-title {
 
 .modal img {
   position: absolute;
-  bottom: 0px; }
+  bottom: 0px;
+  max-height: 100%; }
 
 .btn-primary-outlined {
   border: 1px solid #424648;

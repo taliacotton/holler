@@ -32,6 +32,13 @@ html {
     height:100px;
 }
 
+
+.modal.show .modal-dialog{
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+
 // .middle-phrase{
 //     display:none;
 //     // color:white;
@@ -186,6 +193,9 @@ a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.na
 
 .underlined.purple{
     border-bottom: 5px dotted $purple !important;
+}
+.underlined.white{
+    border-bottom: 5px dotted white !important;
 }
 
 h1.underlined{
@@ -500,6 +510,10 @@ a.purple:hover{
     }
 }
 
+a.social-link:hover{
+    text-decoration:none;
+}
+
 // #team{
 //     height: 700px;
 // }
@@ -528,6 +542,7 @@ h2.modal-title{
 .modal img{
     position:absolute;
     bottom:0px;
+    max-height:100%;
 }
 .btn-primary-outlined{
     border:1px solid $dark;
@@ -912,8 +927,13 @@ h2.modal-title {
     display: none;
 }
 
+
+
 .modal-dialog{
     margin:26px;
+    // top: 50% !important;
+    // transform: translateY(-50%)!important;
+    // margin: auto !important;
 }
 
 
