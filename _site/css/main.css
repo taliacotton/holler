@@ -6943,6 +6943,10 @@ a:not(.btn):not(.social-link):not(.appStore-button):not(.navbar-toggler):not(.na
 .underlined.white {
   border-bottom: 5px dotted white !important; }
 
+.btn:focus, .btn.focus {
+  outline: none;
+  box-shadow: none; }
+
 h1.underlined {
   border-bottom: 8px dotted #424648 !important;
   border-bottom-width: 8px; }
