@@ -17,7 +17,7 @@
       Marketing Advisory Board. And has a pretty decent jump shot to boot.
 - name: Stephen Zangre
   title: COO
-  image: /assets/img/Stephen.jpg
+  image: /assets/img/Stephen_new.jpg
   modal:
     image: /assets/img/Stephen_Module.png
     bio: >-
@@ -32,7 +32,7 @@
       successful IPO.
 - name: Patrick Perrin
   title: 'Chief Scientist, AI & Research'
-  image: /assets/img/Patrick.jpg
+  image: /assets/img/Patrick_new.jpg
   modal:
     image: /assets/img/Patrick_Module.jpg
     bio: >-
@@ -51,7 +51,7 @@
       he doesn’t sleep.
 - name: Sarah Aitken
   title: CMO
-  image: /assets/img/Sarah.jpg
+  image: /assets/img/Sarah_new.jpg
   modal:
     image: /assets/img/Sarah_Module.png
     bio: >-
@@ -64,7 +64,7 @@
       startups in the technology, consumer goods and brand services categories.
 - name: David Brady
   title: Head of Engineering
-  image: /assets/img/David.jpg
+  image: /assets/img/David_new.jpg
   modal:
     image: /assets/img/David_Module.png
     bio: >-
@@ -80,7 +80,7 @@
       operations costs.
 - name: Pat Giles
   title: Head of Studio
-  image: /assets/img/Pat.jpg
+  image: /assets/img/Pat_new.jpg
   modal:
     image: /assets/img/Pat_Module.png
     bio: >-
@@ -97,7 +97,7 @@
       Puffs.”
 - name: Damian De Rosaire
   title: Head of Customer Success
-  image: /assets/img/Damian.jpg
+  image: /assets/img/Damian_new.jpg
   modal:
     image: /assets/img/Damian_Module.png
     bio: >-
