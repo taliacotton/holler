@@ -4,14 +4,23 @@ layout: casestudy
 permalink: /casestudies/snickers
 hero-animation:
   - image: /assets/emogis/snickers/Snickers_Angel.gif
-file_download_path: /assets/pdf/placeholder.pdf
+file_download_path: /assets/Holler_Snickers_CaseStudy.pdf
 show_video: false
-vimeo_embed_code: 
-objective: ​Increase penetration by strengthening position in Afternoon. Leverage the power of community to drive participation and context for brand love. Stay playful and bring people together.
+vimeo_embed_code:
+objective: >-
+  ​Increase penetration by strengthening position in Afternoon. Leverage the
+  power of community to drive participation and context for brand love. Stay
+  playful and bring people together.
 insights:
-  - Oreo Content has more than 61M Views and more than 92,000 consumers became Brand Advocates
-  - Consumers showed the highest engagement with Oreo during moments of Love and expressing positive sentiment
-  - Consumers who saw the Oreo content were significantly more likely to purchase the product in the next 30 days
+  - >-
+    Oreo Content has more than 61M Views and more than 92,000 consumers became
+    Brand Advocates
+  - >-
+    Consumers showed the highest engagement with Oreo during moments of Love and
+    expressing positive sentiment
+  - >-
+    Consumers who saw the Oreo content were significantly more likely to
+    purchase the product in the next 30 days
 gifs:
   - /assets/emogis/oreo/Oreo_CheersingMilk.gif
   - /assets/emogis/oreo/Oreo_Clapping.gif
