@@ -6,7 +6,7 @@ shorthand-for-animation: an Editorial and Programming Intern
 location: 'New York, New York'
 timeframe: Part-Time
 apply-link: >-
-  https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
+  https://docs.google.com/forms/d/e/1FAIpQLSfLviNkGEaF9KRCE-dvbpHRwIQO7AgfTxFMm4DzZYAWhaTfrg/viewform
 meta-content:
   image:
   description:

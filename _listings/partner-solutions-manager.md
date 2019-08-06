@@ -4,9 +4,9 @@ layout: listing
 permalink: /careers/partner-solutions-manager-mandarin-speaking
 shorthand-for-animation: a Partner Solutions Manager
 location: 'New York, New York'
-timeframe: Part Time
+timeframe: Full Time
 apply-link: >-
-  https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
+  https://docs.google.com/forms/d/e/1FAIpQLSfLviNkGEaF9KRCE-dvbpHRwIQO7AgfTxFMm4DzZYAWhaTfrg/viewform
 meta-content:
   image:
   description:
