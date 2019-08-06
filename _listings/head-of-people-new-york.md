@@ -2,7 +2,7 @@
 position: Head of People
 layout: listing
 permalink: /careers/head-of-people
-shorthand-for-animation: Head of People
+shorthand-for-animation: a Head of People
 location: 'New York, New York'
 timeframe: Full Time
 apply-link: >-
@@ -10,12 +10,12 @@ apply-link: >-
 meta-content:
   image:
   description: >-
-    We are looking for our first true people organization leader – who can inspire
-    and drive our teams and our culture as we continue to scale for our next phase
-    of growth. Our perfect candidate will be the energetic ambassador of all
-    things people to the company at large and is motivated by a love for people
-    and technology. The role reports to the COO and will be located at HQ in our
-    New York, NY offices.
+    We are looking for our first true people organization leader – who can
+    inspire and drive our teams and our culture as we continue to scale for our
+    next phase of growth. Our perfect candidate will be the energetic ambassador
+    of all things people to the company at large and is motivated by a love for
+    people and technology. The role reports to the COO and will be located at HQ
+    in our New York, NY offices.
 ---
 
 Holler is a content platform for messaging. Our mission is to help people have better conversations.
