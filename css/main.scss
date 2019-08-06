@@ -310,10 +310,11 @@ h4{
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 32s linear infinite;
-  -webkit-animation: marquee 32s linear infinite;
-  -moz-animation:  marquee 32s linear infinite;
-  -o-animation:  marquee 32s linear infinite;
+  animation: marquee 30s linear infinite;
+  -webkit-animation: marquee 30s linear infinite;
+  -moz-animation:  marquee 30s linear infinite;
+  -o-animation:  marquee 30s linear infinite;
+  transform: translateX(100%);
     img{
       width:60px;
       margin:20px 30px 10px 30px;
@@ -328,7 +329,19 @@ h4{
     }
 }
 
-.track:hover{
+.track0{
+      animation: firstmarquee 30s linear ;
+  -webkit-animation: firstmarquee 30s linear ;
+  -moz-animation:  firstmarquee 30s linear ;
+  -o-animation:  firstmarquee 30s linear ;
+
+}
+
+.track1{
+  animation-delay:15s;
+}
+
+.marquee:hover .track{
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     -o-animation-play-state: paused;
@@ -354,8 +367,13 @@ h4{
 // }
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes firstmarquee {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-200%); }
 }
 
 
