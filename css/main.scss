@@ -653,18 +653,18 @@ input[type=text]::placeholder{
     li{
     width:17px;
     height:17px;
-    border:1px solid black;
-    background-color:transparent;
+    border:0px;
+    background-color:white;
     opacity:1;
     border-radius:17px;
     }
 }
 
 .carousel-indicators .active{
-    background-color:$teal;
+    background-color:$purple;
 }
 .carousel-indicators .active:nth-child(4n+2){
-    background-color:$purple;
+    background-color:$teal;
 }
 .carousel-indicators .active:nth-child(4n+3){
     background-color:$pink;
@@ -698,10 +698,10 @@ p.sm{
 }
 
 .articles .article:nth-child(4n+1) .article-inner .publisher, .carousel-item:nth-child(4n+1) .publisher{
-    color: $teal;
+    color: $purple;
 }
 .articles .article:nth-child(4n+2) .article-inner .publisher, .carousel-item:nth-child(4n+2) .publisher{
-    color: $purple;
+    color: $teal;
 }
 .articles .article:nth-child(4n+3) .article-inner .publisher, .carousel-item:nth-child(4n+3) .publisher{
     color: $pink;

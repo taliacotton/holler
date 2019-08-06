@@ -7322,16 +7322,16 @@ input[type=text]::placeholder {
   .carousel-indicators li {
     width: 17px;
     height: 17px;
-    border: 1px solid black;
-    background-color: transparent;
+    border: 0px;
+    background-color: white;
     opacity: 1;
     border-radius: 17px; }
 
 .carousel-indicators .active {
-  background-color: #72C9BB; }
+  background-color: #7381BF; }
 
 .carousel-indicators .active:nth-child(4n+2) {
-  background-color: #7381BF; }
+  background-color: #72C9BB; }
 
 .carousel-indicators .active:nth-child(4n+3) {
   background-color: #F495B2; }
@@ -7358,10 +7358,10 @@ p.sm {
   font-size: 15px; }
 
 .articles .article:nth-child(4n+1) .article-inner .publisher, .carousel-item:nth-child(4n+1) .publisher {
-  color: #72C9BB; }
+  color: #7381BF; }
 
 .articles .article:nth-child(4n+2) .article-inner .publisher, .carousel-item:nth-child(4n+2) .publisher {
-  color: #7381BF; }
+  color: #72C9BB; }
 
 .articles .article:nth-child(4n+3) .article-inner .publisher, .carousel-item:nth-child(4n+3) .publisher {
   color: #F495B2; }
