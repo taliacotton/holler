@@ -13,7 +13,7 @@ meta-content:
 
 This privacy statement was last updated March 28, 2019
 
-Emogi Technologies, Inc. (“**Emogi**” “**we**” “**us**” or “b”) provides development and data tools to messaging services and applications with messaging functionality (“**Application**”) through our website, mobile services, and software (our “**Services**”). Depending on the type of Service selected by the developer of the Application you are using, we may collect certain information about you.
+Holler Technologies, Inc. (“**Holler**” “**we**” “**us**” or “**our**”) provides development and data tools to messaging services and applications with messaging functionality (“**Application**”) through our website, mobile services, and software (our “**Services**”). Depending on the type of Service selected by the developer of the Application you are using, we may collect certain information about you.
 
 You are probably reading this because an Application you downloaded uses our Services and directed you to read this Privacy Statement so you can understand how we collect, use and share information about you when you use the Application, our Services, or otherwise interact with us, as well as what your choices are regarding the collection, use and sharing of your information.
 
@@ -27,7 +27,7 @@ We use technologies such as Software Development Kits (SDKs) or Application Prog
 
 We may collect and store the following information with respect to your use of our Services:
 
-* Technical Data: In environments where applicable, this includes information, such as URL information, cookie and web beacon data, your IP address, network connection type (e.g., WiFi, 3G, LTE), browser type, language, operating system, and Emogi Application version.
+* Technical Data: In environments where applicable, this includes information, such as URL information, cookie and web beacon data, your IP address, network connection type (e.g., WiFi, 3G, LTE), browser type, language, operating system, and Holler Application version.
 
 * Mobile Device Information: When you access the Application via mobile device, we may collect information about the type of device you are using to access the Application, your provider, network and device performance, the unique device identifier assigned to that device by phone makers, carriers, or makers of the operating system (to the extent allowed by such phone makers, carriers, or makers of the operating system) (“**Device ID**”), identifiers for advertising (e.g., Google Advertising ID or IDFA) (“**Advertising ID**”) and geographic or geolocation information.
 
@@ -59,7 +59,7 @@ We may use the information we collect in the following ways:
 
 * to detect, investigate and prevent fraud and other illegal activities;
 
-* to enforce this Privacy Statement, including to protect the rights, property, or safety of Emogi, its users, or any other person, or the copyright-protected content of the Services or others;
+* to enforce this Privacy Statement, including to protect the rights, property, or safety of Holler, its users, or any other person, or the copyright-protected content of the Services or others;
 
 * to provide recommendations for development of new Applications; and
 
@@ -81,7 +81,7 @@ In addition to the uses described above, we may also share your information with
 
 * when you explicitly consent to the disclosure of such information to a third party when connecting to a third-party service that asks you if you consent to such sharing;
 
-* to a parent company, affiliates, subsidiaries, joint ventures, or other companies under common control with Emogi;
+* to a parent company, affiliates, subsidiaries, joint ventures, or other companies under common control with Holler;
 
 * in connection with, or during negotiations of, a merger, acquisition, consolidation, change of control or sale of all or a portion of our assets or if we undergo bankruptcy or liquidation;
 
@@ -97,7 +97,7 @@ In addition to the uses described above, we may also share your information with
 
 * to address technical issues;
 
-* to enforce this Privacy Statement and any other terms that you have agreed to, including to protect the rights, property, or safety of Emogi, its users, or any other person, or the copyright-protected content of the Services.
+* to enforce this Privacy Statement and any other terms that you have agreed to, including to protect the rights, property, or safety of Holler, its users, or any other person, or the copyright-protected content of the Services.
 
 We may also share aggregated information that does not identify any specific user, device, or partner publicly or with third parties including developers, advertisers, potential partners, or researchers. For example, we may disclose statistics that a certain percentage of users of a certain genre of an Application spend a certain number of hours in such Application compared to other applications or statistics regarding engagement with an advertiser’s branded content.
 
