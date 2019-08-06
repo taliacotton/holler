@@ -3,7 +3,7 @@ title: Snickers
 layout: casestudy
 permalink: /casestudies/snickers
 hero-animation:
-  - image: /assets/emogis/snickers/Snickers_Angel.gif
+  - image: /assets/emogis/snickers/Snickers_Angel2.gif
   - image:
 file_download_path: /assets/Holler_Snickers_CaseStudy.pdf
 show_video: false
