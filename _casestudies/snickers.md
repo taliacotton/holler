@@ -4,6 +4,7 @@ layout: casestudy
 permalink: /casestudies/snickers
 hero-animation:
   - image: /assets/emogis/snickers/Snickers_Angel.gif
+  - image:
 file_download_path: /assets/Holler_Snickers_CaseStudy.pdf
 show_video: false
 vimeo_embed_code:
@@ -22,20 +23,27 @@ insights:
     Consumers who saw the Oreo content were significantly more likely to
     purchase the product in the next 30 days
 gifs:
-  - /assets/emogis/oreo/Oreo_CheersingMilk.gif
-  - /assets/emogis/oreo/Oreo_Clapping.gif
-  - /assets/emogis/oreo/Oreo_ConfettiPartyPopper.gif
-  - /assets/emogis/oreo/Oreo_Congrats.gif
-  - /assets/emogis/oreo/Oreo_CookieHeart_v3.gif
-  - /assets/emogis/oreo/Oreo_Dotdotdot.gif
-  - /assets/emogis/oreo/Oreo_Heart.gif
-  - /assets/emogis/oreo/Oreo_HighFive.gif
-  - /assets/emogis/oreo/Oreo_LOL.gif
-  - /assets/emogis/oreo/Oreo_SnackTime.gif
-  - /assets/emogis/oreo/Oreo_XOXO.gif
-  - /assets/emogis/oreo/Oreo_YOLO.gif
-  - /assets/emogis/oreo/Oreo-BiteBite.gif
-  - /assets/emogis/oreo/Oreo-OMW-2.gif
+  - /assets/emogis/snickers/Snickers_Angel.gif
+  - /assets/emogis/snickers/Snickers_Annoyed.gif
+  - /assets/emogis/snickers/Snickers_Bored.gif
+  - /assets/emogis/snickers/Snickers_Confused.gif
+  - /assets/emogis/snickers/Snickers_Cranky.gif
+  - /assets/emogis/snickers/Snickers_DevilAngel.gif
+  - /assets/emogis/snickers/Snickers_Distracted.gif
+  - /assets/emogis/snickers/Snickers_Evil.gif
+  - /assets/emogis/snickers/Snickers_FedUp.gif
+  - /assets/emogis/snickers/Snickers_FistPump.gif
+  - /assets/emogis/snickers/Snickers_FootballWoo.gif
+  - /assets/emogis/snickers/Snickers_Hangry.gif
+  - /assets/emogis/snickers/Snickers_HeartEyes.gif
+  - /assets/emogis/snickers/Snickers_Nervous12.gif
+  - /assets/emogis/snickers/Snickers_OMG.gif
+  - /assets/emogis/snickers/Snickers_SLeepy.gif
+  - /assets/emogis/snickers/Snickers_Sad.gif
+  - /assets/emogis/snickers/Snickers_Stressed.gif
+  - /assets/emogis/snickers/Snickers_Weird.gif
+  - /assets/emogis/snickers/Snickers_Yesss.gif
+  - /assets/emogis/snickers/Snickers_Logo.gif
 meta_content:
   image:
   description:
