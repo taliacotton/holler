@@ -6,7 +6,7 @@ shorthand-for-animation: a Head of People
 location: 'New York, New York'
 timeframe: Full Time
 apply-link: >-
-  https://docs.google.com/forms/d/1IYck2WPM21iXJdn3HBqDzNNXE5ZItdk6P0ZxFLVe0cg/edit
+  https://docs.google.com/forms/d/e/1FAIpQLSfLviNkGEaF9KRCE-dvbpHRwIQO7AgfTxFMm4DzZYAWhaTfrg/viewform
 meta-content:
   image:
   description: >-
