@@ -3,7 +3,7 @@ AOS.init({
   })
   
 let number = 0;
-let target = 4.1;
+let target = 5.1;
 let increaseNumFired = false;
 
 // let strArray1 = [];let strArray2 = [];let strArray3 = [];
@@ -71,9 +71,11 @@ let increaseNumFired = false;
 //     })
 // }
 
-$(window).on(
-    'load resize orientationchange', 
-    normalizeSlideHeights);
+
+
+// $(window).on(
+//     'load resize orientationchange', 
+//     normalizeSlideHeights);
 
 
 $('#increasingNumber span').text('0');

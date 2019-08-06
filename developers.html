@@ -102,9 +102,11 @@ meta-content:
 
                 {% for emogi in site.data.emogis %}
                 <div class="col-4 col-sm-3 col-md-2 mb-3">
-                    <a href="#">
-                        <div class="emogi" style="background-image:url({{emogi.image}})"></div>  
-                    </a>
+                    <!-- <a href="#"> -->
+                        <div class="emogi position-relative">
+                          <img src="{{emogi.image}}" class="img-fluid position-absolute">
+                        </div>  
+                    <!-- </a> -->
                 </div>
                 {% endfor %}
             </div>
@@ -133,7 +135,7 @@ meta-content:
         <div class="col-sm-6 col-md-4 bg-dark pt-4 pb-5 order-md-4">
             <div class="smartphone m-auto" data-aos="fade-up">
                 <img class="active" src="/assets/img/SmartSuggestionsFlow.gif" />
-                <img class="static" src="/assets/img/SmartSuggestionsFlow.png" />
+                <!-- <img class="static" src="/assets/img/SmartSuggestionsFlow.png" /> -->
             </div>
         </div>
         <div class="col-sm-6 col-md-4 text-center pt-5 bg-purple order-md-2">
@@ -151,7 +153,7 @@ meta-content:
         <div class="col-sm-6 col-md-4 bg-purple pt-4 pb-5 order-md-5">
             <div class="smartphone m-auto" data-aos="fade-up" data-aos-delay="200">
                 <img class="active" src="/assets/img/SearchFlow.gif" />
-                <img class="static" src="/assets/img/SearchFlow.png" />
+                <!-- <img class="static" src="/assets/img/SearchFlow.png" /> -->
             </div>
         </div>
         <div class="col-sm-6 col-md-4 text-center pt-5 bg-teal order-md-3">
@@ -168,8 +170,8 @@ meta-content:
         </div>
         <div class="col-sm-6 col-md-4 bg-teal pt-4 pb-5 order-md-6">
             <div class="smartphone m-auto" data-aos="fade-up" data-aos-delay="400">
-                <img class="active" src="/assets/img/CatalogFlow.gif" />
-                <img class="static" src="/assets/img/CatalogFlow.png" />
+                <img class="active" src="/assets/img/CatalogFlow2.gif" />
+                <!-- <img class="static" src="/assets/img/CatalogFlow.png" /> -->
             </div>
         </div>
     </div>
