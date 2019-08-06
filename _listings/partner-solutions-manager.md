@@ -2,14 +2,14 @@
 position: 'Partner Solutions Manager, Mandarin Speaking'
 layout: listing
 permalink: /careers/partner-solutions-manager-mandarin-speaking
-shorthand-for-animation: Partner Solutions Manager
+shorthand-for-animation: a Partner Solutions Manager
 location: 'New York, New York'
 timeframe: Part Time
 apply-link: >-
   https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
 meta-content:
-    image:
-    description:
+  image:
+  description:
 ---
 
 Holler’s mission is to enrich conversations everywhere with useful content in the place where people share the most, messaging.
