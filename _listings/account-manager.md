@@ -2,14 +2,14 @@
 position: Account Manager
 layout: listing
 permalink: /careers/account-manager
-shorthand-for-animation: Account Manager
+shorthand-for-animation: an Account Manager
 location: 'New York, New York'
 timeframe: Full Time
 apply-link: >-
   https://docs.google.com/forms/d/e/1FAIpQLScgxMgWmQntaJ_fFwOIv1NpoOEayg7BSVXwWeXTWZ-MBEoJDA/viewform
 meta-content:
-    image:
-    description:
+  image:
+  description:
 ---
 
 Holler's mission is to enrich conversations everywhere with useful content in the place where people share the most—messaging.

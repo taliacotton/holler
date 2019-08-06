@@ -2,7 +2,7 @@
 position: Head of Product
 layout: listing
 permalink: /careers/head-of-product
-shorthand-for-animation: Head of Product
+shorthand-for-animation: a Head of Product
 location: 'New York, New York'
 timeframe: Full Time
 apply-link: >-
@@ -10,12 +10,12 @@ apply-link: >-
 meta-content:
   image:
   description: >-
-    We are looking for our first true people organization leader – who can inspire
-    and drive our teams and our culture as we continue to scale for our next phase
-    of growth. Our perfect candidate will be the energetic ambassador of all
-    things people to the company at large and is motivated by a love for people
-    and technology. The role reports to the COO and will be located at HQ in our
-    New York, NY offices.
+    We are looking for our first true people organization leader – who can
+    inspire and drive our teams and our culture as we continue to scale for our
+    next phase of growth. Our perfect candidate will be the energetic ambassador
+    of all things people to the company at large and is motivated by a love for
+    people and technology. The role reports to the COO and will be located at HQ
+    in our New York, NY offices.
 ---
 
 Holler is a content platform for messaging. Our mission is to help people have better conversations.
@@ -49,6 +49,8 @@ As the Head of Product, you’ll be tasked with developing the vision for this f
 * Lead, define, represent and communicate product strategy and vision in line with the businesses long-term goals.
 
 * Own the product roadmap
+
+&nbsp;
 
 ### **Minimum Qualifications**
 
