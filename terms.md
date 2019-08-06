@@ -3,7 +3,7 @@ layout: text-only
 permalink: /terms/
 title: Terms of Service
 meta-content:
-  image:
+  image: /uploads/termsofservice.jpg
   description: >-
     By using Holler services, you are agreeing to these terms. Read the full
     Terms of Service here.
