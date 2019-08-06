@@ -50,6 +50,8 @@ As the Head of Product, you’ll be tasked with developing the vision for this f
 
 * Own the product roadmap
 
+&nbsp;
+
 ### **Minimum Qualifications**
 
 * 10+ years of product management experience, preferably with a consumer focus and ad monetization model
