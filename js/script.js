@@ -60,15 +60,19 @@ let increaseNumFired = false;
 
 function normalizeSlideHeights() {
     $('.carousel').each(function(){
-      var items = $('.carousel-item', this, '.featured-image');
+      var items = $('.carousel-item', this);
       // reset the height
       items.css('min-height', 0);
       // set the height
       var maxHeight = Math.max.apply(null, 
           items.map(function(){
               return $(this).outerHeight()}).get() );
-      items.css('min-height', maxHeight + 'px');
+      items.css('height', maxHeight + 'px');
     })
+	$('.carousel-item a').css('height','100%');
+	$('.carousel-item .row').css('height','100%');
+	$('.featured-image').css('height','100%');
+	console.log("normalized");
 }
 
 
