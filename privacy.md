@@ -3,7 +3,7 @@ layout: text-only
 permalink: /privacy/
 title: Privacy Policy
 meta-content:
-  image:
+  image: /uploads/privacy.jpg
   description: >-
     This Privacy Policy is meant to help you understand what information we
     collect and why we collect it. See more here.
