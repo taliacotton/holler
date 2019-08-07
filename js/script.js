@@ -6,6 +6,9 @@ let number = 0;
 let target = 5.1;
 let increaseNumFired = false;
 
+
+$('.carousel').carousel()
+
 // let strArray1 = [];let strArray2 = [];let strArray3 = [];
 // let strArray = [];
 
@@ -77,9 +80,9 @@ let increaseNumFired = false;
 
 
 
-$(window).on(
-    'load resize orientationchange', 
-    normalizeSlideHeights);
+// $(window).on(
+//     'load resize orientationchange', 
+//     normalizeSlideHeights);
 
 
 $('#increasingNumber span').text('0');

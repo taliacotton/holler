@@ -15,7 +15,7 @@ meta-content:
 
 <div class="container-fluid bg-light pt-4">
 <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide mt-3" data-ride="carousel">
+    <div id="carouselExampleIndicators" id="myCarousel" class="carousel slide mt-3" data-ride="carousel" data-pause="false" data-interval="3000" >
         <ol class="carousel-indicators">
             {% for article in featured %}
                 {% if forloop.index0 == 0 %}
@@ -34,19 +34,29 @@ meta-content:
                 {% endif %}
                     <a href="{{article.url}}" class="pointer-sm-none no-underline article-link" target="_blank">
                         <div class="row">
-                            <div class="col-lg-6 order-lg-2 offset-lg-1 featured-image" style="background-image: url({{ article.image }})"></div>
 
-                            <div class="col-10 col-md-8 col-lg-4 order-lg-1 offset-1 carousel-content py-4">
+                            <div class="col-10 col-md-8 col-lg-4 offset-1 carousel-content py-4">
                                 <p class="publisher">{{article.publisher}}</p>
                                 <h3 class="article-title">{{article.title}}</h3>
                                 <p>{{article.published-date}}</p>
                                 <p>{{article.blurb}}</p>
                             </div>
+                            <div class="col-lg-6 offset-lg-1 featured-image" style="background-image: url({{ article.image }})"></div>
+
                         </div>
                     </a>
                 </div>
             {% endfor %}
         </div>
+
+        <!-- <script>
+        !function ($) {
+            $(function(){
+            // carousel demo
+            $('.carousel').carousel()
+            })
+        }(window.jQuery)
+        </script> -->
     </div>
 
     <div class="row articles pb-5">

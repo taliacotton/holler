@@ -99,7 +99,7 @@
 
 <div class="container-fluid bg-light pt-4">
 <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide mt-3" data-ride="carousel">
+    <div id="carouselExampleIndicators" id="myCarousel" class="carousel slide mt-3" data-ride="carousel" data-pause="false" data-interval="3000" >
         <ol class="carousel-indicators">
             
                 
@@ -126,14 +126,15 @@
                 
                     <a href="https://www.adweek.com/digital/heres-how-messaging-is-positioned-to-dominate-in-2019/" class="pointer-sm-none no-underline article-link" target="_blank">
                         <div class="row">
-                            <div class="col-lg-6 order-lg-2 offset-lg-1 featured-image" style="background-image: url(/uploads/heres-how-messaging-is-positioned-to-dominate-in-2019.png)"></div>
 
-                            <div class="col-10 col-md-8 col-lg-4 order-lg-1 offset-1 carousel-content py-4">
+                            <div class="col-10 col-md-8 col-lg-4 offset-1 carousel-content py-4">
                                 <p class="publisher">AdWeek</p>
                                 <h3 class="article-title">Here’s How Messaging Is Positioned to Dominate in 2019</h3>
                                 <p>January 3, 2019</p>
                                 <p>72 trillion messages were sent across messaging platforms in 2018. In 2019, brands who are not capitalizing on messaging are missing out in the channel where people are not only sharing the most,  but also where people are using their most authentic voice to communicate with their closest friends and family.</p>
                             </div>
+                            <div class="col-lg-6 offset-lg-1 featured-image" style="background-image: url(/uploads/heres-how-messaging-is-positioned-to-dominate-in-2019.png)"></div>
+
                         </div>
                     </a>
                 </div>
@@ -143,14 +144,15 @@
                 
                     <a href="https://www.entrepreneur.com/slideshow/321571" class="pointer-sm-none no-underline article-link" target="_blank">
                         <div class="row">
-                            <div class="col-lg-6 order-lg-2 offset-lg-1 featured-image" style="background-image: url(/uploads/the-50-most-daring-entrepreneurs-in-2018--a12dce042d82caf9fc970bf3c410de4d.jpg)"></div>
 
-                            <div class="col-10 col-md-8 col-lg-4 order-lg-1 offset-1 carousel-content py-4">
+                            <div class="col-10 col-md-8 col-lg-4 offset-1 carousel-content py-4">
                                 <p class="publisher">Entrepreneur</p>
                                 <h3 class="article-title">The 50 most daring Entrepreneurs in 2018</h3>
                                 <p>October 23, 2018</p>
                                 <p>Entrepreneurship isn’t easy. It requires bold action. We’re honored to see Founder & CEO Travis Montaque on Entrepreneur’s 50 Most Daring Entrepreneurs list making messaging more meaningful and welcoming brands into the conversation.</p>
                             </div>
+                            <div class="col-lg-6 offset-lg-1 featured-image" style="background-image: url(/uploads/the-50-most-daring-entrepreneurs-in-2018--a12dce042d82caf9fc970bf3c410de4d.jpg)"></div>
+
                         </div>
                     </a>
                 </div>
@@ -160,14 +162,15 @@
                 
                     <a href="https://www.campaignlive.com/article/company-takes-emojis-whole-new-measurable-level/1488453" class="pointer-sm-none no-underline article-link" target="_blank">
                         <div class="row">
-                            <div class="col-lg-6 order-lg-2 offset-lg-1 featured-image" style="background-image: url(/uploads/this-company-takes-emojis-to-a-whole-new-measurable-level.png)"></div>
 
-                            <div class="col-10 col-md-8 col-lg-4 order-lg-1 offset-1 carousel-content py-4">
+                            <div class="col-10 col-md-8 col-lg-4 offset-1 carousel-content py-4">
                                 <p class="publisher">Campaign</p>
                                 <h3 class="article-title">This Company Takes Emojis to a Whole New, Measurable Level</h3>
                                 <p>July 23, 2018</p>
                                 <p>Campaign US catches up with Travis Montaque, Founder & CEO of Emogi, and Brian Dolan, Sr. Brand Manager, RB Health Equity on the first Mucinex cold and flu activation on Emogi's platform.</p>
                             </div>
+                            <div class="col-lg-6 offset-lg-1 featured-image" style="background-image: url(/uploads/this-company-takes-emojis-to-a-whole-new-measurable-level.png)"></div>
+
                         </div>
                     </a>
                 </div>
@@ -177,19 +180,29 @@
                 
                     <a href="https://techcrunch.com/2018/05/30/gif-and-sticker-platform-emogi-gets-12-6m-as-the-battle-of-gif-startups-continues-to-heat-up/" class="pointer-sm-none no-underline article-link" target="_blank">
                         <div class="row">
-                            <div class="col-lg-6 order-lg-2 offset-lg-1 featured-image" style="background-image: url(/uploads/gif-and-sticker-platform-emogi-gets-12-6m-as-the-b-282395b2f3dea248a960d6253d32535c-1.png)"></div>
 
-                            <div class="col-10 col-md-8 col-lg-4 order-lg-1 offset-1 carousel-content py-4">
+                            <div class="col-10 col-md-8 col-lg-4 offset-1 carousel-content py-4">
                                 <p class="publisher">TechCrunch</p>
                                 <h3 class="article-title">GIF and Sticker Platform Emogi Gets $12.6M as the Battle of GIF Startups Continues to Heat Up</h3>
                                 <p>May 30, 2018</p>
                                 <p>With this Series A, Emogi will be able to better deliver an intuitive experience where sharable content is personalized, topical, and easily accessible in user conversations.</p>
                             </div>
+                            <div class="col-lg-6 offset-lg-1 featured-image" style="background-image: url(/uploads/gif-and-sticker-platform-emogi-gets-12-6m-as-the-b-282395b2f3dea248a960d6253d32535c-1.png)"></div>
+
                         </div>
                     </a>
                 </div>
             
         </div>
+
+        <!-- <script>
+        !function ($) {
+            $(function(){
+            // carousel demo
+            $('.carousel').carousel()
+            })
+        }(window.jQuery)
+        </script> -->
     </div>
 
     <div class="row articles pb-5">
