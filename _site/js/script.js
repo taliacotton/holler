@@ -72,7 +72,7 @@ function normalizeSlideHeights() {
 	$('.carousel-item a').css('height','100%');
 	$('.carousel-item .row').css('height','100%');
 	$('.featured-image').css('height','100%');
-	console.log("normalized");
+	// console.log("normalized");
 }
 
 
@@ -130,20 +130,20 @@ function isScrolledIntoView(elem)
 
 $(document).ready(function(e) {
 
-	let teamPos = 0;
+	// let teamPos = 0;
 
-	$("#team").on('mousemove', function(e) {
-		var mouseSide;
-		if (e.pageX < $(window).width() / 2) {
-			teamPos++;
-		} else {
-			teamPos--;
-		}
-		if ($(window).width() < 991.98){
-			$('#team').css("left", teamPos);
-		}
+	// $("#team").on('mousemove', function(e) {
+	// 	var mouseSide;
+	// 	if (e.pageX < $(window).width() / 2) {
+	// 		teamPos++;
+	// 	} else {
+	// 		teamPos--;
+	// 	}
+	// 	if ($(window).width() < 991.98){
+	// 		$('#team').css("left", teamPos);
+	// 	}
 
-	});
+	// });
 
 	$("#slideshow > span").hide();
 	$("#slideshow > span:first").show();

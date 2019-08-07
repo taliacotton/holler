@@ -29,8 +29,8 @@ meta-content:
 {% for member in site.data.team %}
 <!-- Button trigger modal -->
         <a href="#" class="d-inline float-left text-center text-decoration-none" data-toggle="modal" data-target="#team-{{forloop.index}}">
-            <img src="{{ member.image }}" class="team-image d-inline img-fluid" /><br />
-            <div class="team-image-caption d-inline">
+            <img src="{{ member.image }}" class="team-image d-inline-block img-fluid" /><br />
+            <div class="team-image-caption d-inline-block">
                 <p class="text-decoration-none mt-md-3"><strong>{{member.name}}</strong><br />{{member.title}}</p>
             </div>
         </a>
