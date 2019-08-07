@@ -7300,6 +7300,8 @@ input[type=text]::placeholder {
 #footer a:not(.appStore-button):hover {
   border-bottom: 2px dotted #424648 !important;
   border-bottom-width: 2px; }
+#footer a.appStore-button:hover {
+  border-bottom: 0px !important; }
 
 #pointer-sm-none {
   pointer-events: none; }

@@ -631,7 +631,9 @@ input[type=text]::placeholder{
         border-bottom: 2px dotted $dark !important;
         border-bottom-width:2px;
     }
-
+    a.appStore-button:hover{
+        border-bottom:0px !important;
+    }
 }
 
 #pointer-sm-none{
