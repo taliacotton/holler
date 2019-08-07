@@ -6814,10 +6814,6 @@ html {
 #typed {
   height: 100px; }
 
-.modal.show .modal-dialog {
-  top: 50% !important;
-  transform: translateY(-50%) !important; }
-
 .middle-phrase:first-child {
   display: inherit;
   border-bottom: 8px dotted #F495B2;

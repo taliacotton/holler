@@ -79,6 +79,16 @@ $('.carousel').carousel()
 // }
 
 
+// $('#exampleModal').on('hidden.bs.modal', function () {
+// 	callPlayer('yt-player', 'stopVideo');
+// 	console.log("2")
+// });
+
+jQuery('#exampleModal').on('hidden.bs.modal', function (e) {
+  // do something...
+//   console.log("hidden");
+  jQuery('#exampleModal video').attr("src", jQuery("#exampleModal  video").attr("src"));
+});
 
 // $(window).on(
 //     'load resize orientationchange', 

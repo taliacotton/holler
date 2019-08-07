@@ -34,9 +34,10 @@ html {
 
 
 .modal.show .modal-dialog{
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    // -webkit-transform: -webkit-translateY (-50%) !important;
+    // top: 50% !important;
+    // transform: translateY(-50%);
+    // -webkit-transform: -webkit-translateY(-50%) !important;
+    // display:inline-block;
 }
 
 
