@@ -112,11 +112,13 @@ $(window).scroll(function() {
 		$('.fixed-nav').removeClass('showing');
 	}
 	
-	if (isScrolledIntoView($('#increasingNumber')) == true){
-		if (increaseNumFired == false){
-			increaseNum();
+	// if ($('#increasingNumber').length > 0){
+		if ($('#increasingNumber').length > 0 && isScrolledIntoView($('#increasingNumber')) == true){
+			if (increaseNumFired == false){
+				increaseNum();
+			}
 		}
-	}
+	// }
 	
 });
 
