@@ -35,7 +35,7 @@ html {
 
 .modal.show .modal-dialog{
     top: 50% !important;
-    // transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
     // -webkit-transform: -webkit-translateY (-50%) !important;
 }
 
@@ -993,10 +993,10 @@ h2.modal-title {
 
 
 
-.modal-dialog{
+.modal.show .modal-dialog{
     margin:26px;
-    // top: 50% !important;
-    // transform: translateY(-50%)!important;
+    top: 50% !important;
+    transform: translateY(-50%)!important;
     // margin: auto !important;
 }
 
