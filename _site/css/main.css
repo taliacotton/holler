@@ -6815,8 +6815,7 @@ html {
   height: 100px; }
 
 .modal.show .modal-dialog {
-  top: 50% !important;
-  transform: translateY(-50%) !important; }
+  top: 50% !important; }
 
 .middle-phrase:first-child {
   display: inherit;
@@ -6854,9 +6853,11 @@ html {
 
 @keyframes moveUp {
   0% {
-    transform: translateY(0%); }
+    transform: translateY(0%);
+    -webkit-transform: -webkit-translateY 0%; }
   100% {
-    transform: translateY(-100%); } }
+    transform: translateY(-100%);
+    -webkit-transform: -webkit-translateY 100%; } }
 @keyframes rotateWordsFirst {
   0% {
     opacity: 1;
@@ -6960,6 +6961,7 @@ h1.underlined {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  -webkit-transform: -webkit-translateY -50% !important;
   left: calc(50% - 250px);
   text-align: center;
   padding-bottom: 20px; }
@@ -7041,7 +7043,8 @@ h4 {
   -webkit-animation: marquee 30s linear infinite;
   -moz-animation: marquee 30s linear infinite;
   -o-animation: marquee 30s linear infinite;
-  transform: translateX(100%); }
+  transform: translateX(100%);
+  -webkit-transform: -webkit-translateX 100% !important; }
   .track img {
     width: 60px;
     margin: 20px 30px 10px 30px; }
@@ -7342,6 +7345,10 @@ input[type=text]::placeholder {
     opacity: 1;
     border-radius: 17px; }
 
+a:focus {
+  outline: 0px;
+  box-shadow: none; }
+
 .carousel-indicators .active {
   background-color: #7381BF; }
 
@@ -7410,7 +7417,8 @@ p.sm {
     margin: auto;
     top: 50%;
     left: 50%;
-    transform: translateY(-50%) translateX(-50%); }
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: -webkit-translateY -50% -webkit-translateX -50% !important; }
 
 .case-study-thumb {
   width: 430px;
@@ -7422,6 +7430,7 @@ p.sm {
     width: 60%;
     position: absolute;
     transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: -webkit-translateY -50% -webkit-translateX -50%;
     top: 50%;
     left: 50%; }
 
@@ -7460,6 +7469,7 @@ p.sm {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: -webkit-translateY -50% -webkit-translateX -50%;
     width: 60%; }
 
 .bg-light + #footer {
@@ -7489,7 +7499,8 @@ p.sm {
 @media (max-width: 991.98px) {
   .modal.show .modal-dialog {
     top: inherit !important;
-    transform: inherit !important; }
+    transform: inherit !important;
+    -webkit-transform: inherit; }
 
   h1 {
     font-size: 60px;
