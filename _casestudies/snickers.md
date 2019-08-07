@@ -9,19 +9,20 @@ file_download_path: /assets/Holler_Snickers_CaseStudy.pdf
 show_video: false
 vimeo_embed_code:
 objective: >-
-  ​Increase penetration by strengthening position in Afternoon. Leverage the
-  power of community to drive participation and context for brand love. Stay
-  playful and bring people together.
+  By targeting people at a time when we know they are more likely to be
+  influenced by a Snickers message, this would allow us to deliver Intelligent
+  Reach through a tailored message based on their online signals, and deliver
+  Intelligent Conversion by providing a compelling offer when they are most
+  susceptible. Given our findings that light buyers are even more susceptible to
+  purchase when in an excited mood state, if we can identify and target these
+  buyers we can use digital implementation to improve brand penetration.
 insights:
+  - 'Snickers turned 61,318 consumers into Brand Advocates.'
+  - 'Snickers creative content received a total of 42,888,113 impressions.'
+  - “Excited” content drove the highest level of impressions and engagement.
   - >-
-    Oreo Content has more than 61M Views and more than 92,000 consumers became
-    Brand Advocates
-  - >-
-    Consumers showed the highest engagement with Oreo during moments of Love and
-    expressing positive sentiment
-  - >-
-    Consumers who saw the Oreo content were significantly more likely to
-    purchase the product in the next 30 days
+    The campaign reached the 25-34 demographic the most, while the 35-44
+    demographic engaged the most with the content.
 gifs:
   - /assets/emogis/snickers/Snickers_Angel.gif
   - /assets/emogis/snickers/Snickers_Annoyed.gif
