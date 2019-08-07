@@ -7569,9 +7569,7 @@ p.sm {
     display: none; }
 
   .modal.show .modal-dialog {
-    margin: 26px;
-    top: 50% !important;
-    transform: translateY(-50%) !important; }
+    margin: 26px; }
 
   #team > a {
     width: 48%; }
