@@ -87,8 +87,23 @@ $('.carousel').carousel()
 jQuery('#exampleModal').on('hidden.bs.modal', function (e) {
   // do something...
 //   console.log("hidden");
-  jQuery('#exampleModal video').attr("src", jQuery("#exampleModal  video").attr("src"));
+// document.getElementById("iframeSp").muted=true;
+//   jQuery('#exampleModal video').attr("src", jQuery("#exampleModal  video").attr("src"));
+	stopVideo();
 });
+
+function stopVideo() {
+  var $frame = $('iframe#iframeSp');
+
+  // saves the current iframe source
+  var vidsrc = $frame.attr('src');
+
+  // sets the source to nothing, stopping the video
+  $frame.attr('src', '');
+
+  // sets it back to the correct link so that it reloads immediately on the next window open
+  $frame.attr('src', vidsrc);
+}
 
 // $(window).on(
 //     'load resize orientationchange', 
