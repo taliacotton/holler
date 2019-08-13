@@ -10,12 +10,12 @@ apply-link: >-
 meta-content:
   image:
   description: >-
-    We are looking for our first true people organization leader – who can
-    inspire and drive our teams and our culture as we continue to scale for our
-    next phase of growth. Our perfect candidate will be the energetic ambassador
-    of all things people to the company at large and is motivated by a love for
-    people and technology. The role reports to the COO and will be located at HQ
-    in our New York, NY offices.
+    We operate a multi-sided platform; our stakeholders includes end users,
+    platform partners, marketers, and content creators. Our success depends on
+    our ability to understand these stakeholders — to understand how users use
+    our product, how our content performs, and how our business partners work
+    with us. We are looking for a product leader to lead, innovate, and deliver
+    value through our product for all our constituencies.
 ---
 
 Holler is a content platform for messaging. Our mission is to help people have better conversations.
@@ -25,8 +25,6 @@ We work with leading chat, dating, gaming and productivity applications to provi
 We operate a multi-sided platform; our stakeholders includes end users, platform partners, marketers, and content creators. Our success depends on our ability to understand these stakeholders — to understand how users use our product, how our content performs, and how our business partners work with us. We are looking for a product leader to lead, innovate, and deliver value through our product for all our constituencies.
 
 Our solution services hundreds of millions of users across billions of messages each month and in this role you will be able to define the conversation experience for consumers. We are creating the future of content in the conversation space, therefore, the ideal candidate should have a passion for technology and creativity while being excited to roll their sleeves up in a fast-paced startup environment.
-
-We are looking for our first true people organization leader – who can inspire and drive our teams and our culture as we continue to scale for our next phase of growth. Our perfect candidate will be the energetic ambassador of all things people to the company at large and is motivated by a love for people and technology. The role reports to the COO and will be located at HQ in our New York, NY offices.
 
 ### **Responsibilities**
 
