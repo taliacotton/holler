@@ -175,6 +175,12 @@ $(document).ready(function(e) {
 
 	// });
 
+	let orbWidth = 50;
+
+	$('.marquee').css("width", $('.orb').length * orbWidth + "px");
+
+
+
 	$("#slideshow > span").hide();
 	$("#slideshow > span:first").show();
 

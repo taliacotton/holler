@@ -304,13 +304,13 @@ h4{
     background-size:cover;
 }
 
-.marquee {
-  position: relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 100px;
-  overflow: hidden;
-}
+// .marquee {
+//   position: relative;
+//   width: 100vw;
+//   max-width: 100%;
+//   height: 100px;
+//   overflow: hidden;
+// }
 
 .track {
   position: absolute;
@@ -373,15 +373,15 @@ h4{
 //   }
 // }
 
-@keyframes marquee {
-  from { transform: translateX(100%); }
-  to { transform: translateX(-100%); }
-}
+// @keyframes marquee {
+//   from { transform: translateX(100%); }
+//   to { transform: translateX(-100%); }
+// }
 
-@keyframes firstmarquee {
-  from { transform: translateX(0%); }
-  to { transform: translateX(-200%); }
-}
+// @keyframes firstmarquee {
+//   from { transform: translateX(0%); }
+//   to { transform: translateX(-200%); }
+// }
 
 
 .navbar{
@@ -994,6 +994,9 @@ h2.modal-title {
 
 
 
+
+
+
 .modal.show .modal-dialog{
     margin:26px;
     // top: 50% !important;
@@ -1073,4 +1076,78 @@ h2.modal-title {
 
 
    
+}
+
+
+
+.orb {
+  width: 50px;
+  height: 50px;
+//   background: #999;
+//   border-radius: 50px;
+  display: inline-block;
+  margin: 0 24.7px;
+  float: left;
+  position:relative;
+  top:0px;
+  transition: 200ms ease-out;
+  p{
+      display:none;
+      line-height:17px;
+      margin-top:10px;
+  }
+}
+
+.orb:hover {
+//   transform: scale(1.2);
+//   opacity: .5;
+  cursor: pointer;
+  top:-20px;
+  p{
+      display:block;
+  }
+}
+
+// .red {background:red;}
+// .yellow {background:yellow;}
+// .blue {background:blue;}
+// .orange {background:orange;}
+// .purple {background:purple;}
+// .green {background:green;}
+
+.marquee {
+  height: 300px;
+/*   width: 800px; */
+//   border: 2px solid #eee;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+//   margin: 300px auto;
+}
+
+.marquee--inner {
+  display: block;
+  width: 200%;
+  margin: 70px 0;
+  position: absolute;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+/*.half {
+  float: left;
+  width: 10%;
+}*/
+
+.orb span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
 }

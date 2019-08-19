@@ -7025,13 +7025,6 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.marquee {
-  position: relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 100px;
-  overflow: hidden; }
-
 .track {
   position: absolute;
   white-space: nowrap;
@@ -7074,16 +7067,6 @@ h4 {
   border-radius: 50%;
   background-repeat: no-repeat; }
 
-@keyframes marquee {
-  from {
-    transform: translateX(100%); }
-  to {
-    transform: translateX(-100%); } }
-@keyframes firstmarquee {
-  from {
-    transform: translateX(0%); }
-  to {
-    transform: translateX(-200%); } }
 .navbar {
   padding: 0px; }
 
@@ -7604,3 +7587,53 @@ p.sm {
 
   .pt-intro {
     padding-top: 50px; } }
+.orb {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 0 24.7px;
+  float: left;
+  position: relative;
+  top: 0px;
+  transition: 200ms ease-out; }
+  .orb p {
+    display: none;
+    line-height: 17px;
+    margin-top: 10px; }
+
+.orb:hover {
+  cursor: pointer;
+  top: -20px; }
+  .orb:hover p {
+    display: block; }
+
+.marquee {
+  height: 300px;
+  /*   width: 800px; */
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative; }
+
+.marquee--inner {
+  display: block;
+  width: 200%;
+  margin: 70px 0;
+  position: absolute;
+  animation: marquee 20s linear infinite; }
+
+.marquee--inner:hover {
+  animation-play-state: paused; }
+
+/*.half {
+  float: left;
+  width: 10%;
+}*/
+.orb span {
+  float: left;
+  width: 50%; }
+
+@keyframes marquee {
+  0% {
+    left: 0; }
+  100% {
+    left: -100%; } }
