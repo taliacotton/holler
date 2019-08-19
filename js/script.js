@@ -175,7 +175,8 @@ $(document).ready(function(e) {
 
 	// });
 
-	let orbWidth = 50;
+	let orbWidth = 50 + 24.7;
+	console.log($('.orb').length);
 
 	$('.marquee').css("width", $('.orb').length * orbWidth + "px");
 
