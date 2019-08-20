@@ -4,7 +4,7 @@ layout: casestudy
 permalink: /casestudies/snickers
 hero-animation:
   - image: /assets/emogis/snickers/Snickers_Angel2.gif
-  - image:
+    image_alt_text:
 file_download_path: /assets/Holler_Snickers_CaseStudy.pdf
 show_video: false
 vimeo_embed_code:

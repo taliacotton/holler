@@ -1,8 +1,10 @@
 - name: Travis Montaque
   title: Founder & CEO
   image: /assets/img/Travis_Reduced.jpg
+  image_alt_text:
   modal:
     image: /assets/img/Travis_Module_New2.jpg
+    image_alt_text:
     bio: >-
       An entrepreneur at his core, Travis was listed in Entrepreneur Magazine's
       2018 Most Daring Entrepreneur's list for his work in branding consumer
@@ -18,8 +20,10 @@
 - name: Stephen Zangre
   title: COO
   image: /assets/img/Stephen_reduced.jpg
+  image_alt_text:
   modal:
     image: /assets/img/Stephen_Module_New2.jpg
+    image_alt_text:
     bio: >-
       With 25 years of experience in hyper-growth environments, Stephen has a
       track record of leadership and high performance, most notably during
@@ -33,8 +37,10 @@
 - name: 'Patrick Perrin, Ph.D.'
   title: 'Chief Scientist, AI & Research'
   image: /assets/img/Patrick_reduced.jpg
+  image_alt_text:
   modal:
     image: /assets/img/Patrick_Module_New.jpg
+    image_alt_text:
     bio: >-
       More than 20 years of experience and passion in AI Research & Development,
       successfully leading teams to solve complex problems and build robust
@@ -52,8 +58,10 @@
 - name: Sarah Aitken
   title: CMO
   image: /assets/img/Sarah_reduced.jpg
+  image_alt_text:
   modal:
     image: /assets/img/Sarah_Module_New.jpg
+    image_alt_text:
     bio: >-
       Before joining Holler, Sarah spent over 14 years driving growth at global
       creative agency, Iris Worldwide, across Europe, Latin America and North
@@ -65,8 +73,10 @@
 - name: David Brady
   title: Head of Engineering
   image: /assets/img/David_reduced.jpg
+  image_alt_text:
   modal:
     image: /assets/img/David_Module_New2.jpg
+    image_alt_text:
     bio: >-
       A guru product developer, David’s diverse career has revolved around
       innovations that connect people with content and information. That work
@@ -81,8 +91,10 @@
 - name: Pat Giles
   title: Head of Studio
   image: /assets/img/Pat_reduced.jpg
+  image_alt_text:
   modal:
     image: /assets/img/Pat_Module_New.jpg
+    image_alt_text:
     bio: >-
       A creative force in the industry for decades, leading the charge on some
       of the biggest brand characters on the planet, including Green Giant,
@@ -98,8 +110,10 @@
 - name: Damian De Rosaire
   title: Head of Customer Success
   image: /assets/img/Damian_reduced.jpg
+  image_alt_text:
   modal:
     image: /assets/img/Damian_Module_New.jpg
+    image_alt_text:
     bio: >-
       With 20 years of operational and account management experience under his
       belt, Damian has worked in popular hyper-growth tech start-ups like

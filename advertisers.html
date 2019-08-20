@@ -32,10 +32,15 @@ apps:
     title: TextNow
 measurement-partners:
   - image: /assets/img/Nielsen_2.png
+    image_alt_text:
   - image: /assets/img/Millward_Brown_2.png
+    image_alt_text:
   - image: /assets/img/Placed_2.png
+    image_alt_text:
   - image: /assets/img/NinthDecimal_2.png
+    image_alt_text:
   - image: /assets/img/AppsFlyer_2.png
+    image_alt_text:
 meta-content:
   image: /uploads/advertisers.jpg
   description: >-
@@ -65,7 +70,7 @@ meta-content:
         <span>
           {% for app in page.apps %}
           <div class="orb">
-            <img class="img-fluid" src="{{ app.image }}" />
+            <img class="img-fluid" src="{{ app.image }}" alt="{{app.title}}" />
             <p class="sm">{{ app.title }}</p>
           </div>
           {% endfor %}
@@ -73,7 +78,7 @@ meta-content:
         <span>
           {% for app in page.apps %}
           <div class="orb">
-            <img class="img-fluid" src="{{ app.image }}" />
+            <img class="img-fluid" src="{{ app.image }}" alt="{{app.title}}" />
             <p class="sm">{{ app.title }}</p>
           </div>
           {% endfor %}
@@ -117,7 +122,7 @@ meta-content:
                     </div>
                 </div>
                 <div class="smartphone m-auto">
-                <img class="active" src="/assets/img/AdvertsPage_SmartSuggestFlow.gif" />
+                <img class="active editable" alt="" src="/assets/img/AdvertsPage_SmartSuggestFlow.gif" />
                 <!-- <img class="static d-none d-md-block" src="/assets/img/SmartSuggestionsFlow.png" /> -->
             </div>
             </div>
@@ -133,7 +138,7 @@ meta-content:
                     </div>
                 </div>
                 <div class="smartphone m-auto">
-                <img class="active" src="/assets/img/AdvertsPage_SearchFlow.gif" />
+                <img class="active editable" alt="" src="/assets/img/AdvertsPage_SearchFlow.gif" />
                 <!-- <img class="static d-none d-md-block" src="/assets/img/SearchFlow.png" /> -->
             </div>
             </div>
@@ -156,7 +161,7 @@ meta-content:
         <div class="d-inline-block">
             <a href="{{case.url}}">
                 <div class="case-study-thumb position-relative">
-                    <img src="{{case.hero-animation[0].image}}" />
+                    <img alt="{{case.hero-animation[0].image_alt_text}}" src="{{case.hero-animation[0].image}}" />
                 </div>
                 <p>{{case.title}}</p>
             </a>
@@ -201,7 +206,7 @@ meta-content:
                 </p>
                 <div class="measurement-partners">
                     {% for logo in page.measurement-partners %}
-                    <img class="mb-3 mr-3" src="{{logo.image}}" />
+                    <img class="mb-3 mr-3" alt="" src="{{logo.image}}" />
                     {% endfor %}
                 </div>
             </div>

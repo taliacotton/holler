@@ -9,6 +9,7 @@
     family.
   publisher: AdWeek
   image: /uploads/heres-how-messaging-is-positioned-to-dominate-in-2019.png
+  image_alt_text:
   url: >-
     https://www.adweek.com/digital/heres-how-messaging-is-positioned-to-dominate-in-2019/
 - title: The 50 most daring Entrepreneurs in 2018
@@ -22,6 +23,7 @@
   publisher: Entrepreneur
   image: >-
     /uploads/the-50-most-daring-entrepreneurs-in-2018--a12dce042d82caf9fc970bf3c410de4d.jpg
+  image_alt_text:
   url: 'https://www.entrepreneur.com/slideshow/321571'
 - title: 'This Company Takes Emojis to a Whole New, Measurable Level'
   featured: true
@@ -32,6 +34,7 @@
     and flu activation on Emogi's platform.
   publisher: Campaign
   image: /uploads/this-company-takes-emojis-to-a-whole-new-measurable-level.png
+  image_alt_text:
   url: >-
     https://www.campaignlive.com/article/company-takes-emojis-whole-new-measurable-level/1488453
 - title: >-
@@ -46,6 +49,7 @@
   publisher: TechCrunch
   image: >-
     /uploads/gif-and-sticker-platform-emogi-gets-12-6m-as-the-b-282395b2f3dea248a960d6253d32535c-1.png
+  image_alt_text:
   url: >-
     https://techcrunch.com/2018/05/30/gif-and-sticker-platform-emogi-gets-12-6m-as-the-battle-of-gif-startups-continues-to-heat-up/
 - title: What to Expect at Social Media Week 2019
@@ -57,6 +61,7 @@
     data privacy in a world where people expect powerful customization?
   publisher: Viacom
   image: /uploads/-what-to-expect-at-social-media-week-2019.png
+  image_alt_text:
   url: 'https://www.viacom.com/news/social-media-week-2019'
 - title: >-
     Fleksy's AI Keyboard is Getting a Store to Put Mini Apps at Chatters'
@@ -71,6 +76,7 @@
   publisher: TechCrunch
   image: >-
     /uploads/fleksys-ai-keyboard-is-getting-a-store-to-put-mini-3c8771ef3020eedfe19477e764874c8c.png
+  image_alt_text:
   url: >-
     https://techcrunch.com/2019/04/03/fleksys-ai-keyboard-is-getting-a-store-to-put-mini-apps-at-chatters-fingertips/
 - title: AI is About to Change Your Messaging Experience Forever – Are You Ready?
@@ -88,6 +94,7 @@
   publisher: insideBIGDATA
   image: >-
     /uploads/ai-is-about-to-change-your-messaging-experience-forever--are-you-ready-.png
+  image_alt_text:
   url: >-
     https://insidebigdata.com/2019/01/24/ai-is-about-to-change-your-messaging-experience-forever-are-you-ready/
 - title: 3 Steps to Build a Lasting Emotional Connection With Customers
@@ -99,6 +106,7 @@
     achieve meaningful emotional connections with their consumers.
   publisher: AdWeek
   image: /uploads/3-steps-to-build-a-lasting-emotional-connection-with-customers-.png
+  image_alt_text:
   url: >-
     https://www.adweek.com/brand-marketing/3-steps-to-build-a-lasting-emotional-connection-with-customers/
 - title: The Secret to True Brand Authenticity
@@ -112,6 +120,7 @@
     driven methods of engagement.
   publisher: MarTechSeries
   image: /uploads/the-secret-to-true-brand-authenticity.png
+  image_alt_text:
   url: >-
     https://martechseries.com/mts-insights/guest-authors/the-secret-to-true-brand-authenticity/
 - title: How Emogi Helps Brands Make GIF Stickers
@@ -125,6 +134,7 @@
     through. You love him or hate him, but people know him.”
   publisher: Digiday
   image: /uploads/how-emogi-helps-brands-make-gif-stickers.png
+  image_alt_text:
   url: 'https://digiday.com/marketing/emogi-helps-brands-make-gif-stickers/'
 - title: How I Earned My Seat at the Table
   featured: false
@@ -136,6 +146,7 @@
     reputation, and sometimes consider an unconventional approach.
   publisher: Entrepreneur
   image: /uploads/how-i-earned-my-seat-at-the-table.png
+  image_alt_text:
   url: 'https://www.entrepreneur.com/article/316541'
 - title: >-
     Using Emoji in Mobile Messaging Campaigns: 3 Quick Tips From Marketing
@@ -151,6 +162,7 @@
   publisher: DMNews
   image: >-
     /uploads/using-emoji-in-mobile-messaging-campaigns--3-quick-tips-from-marketing-leaders.png
+  image_alt_text:
   url: >-
     https://www.dmnews.com/marketing-channels/mobile/article/21013572/using-emoji-in-mobile-messaging-campaigns
 - title: 'Interview with Travis Montaque, Founder and CEO, Emogi'
@@ -162,6 +174,7 @@
     share them.”
   publisher: MarTechSeries
   image: /uploads/interview-with-travis-montaque-founder-and-ceo-emogi.png
+  image_alt_text:
   url: >-
     https://martechseries.com/mts-insights/interviews/interview-with-travis-montaque-founder-ceo-at-emogi/
 - title: The World Beyond Social Media
@@ -174,6 +187,7 @@
     engage directly with users in the messaging space in order to cut through.”
   publisher: MarTechSeries
   image: /uploads/the-world-beyond-social-media.png
+  image_alt_text:
   url: >-
     https://martechseries.com/mts-insights/guest-authors/the-world-beyond-social-media/
 - title: Why This Entrepreneur Turned Down His Dream Job on Wall Street
@@ -186,6 +200,7 @@
     experience.
   publisher: Black Enterprise
   image: /uploads/devpost-insta-emogi-e1528433132911.png
+  image_alt_text:
   url: 'https://www.blackenterprise.com/founder-leaves-wall-street/'
 - title: >-
     It’s Time for Brands to Jump Headfirst Into the Conversational Marketing
@@ -199,6 +214,7 @@
   publisher: AdWeek
   image: >-
     /uploads/its-time-for-brands-to-jump-headfirst-into-the-con-9d427fae5caa2dc7a0fef24be08a04ba.png
+  image_alt_text:
   url: >-
     https://www.adweek.com/brand-marketing/its-time-for-brands-to-jump-headfirst-into-the-conversational-marketing-sphere/
 - title: The Most-Shared Content By Fans Before And After The Super Bowl
@@ -211,6 +227,7 @@
     Super Bowl content.
   publisher: Forbes
   image: /uploads/the-most-shared-content-by-fans-before-and-after-the-super-bowl.png
+  image_alt_text:
   url: >-
     https://www.forbes.com/sites/steveolenski/2018/02/12/the-most-shared-content-by-fans-before-and-after-the-superbowl/#4e6c4cf465f0
 - title: >-
@@ -226,6 +243,7 @@
   publisher: Ad Exchanger
   image: >-
     /uploads/emogi-helps-brands-share-in-the-chat-revolution-wi-6c9ceacc7a37f80d158fce71d094c692.png
+  image_alt_text:
   url: >-
     https://adexchanger.com/mobile/emogi-helps-brands-share-chat-revolution-custom-content-keyboard/
 - title: The Rise Of Contextual Content In Messaging (And Why It Matters For Brands)
@@ -238,6 +256,7 @@
   publisher: Forbes
   image: >-
     /uploads/the-rise-of-contextual-content-in-messaging-and-why-it-matters-for-brands.png
+  image_alt_text:
   url: >-
     https://www.forbes.com/sites/steveolenski/2017/12/05/the-rise-of-contextual-content-in-messaging-and-why-it-matters-for-brands/#28ae2a8f335d
 - title: Google Teams with Emogi (with a G)
@@ -249,6 +268,7 @@
     chat since ascii art.”
   publisher: SlashGear
   image: /uploads/google-teams-with-emogi-with-a-g.png
+  image_alt_text:
   url: 'https://www.slashgear.com/google-teams-with-emogi-with-a-g-26501697/'
 - title: Gboard is Picking Up Animated Stickers Thanks to Emogi Partnership
   featured: false
@@ -259,6 +279,7 @@
   publisher: 9to5Google
   image: >-
     /uploads/gboard-is-picking-up-animated-stickers-thanks-to-emogi-partnership.png
+  image_alt_text:
   url: 'https://9to5google.com/2017/09/26/gboard-animated-stickers-emogi/'
 - title: Data Shows the 3 Things You Need for a Successful Facebook Ad
   featured: false
@@ -271,6 +292,7 @@
     initiatives.”
   publisher: Entrepreneur
   image: /uploads/data-shows-the-3-things-you-need-for-a-successful-facebook-ad.png
+  image_alt_text:
   url: 'https://www.entrepreneur.com/article/296196'
 - title: 'Messaging Wars: Intelligence is King'
   featured: false
@@ -281,6 +303,7 @@
     having to search for it.
   publisher: The Huffington Post
   image: /uploads/messaging-wars--intelligence-is-king.png
+  image_alt_text:
   url: >-
     https://www.huffpost.com/entry/messaging-wars-intelligence-is-king_b_58f4e0ede4b04cae050dc939
 - title: Branded Stickers are the New Branded Emoji Keyboards
@@ -293,6 +316,7 @@
     frictionless and contextual content experience.
   publisher: Digiday
   image: /uploads/branded-stickers-are-the-new-branded-emoji-keyboards.png
+  image_alt_text:
   url: 'https://digiday.com/marketing/branded-stickers-new-branded-emoji-keyboards/'
 - title: 'Sometimes an Emoji is More Than Just a :)'
   featured: false
@@ -303,6 +327,7 @@
     on the ability to leverage the context of conversations.
   publisher: The Wall Street Journal
   image: /uploads/sometimes-an-emoji-is-more-than-just-a--.png
+  image_alt_text:
   url: >-
     https://www.wsj.com/articles/sometimes-an-emoji-is-more-than-just-a-1491490801
 - title: >-
@@ -317,6 +342,7 @@
   publisher: Mobile Marketer
   image: >-
     /uploads/inside-the-digital-sticker-deluge--how-marketers-can-elevate-their-emoji-strategies.png
+  image_alt_text:
   url: >-
     https://www.mobilemarketer.com/news/inside-the-digital-sticker-deluge-how-marketers-can-elevate-their-emoji-st/439621/
 - title: More Than a Gimmick? How Emojis Might Find Lasting Marketing Appeal
@@ -329,6 +355,7 @@
   publisher: Marketing Dive
   image: >-
     /uploads/more-than-a-gimmick--how-emojis-might-find-lasting-marketing-appeal.png
+  image_alt_text:
   url: >-
     https://www.marketingdive.com/news/more-than-a-gimmick-how-emojis-might-find-lasting-marketing-appeal/435457/
 - title: Marketers Want to Start Measuring Emoji Viewability
@@ -341,6 +368,7 @@
     Johnson.
   publisher: AdWeek
   image: /uploads/marketers-want-to-start-measuring-emoji-viewability.png
+  image_alt_text:
   url: >-
     https://www.adweek.com/digital/marketers-want-start-measuring-emoji-viewability-175699/
 - title: 'Moat, Emogi Partner for Metrics around Emoji, Stickers and GIFs'
@@ -352,6 +380,7 @@
     these elements are being used so efforts can be optimized.
   publisher: Marketing Dive
   image: /uploads/moat-emogi-partner-for-metrics-around-emoji-stickers-and-gifs.png
+  image_alt_text:
   url: >-
     https://www.marketingdive.com/news/moat-emogi-partner-for-metrics-around-emoji-stickers-and-gifs/433998/
 - title: Third-party Measurement Comes to Branded Emojis and Stickers
@@ -365,6 +394,7 @@
     value for their money and also key takeaways about their consumers.”
   publisher: Digiday
   image: /uploads/third-party-measurement-comes-to-branded-emojis-and-stickers.png
+  image_alt_text:
   url: >-
     https://digiday.com/marketing/third-party-measurement-comes-branded-emojis-stickers/
 - title: >-
@@ -383,5 +413,6 @@
   publisher: PR Newswire
   image: >-
     /uploads/emogi-and-moat-announce-partnership-to-bring-brand-focused-metrics-to-mobile-messaging.png
+  image_alt_text:
   url: >-
     https://www.prnewswire.com/news-releases/emogi-and-moat-announce-partnership-to-bring-brand-focused-metrics-to-mobile-messaging-300390046.html

@@ -29,7 +29,7 @@ meta-content:
 {% for member in site.data.team %}
 <!-- Button trigger modal -->
         <a href="#" class="d-inline float-left text-center text-decoration-none" data-toggle="modal" data-target="#team-{{forloop.index}}">
-            <img src="{{ member.image }}" class="team-image d-inline-block img-fluid" /><br />
+            <img src="{{ member.image }}" alt="{{member.image_alt_text}}" class="team-image d-inline-block img-fluid" /><br />
             <div class="team-image-caption d-inline-block">
                 <p class="text-decoration-none mt-md-3"><strong>{{member.name}}</strong><br />{{member.title}}</p>
             </div>
@@ -60,7 +60,7 @@ meta-content:
                         <p class="mt-4">{{member.modal.bio}}</p>
                     </div>
                     <div class="col-10 col-lg-5">
-                        <img src="{{ member.modal.image}}" class="img-fluid" />
+                        <img src="{{ member.modal.image}}" alt="{{member.modal.image_alt_text}}" class="img-fluid" />
                     </div>
                 </div>
                 
