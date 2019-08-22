@@ -11,9 +11,12 @@
   url: >-
     https://www.globaldatinginsights.com/news/badoo-integrates-animated-sticker-keyboard-from-holler/
 - title: Snickers spurs 42M views from Holler's Branded stickers
-  featured: false
+  featured: true
   published-date: 'August 8, 2019'
-  blurb:
+  blurb: >-
+    Snickers' positive results with Holler's platform demonstrate how marketers
+    can integrate their brands into text conversations as mobile users decorate
+    their messages with animated images.
   publisher: Mobile Marketer
   image: /uploads/snickers_4.png
   image_alt_text: snickers satisfies 42m views Holler
