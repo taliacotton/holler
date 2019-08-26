@@ -1,5 +1,5 @@
 ---
-position: Account Manager
+position: Marketing Manager
 layout: listing
 permalink: /careers/marketing-manager
 shorthand-for-animation: a Marketing Manager
@@ -14,7 +14,7 @@ meta-content:
 
 **Marketing Manager&nbsp;**
 
-*Holler, an innovative technology and content company enriching billions of conversations across messaging and communication services is seeking a Marketing Manager to support our CMO on our demand generation efforts for our B2B audiences (advertisers, agencies and platform partners) as well as B2C efforts to raise Holler’s brand awareness and equity with users internationally.**We are creating the future of content in the conversation space, therefore, the ideal candidate should have a passion for technology and creativity while being excited to roll their sleeves up in a fast-paced startup environment.&nbsp;*
+*Holler, an innovative technology and content company enriching billions of conversations across messaging and communication services is seeking a Marketing Manager to support our CMO on our demand generation efforts for our B2B audiences (advertisers, agencies and platform partners) as well as B2C efforts to raise Holler’s brand awareness and equity with users internationally.\*\*We are creating the future of content in the conversation space, therefore, the ideal candidate should have a passion for technology and creativity while being excited to roll their sleeves up in a fast-paced startup environment.&nbsp;*
 
 *This is a full-time position based in our New York, NY office.*
 
