@@ -1,7 +1,7 @@
 ---
 position: Copywriter & Social Media Manager
 layout: listing
-permalink: /careers/account-manager
+permalink: /careers/copywriter_social media manager
 shorthand-for-animation: Copy & Social Media Manager
 location: 'New York, New York'
 timeframe: Full Time
@@ -14,7 +14,7 @@ meta-content:
 
 **Copywriter & Social Media Manager&nbsp;**
 
-*Holler, an innovative technology and content company enriching billions of conversations across messaging and communication services is seeking a Social Media Manager to support our marketing team as in-house copywriter for all Holler content and marketing materials and to create, grow and manage a rich presence for Holler across all owned media outlets (Holler.io, Instagram, Facebook, LinkedIn, Twitter etc.)**We are creating the future of content in the conversation space, therefore, the ideal candidate should have a passion for technology and creativity while being excited to roll their sleeves up in a fast-paced startup environment.&nbsp;*
+*Holler, an innovative technology and content company enriching billions of conversations across messaging and communication services is seeking a Social Media Manager to support our marketing team as in-house copywriter for all Holler content and marketing materials and to create, grow and manage a rich presence for Holler across all owned media outlets (Holler.io, Instagram, Facebook, LinkedIn, Twitter etc.)\*\*We are creating the future of content in the conversation space, therefore, the ideal candidate should have a passion for technology and creativity while being excited to roll their sleeves up in a fast-paced startup environment.&nbsp;*
 
 *This is a full-time position based in our New York, NY office.*
 
