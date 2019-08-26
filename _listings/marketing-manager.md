@@ -43,20 +43,31 @@ meta-content:
 **Minimum Requirements**
 
 * You have 4+ years experience in marketing for a media or tech company
+
 * Experience working with product development & sales channels to drive successful product and revenue growth in a fast-paced media or technology product business
+
 * Experience working with media and creative agencies
+
 * Experience developing content marketing strategies within the B2B space
+
 * Knowledge of digital marketing, the industry & marketing business challenges
+
 * Experience in (and passion for) working at hyper-growth, fast-paced organizations
+
 * Experience building teams and successfully managing direct reports
+
 * An analytical mind & inclination to measure everything in a data-informed way (while letting your creativity shine\!)
+
 * Great communicator who is adept at working with a high-performing cross-functional team
+
 * Exceptional attention to detail&nbsp;
 
 **Preferred Requirements**
 
 * Experience interacting with engineering/product/designers&nbsp;
+
 * Passion for messaging, visual communication and creativity
 
 * An appreciation of, and passion for, a startup environment&nbsp;
+
 * Experience in global marketing
