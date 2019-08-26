@@ -1,7 +1,7 @@
 ---
 position: Copywriter & Social Media Manager
 layout: listing
-permalink: /careers/copywriter_social media manager
+permalink: /careers/copywriter social media manager
 shorthand-for-animation: Copy & Social Media Manager
 location: 'New York, New York'
 timeframe: Full Time
