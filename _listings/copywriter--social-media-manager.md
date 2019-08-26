@@ -9,7 +9,7 @@ apply-link: >-
   https://docs.google.com/forms/d/e/1FAIpQLSfLviNkGEaF9KRCE-dvbpHRwIQO7AgfTxFMm4DzZYAWhaTfrg/viewform
 meta-content:
   image:
-  description:
+  description: careers social job tech startup
 ---
 
 **Copywriter & Social Media Manager&nbsp;**
