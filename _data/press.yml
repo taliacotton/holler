@@ -1,5 +1,49 @@
-- title: Here’s How Messaging Is Positioned to Dominate in 2019
+- title: Badoo Integrates Animated Stickers From Holler
   featured: true
+  published-date: 'August 8, 2019'
+  blurb: >-
+    Badoo has teamed up with Holler, a creative content studio that provides
+    apps with animated stickers to help their users keep the conversation
+    flowing.
+  publisher: GDI
+  image: /uploads/badoo.png
+  image_alt_text: Holler Badoo integration animated stickers partnership
+  url: >-
+    https://www.globaldatinginsights.com/news/badoo-integrates-animated-sticker-keyboard-from-holler/
+- title: Snickers spurs 42M views from Holler's Branded stickers
+  featured: true
+  published-date: 'August 8, 2019'
+  blurb: >-
+    Snickers' positive results with Holler's platform demonstrate how marketers
+    can integrate their brands into text conversations as mobile users decorate
+    their messages with animated images.
+  publisher: Mobile Marketer
+  image: /uploads/snickers_6.png
+  image_alt_text: snickers satisfies 42m views Holler
+  url: >-
+    https://www.mobilemarketer.com/news/snickers-spurs-42m-views-from-hollers-branded-stickers/560481/
+- title: 'Emogi Rebrands To Holler, Integrates With Dating App Badoo'
+  featured: false
+  published-date: 'August 7, 2019'
+  blurb:
+  publisher: Publisher's Daily
+  image: /uploads/badoo.png
+  image_alt_text: 'Emogi Rebrands To Holler, Integrates With Dating App Badoo'
+  url: >-
+    https://www.mediapost.com/publications/article/339027/emogi-rebrands-to-holler-integrates-with-dating-a.html
+- title: Emogi Rebrands to Holler and Partners with Dating App Badoo
+  featured: true
+  published-date: 'August 8, 2019'
+  blurb: >-
+    “We’re very excited to build on the success of Emogi and share our Holler
+    vision with the world.” – Travis Montaque, CEO, Holler
+  publisher: Social Media Week
+  image: /uploads/social-media-week-2.png
+  image_alt_text: Social Media Week Press Coverage Rebrand
+  url: >-
+    https://socialmediaweek.org/blog/2019/08/emogi-rebrands-to-holler-and-partners-with-dating-app-badoo/
+- title: Here’s How Messaging Is Positioned to Dominate in 2019
+  featured: false
   published-date: 'January 3, 2019'
   blurb: >-
     72 trillion messages were sent across messaging platforms in 2018. In 2019,
@@ -12,6 +56,21 @@
   image_alt_text:
   url: >-
     https://www.adweek.com/digital/heres-how-messaging-is-positioned-to-dominate-in-2019/
+- title: >-
+    GIF and Sticker Platform Emogi Gets $12.6M as the Battle of GIF Startups
+    Continues to Heat Up
+  featured: false
+  published-date: 'May 30, 2018'
+  blurb: >-
+    With this Series A, Emogi will be able to better deliver an intuitive
+    experience where sharable content is personalized, topical, and easily
+    accessible in user conversations.
+  publisher: TechCrunch
+  image: >-
+    /uploads/gif-and-sticker-platform-emogi-gets-12-6m-as-the-b-282395b2f3dea248a960d6253d32535c-1.png
+  image_alt_text:
+  url: >-
+    https://techcrunch.com/2018/05/30/gif-and-sticker-platform-emogi-gets-12-6m-as-the-battle-of-gif-startups-continues-to-heat-up/
 - title: The 50 most daring Entrepreneurs in 2018
   featured: true
   published-date: 'October 23, 2018'
@@ -26,7 +85,7 @@
   image_alt_text:
   url: 'https://www.entrepreneur.com/slideshow/321571'
 - title: 'This Company Takes Emojis to a Whole New, Measurable Level'
-  featured: true
+  featured: false
   published-date: 'July 23, 2018'
   blurb: >-
     Campaign US catches up with Travis Montaque, Founder & CEO of Emogi, and
@@ -37,21 +96,6 @@
   image_alt_text:
   url: >-
     https://www.campaignlive.com/article/company-takes-emojis-whole-new-measurable-level/1488453
-- title: >-
-    GIF and Sticker Platform Emogi Gets $12.6M as the Battle of GIF Startups
-    Continues to Heat Up
-  featured: true
-  published-date: 'May 30, 2018'
-  blurb: >-
-    With this Series A, Emogi will be able to better deliver an intuitive
-    experience where sharable content is personalized, topical, and easily
-    accessible in user conversations.
-  publisher: TechCrunch
-  image: >-
-    /uploads/gif-and-sticker-platform-emogi-gets-12-6m-as-the-b-282395b2f3dea248a960d6253d32535c-1.png
-  image_alt_text:
-  url: >-
-    https://techcrunch.com/2018/05/30/gif-and-sticker-platform-emogi-gets-12-6m-as-the-battle-of-gif-startups-continues-to-heat-up/
 - title: What to Expect at Social Media Week 2019
   featured: false
   published-date: 'April 25, 2019'
@@ -294,6 +338,18 @@
   image: /uploads/data-shows-the-3-things-you-need-for-a-successful-facebook-ad.png
   image_alt_text:
   url: 'https://www.entrepreneur.com/article/296196'
+- title: 'Sometimes an Emoji is More Than Just a :)'
+  featured: false
+  published-date: 'April 6, 2017'
+  blurb: >-
+    Interest in incorporating emoji into businesses is rapidly growing. However,
+    getting people to use new emoji, or to use them in new ways, heavily depends
+    on the ability to leverage the context of conversations.
+  publisher: The Wall Street Journal
+  image: /uploads/sometimes-an-emoji-is-more-than-just-a--.png
+  image_alt_text:
+  url: >-
+    https://www.wsj.com/articles/sometimes-an-emoji-is-more-than-just-a-1491490801
 - title: 'Messaging Wars: Intelligence is King'
   featured: false
   published-date: 'April 17, 2017'
@@ -318,18 +374,6 @@
   image: /uploads/branded-stickers-are-the-new-branded-emoji-keyboards.png
   image_alt_text:
   url: 'https://digiday.com/marketing/branded-stickers-new-branded-emoji-keyboards/'
-- title: 'Sometimes an Emoji is More Than Just a :)'
-  featured: false
-  published-date: 'April 6, 2017'
-  blurb: >-
-    Interest in incorporating emoji into businesses is rapidly growing. However,
-    getting people to use new emoji, or to use them in new ways, heavily depends
-    on the ability to leverage the context of conversations.
-  publisher: The Wall Street Journal
-  image: /uploads/sometimes-an-emoji-is-more-than-just-a--.png
-  image_alt_text:
-  url: >-
-    https://www.wsj.com/articles/sometimes-an-emoji-is-more-than-just-a-1491490801
 - title: >-
     Inside the Digital Sticker Deluge: How Marketers Can Elevate Their Emoji
     Strategies
@@ -345,19 +389,6 @@
   image_alt_text:
   url: >-
     https://www.mobilemarketer.com/news/inside-the-digital-sticker-deluge-how-marketers-can-elevate-their-emoji-st/439621/
-- title: More Than a Gimmick? How Emojis Might Find Lasting Marketing Appeal
-  featured: false
-  published-date: 'February 14, 2017'
-  blurb: >-
-    There’s been a ramp-up in mind share and investment put toward better
-    leveraging emojis and similar messaging tools. Furthermore, emoji appeal
-    isn’t strictly limited to an age demographic.
-  publisher: Marketing Dive
-  image: >-
-    /uploads/more-than-a-gimmick--how-emojis-might-find-lasting-marketing-appeal.png
-  image_alt_text:
-  url: >-
-    https://www.marketingdive.com/news/more-than-a-gimmick-how-emojis-might-find-lasting-marketing-appeal/435457/
 - title: Marketers Want to Start Measuring Emoji Viewability
   featured: false
   published-date: 'January 24, 2017'
@@ -371,6 +402,19 @@
   image_alt_text:
   url: >-
     https://www.adweek.com/digital/marketers-want-start-measuring-emoji-viewability-175699/
+- title: More Than a Gimmick? How Emojis Might Find Lasting Marketing Appeal
+  featured: false
+  published-date: 'February 14, 2017'
+  blurb: >-
+    There’s been a ramp-up in mind share and investment put toward better
+    leveraging emojis and similar messaging tools. Furthermore, emoji appeal
+    isn’t strictly limited to an age demographic.
+  publisher: Marketing Dive
+  image: >-
+    /uploads/more-than-a-gimmick--how-emojis-might-find-lasting-marketing-appeal.png
+  image_alt_text:
+  url: >-
+    https://www.marketingdive.com/news/more-than-a-gimmick-how-emojis-might-find-lasting-marketing-appeal/435457/
 - title: 'Moat, Emogi Partner for Metrics around Emoji, Stickers and GIFs'
   featured: false
   published-date: 'January 13, 2017'
@@ -416,3 +460,14 @@
   image_alt_text:
   url: >-
     https://www.prnewswire.com/news-releases/emogi-and-moat-announce-partnership-to-bring-brand-focused-metrics-to-mobile-messaging-300390046.html
+- title: Holler’s Branded Stickers Generate Millions Of Views For Snickers
+  featured: true
+  published-date: 'August 8, 2019'
+  blurb: >-
+    nickers reaps the sweet fruit of its first sticker messaging campaign,
+    launched in partnership with messaging tech company Holler (formerly Emogi).
+  publisher: a.list
+  image: /uploads/a_list.png
+  image_alt_text: snickers a.list rebrand Holler Emogi 42 million views
+  url: >-
+    https://www.alistdaily.com/technology/hollers-branded-stickers-generate-42-million-views-for-snickers/
