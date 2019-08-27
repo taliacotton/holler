@@ -98,11 +98,16 @@
     <div class="container">
         <div class="row h-100">
             <div class="col-md-6 col-xl-5 my-auto order-md-2">
-                <video class="d-none d-sm-block developers-vid" autoplay loop muted playsinline>
+                <!-- <video class="d-none d-sm-block developers-vid" autoplay loop muted playsinline>
                     <source src="/assets/vid/DevPage_Animation_V02.webm" type="video/webm" />
                     <source src="/assets/vid/DevPage_Animation_V02.mp4" type="video/mp4" />
+                </video> -->
+                <video class="w-100" autoplay loop muted playsinline>
+                    <source src="/assets/vid/DevPage_Animation_V02.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+                    <source src="/assets/vid/DevPage_Animation_V02.webm" type='video/webm; codecs="vp8, vorbis"' />
+                    <img src="/assets/vid/developers-placeholder.png" title="Your browser does not support the video tag">
                 </video>
-                <img class="d-sm-none img-fluid editable" alt="" src="/assets/img/DevPage_Animation_V02-min.gif" />
+                <!-- <img class="d-sm-none img-fluid editable" alt="" src="/assets/img/DevPage_Animation_V02-min.gif" /> -->
             </div>
             <div class="col-md-6 col-lg-5 offset-lg-1 my-auto order-md-1">
                 <div>
@@ -389,7 +394,7 @@
         </div>
         <div class="col-sm-6 col-md-4 bg-teal pt-4 pb-5 order-md-6">
             <div class="smartphone m-auto" data-aos="fade-up" data-aos-delay="400">
-                <img class="active" src="/assets/img/catalog-resize.gif" />
+                <img class="active editable" src="/assets/img/catalog-resize.gif" />
                 <!-- <img class="static" src="/assets/img/CatalogFlow.png" /> -->
             </div>
         </div>
