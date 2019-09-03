@@ -29,23 +29,37 @@ The mission of the Customer Success group is to maximize business performance by
 Responsibilities:
 
 * Media / Account planning: Under the guidance of the Senior Program Manager this role will work with brands, agencies and sales partners to craft and deliver thoughtful, impactful media plans to our clients.&nbsp;&nbsp;
+
 * Campaign management: Using the internal tools, flight, launch and optimize brand campaigns.
+
 * Client reporting and data analytics:&nbsp; In addition to the normal campaign reporting, conduct insightful analysis using internal and external data (e.g. revenue, product, market, industry, and campaign) to derive insights that will drive the relevance of branded content, increased user interaction and wider distribution.
+
 * Revenue growth: Analyze campaign performance, client marketing initiatives and industry trends to identify levers for driving revenue growth.&nbsp;&nbsp;
+
 * Strategic Projects & Initiatives: The customer success group is in a hyper-growth stage, we are building the infrastructure of the department.&nbsp; Develop projects at the regional level that have the potential to scale at a global level.
+
 * Coordinating, monitoring and evaluating media campaigns and strategies
+
 * Identify and understand clients and their target audience.&nbsp;
 
 Minimum Qualifications:
 
 * This is an entry level role in&nbsp; media sales, sales strategy, strategic partnerships, project management and partnership organization.
+
 * Experience working independently and delivering measurable results in a timely manner.
+
 * Experience working cross-functionally on different projects.
+
 * Experience with solving problems in a collaborative environment
+
 * Strong Microsoft Excel and PowerPoint skills are a must
+
 * Strong Communication skills
+
 * Self-starter demonstrates initiative
+
 * Ability to work under pressure with attention to detail
+
 * Ability to learn new tools and skills quickly
 
 Required Qualifications:
