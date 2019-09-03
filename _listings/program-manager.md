@@ -64,7 +64,7 @@ The mission of the Customer Success group is to maximize business performance by
 
 **Required Qualifications:**
 
-* College Graduate.
+* College Graduate
 
 * Relevant Internships
 
