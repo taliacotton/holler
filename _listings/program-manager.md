@@ -26,7 +26,7 @@ Based in New York this role will work cross-functionally across multiple teams i
 
 The mission of the Customer Success group is to maximize business performance by being the objective, trusted partner to the sales and marketing organization through strategic planning, cross-functional collaboration, and operational excellence. We support the Sales & Marketing teams with account planning, analytics, and insight, and drive operational excellence. We also identify and drive critical projects and strategic initiatives that will help drive growth for Holler, our partners, and brands.
 
-Responsibilities:
+**Responsibilities:**
 
 * Media / Account planning: Under the guidance of the Senior Program Manager this role will work with brands, agencies and sales partners to craft and deliver thoughtful, impactful media plans to our clients.&nbsp;&nbsp;
 
@@ -42,7 +42,7 @@ Responsibilities:
 
 * Identify and understand clients and their target audience.&nbsp;
 
-Minimum Qualifications:
+**Minimum Qualifications:**
 
 * This is an entry level role in&nbsp; media sales, sales strategy, strategic partnerships, project management and partnership organization.
 
@@ -62,7 +62,7 @@ Minimum Qualifications:
 
 * Ability to learn new tools and skills quickly
 
-Required Qualifications:
+**Required Qualifications:**
 
 * College Graduate.
 
