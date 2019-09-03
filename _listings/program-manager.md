@@ -1,7 +1,7 @@
 ---
-position: Program Manag
+position: Program Manager
 layout: listing
-permalink: /careers/programmanager
+permalink: /careers/program_manager
 shorthand-for-animation: a Program Manager
 location: 'New York, New York'
 timeframe: Full Time
