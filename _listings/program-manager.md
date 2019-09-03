@@ -28,8 +28,6 @@ The mission of the Customer Success group is to maximize business performance by
 
 Responsibilities:
 
-&nbsp;
-
 * Media / Account planning: Under the guidance of the Senior Program Manager this role will work with brands, agencies and sales partners to craft and deliver thoughtful, impactful media plans to our clients.&nbsp;&nbsp;
 * Campaign management: Using the internal tools, flight, launch and optimize brand campaigns.
 * Client reporting and data analytics:&nbsp; In addition to the normal campaign reporting, conduct insightful analysis using internal and external data (e.g. revenue, product, market, industry, and campaign) to derive insights that will drive the relevance of branded content, increased user interaction and wider distribution.
