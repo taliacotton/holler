@@ -84,38 +84,27 @@ $('.carousel').carousel()
 // 	console.log("2")
 // });
 
+let vidsrc="https://player.vimeo.com/video/351397471?autoplay=1?color=96A3EE";
+
 jQuery('#exampleModal').on('hidden.bs.modal', function (e) {
-  // do something...
-//   console.log("hidden");
-// document.getElementById("iframeSp").muted=true;
-//   jQuery('#exampleModal video').attr("src", jQuery("#exampleModal  video").attr("src"));
 	stopVideo();
+});
+
+jQuery('#exampleModal').on('shown.bs.modal', function (e) {
+	startVideo();
 });
 
 function stopVideo() {
   var $frame = $('iframe#iframeSp');
-
-  // saves the current iframe source
-  var vidsrc = $frame.attr('src');
-
-  // sets the source to nothing, stopping the video
   $frame.attr('src', '');
+}
 
-  // sets it back to the correct link so that it reloads immediately on the next window open
+function startVideo() {
+  var $frame = $('iframe#iframeSp');
   $frame.attr('src', vidsrc);
 }
 
-// $(window).on(
-//     'load resize orientationchange', 
-//     normalizeSlideHeights);
-
-
 $('#increasingNumber span').text('0');
-// var interval = setInterval(function() {
-//         $('#increasingNumber span').text(number.toString().substring(0, 3));
-//         if (number >= target) clearInterval(interval);
-//         number+=0.1;
-//     }, 30);
 
 function increaseNum() {
 	
@@ -137,13 +126,11 @@ $(window).scroll(function() {
 		$('.fixed-nav').removeClass('showing');
 	}
 	
-	// if ($('#increasingNumber').length > 0){
-		if ($('#increasingNumber').length > 0 && isScrolledIntoView($('#increasingNumber')) == true){
-			if (increaseNumFired == false){
-				increaseNum();
-			}
+	if ($('#increasingNumber').length > 0 && isScrolledIntoView($('#increasingNumber')) == true){
+		if (increaseNumFired == false){
+			increaseNum();
 		}
-	// }
+	}
 	
 });
 
@@ -160,23 +147,10 @@ function isScrolledIntoView(elem)
 
 $(document).ready(function(e) {
 
-	// let teamPos = 0;
-
-	// $("#team").on('mousemove', function(e) {
-	// 	var mouseSide;
-	// 	if (e.pageX < $(window).width() / 2) {
-	// 		teamPos++;
-	// 	} else {
-	// 		teamPos--;
-	// 	}
-	// 	if ($(window).width() < 991.98){
-	// 		$('#team').css("left", teamPos);
-	// 	}
-
-	// });
+	var video = document.getElementById('homepageVidSm'); 
+	video.play();
 
 	let orbWidth = 50 + 24.7;
-	console.log($('.orb').length);
 
 	$('.marquee').css("width", $('.orb').length * orbWidth + "px");
 

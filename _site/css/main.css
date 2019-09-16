@@ -6974,7 +6974,8 @@ p, a, .nav-link {
 
 .modal-dialog {
   max-width: 1790px;
-  margin: 60px; }
+  margin: 60px;
+  padding: 20px; }
 
 h1 {
   font-size: 86px;
@@ -7587,6 +7588,15 @@ p.sm {
 
   .pt-intro {
     padding-top: 50px; } }
+body.modal-open {
+  overflow: hidden;
+  position: fixed; }
+
+video {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden; }
+
 .orb {
   width: 50px;
   height: 50px;
