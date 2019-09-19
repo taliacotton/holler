@@ -16,7 +16,7 @@ objective: >-
   bring to life the various emotional states frequently expressed in messaging
   that naturally linked to the advertising campaign.  Holler was then able to
   target consumers in real-time with contextual based targeting against various
-  mood states; Excited, Hungry, Sad, Bored, etc
+  mood states; Excited, Hungry, Sad, Bored, etc.
 insights:
   - 'Snickers turned 61,318 consumers into Brand Advocates.'
   - 'Snickers creative content received a total of 42,888,113 impressions.'
