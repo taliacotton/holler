@@ -8,14 +8,7 @@ hero-animation:
 file_download_path: /assets/Holler_Snickers_CaseStudy.pdf
 show_video: false
 vimeo_embed_code:
-objective: >-
-  By targeting people at a time when we know they are more likely to be
-  influenced by a Snickers message, this would allow us to deliver Intelligent
-  Reach through a tailored message based on their online signals, and deliver
-  Intelligent Conversion by providing a compelling offer when they are most
-  susceptible. Given our findings that light buyers are even more susceptible to
-  purchase when in an excited mood state, if we can identify and target these
-  buyers we can use digital implementation to improve brand penetration.
+objective: "The Challenge\t Snickers wanted to take their “You’re not you when you’re hungry” campaign and extend the concept of the Snickers “mood states” into messaging to allow people to share the brand when they were feeling a certain emotion.   The Solution \t\t\t\t Holler created a bespoke character for Snickers designed to bring to life the various emotional states frequently expressed in messaging that naturally linked to the advertising campaign. \t\t\t\t\t\t Holler was then able to target consumers in real-time with contextual based targeting against various mood states; Excited, Hungry, Sad, Bored, etc"
 insights:
   - 'Snickers turned 61,318 consumers into Brand Advocates.'
   - 'Snickers creative content received a total of 42,888,113 impressions.'
