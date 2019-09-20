@@ -19,16 +19,25 @@ Overall you should have a customer-focused spirit, using creative problem solvin
 ### **Responsibilities**
 
 * Play a key role in helping to define the product strategy and roadmap
+
 * Perform user research and competitive analysis
+
 * Create personas, stories, and story maps with prioritized features and corresponding justifications against both qualitative and quantitative metrics
+
 * Partner with engineering and data science to deliver new projects against ambitious timelines
+
 * Assist with quality assurance of new feature development to ensure products meet our expectations for high quality and behavior
 
 ### **Requirements**
 
 * Minimum of 4+ years experience as a PM, preferably in the mobile B2C space
+
 * Demonstrated success defining and launching products into market
+
 * Strong experience working in agile product development
+
 * Excited by the idea of managing multiple responsibilities at once in a startup environment, and ruthlessly prioritizing the highest impact work
+
 * Experience with analytics tools like Google Analytics, Mixpanel, etc.
+
 * Excellent communication skills, with great instincts as to when/how to communicate both internally/externally around product releases, challenges, etc.
