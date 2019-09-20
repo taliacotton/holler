@@ -1,7 +1,7 @@
 ---
 position: Product Manager
 layout: listing
-permalink: /careers/account-manager
+permalink: /careers/product-manager
 shorthand-for-animation: a Product Manager
 location: 'New York, New York'
 timeframe: Full Time
